@@ -1,0 +1,61 @@
+;; ETSI TS 123 078 V13.0.0 (2016-01)
+;; 3GPP TS 23.078 version 13.0.0 Release 13
+
+
+BCSM Basic Call State Model
+CAMEL Customized Applications for Mobile network Enhanced Logic
+DP Detection Point
+DTN Deflected To Number
+D-CSI Dialled Services CAMEL Subscription Information
+EDP Event Detection Point
+FTN Forwarded To Number
+GMLC Gateway MLC
+GMSC Gateway MSC
+GPRS General Packet Radio Service
+gprsSSF GPRS Service Switching Function
+GPRS-CSI GPRS CAMEL Subscription Information
+gsmSCF GSM Service Control Function
+gsmSRF GSM Specialised Resource Function
+gsmSSF GSM Service Switching Function
+HLR Home Location Register
+HPLMN Home PLMN
+IE Information Element
+IF Information Flow
+IP Intelligent Peripheral
+IPLMN Interrogating PLMN
+LCS Location Services
+LSA Localised Service Area
+M-CSI Mobility Management event Notification CAMEL Subscription Information
+MF Mobile Forwarding
+MLC Mobile Location Centre
+MO Mobile Originating
+MSC Mobile service Switching Centre
+MT Mobile Terminating in GMSC
+N-CSI Network CAMEL Service Information
+NA North American
+NNI Network Node Interface
+O-BCSM Originating Basic Call State Model
+O-CSI Originating CAMEL Subscription Information
+ODB Operator Determined Barring
+OSS Operator Specific Service
+PDP Packet Data Protocol
+PIC Point In Call
+PLMN Public Land Mobile Network
+SGSN Serving GPRS Support Node
+SLPI Service Logic Program Instance
+SMF Service Management Function
+SMLC Serving MLC
+SMS-CSI Short Message Service CAMEL Subscription Information
+SS-CSI Supplementary Service Notification CAMEL Subscription Information
+T-BCSM Terminating Basic Call State Model
+T-CSI Terminating CAMEL Subscription Information (in the GMSC)
+TDP Trigger Detection Point
+TIF-CSI Translation Information Flag
+U-CSI USSD CAMEL Subscription Information
+UG-CSI USSD General CAMEL Service Information
+UNI User Network Interface
+VLR Visitor Location Register
+VPLMN Visited PLMN
+VT Mobile Terminating in VMSC
+VT-CSI VMSC Terminating CAMEL Subscription Information
+

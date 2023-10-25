@@ -1,0 +1,11 @@
+;; ETSI TR 102 140 V1.1.1 (2003-05)
+;; Services and Protocols for Advanced Networks (SPAN)
+
+
+M2PA Message transfer part 2-User Peer-to-peer Adaptation layer
+M2UA Message transfer part 2 User Adaptation layer
+M3UA Message transfer part 3 User Adaptation layer
+SUA Signalling connection control part User Adaptation layer
+SCTP Stream Control Transmission Protocol
+SIGTRAN SIGnalling TRANsport
+IP Internet Protocol

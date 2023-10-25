@@ -1,0 +1,18 @@
+;; ETSI TS 133 310 V16.10.0 (2022-07)
+;; 3GPP TS 33.310 version 16.10.0 Release 16
+;; 5G Network Domain Security (NDS) Authentication Framework (AF)
+
+AF Authentication Framework
+CA Certification Authority
+CR Certificate Repository
+CRL Certificate Revocation List
+GBA Generic Bootstrapping Architecture
+IMS IP Multimedia Subsystem
+NDS Network Domain Security
+OCSP Online Certificate Status Protocol
+PKI Public Key Infrastructure
+POP Proof Of Possession
+PSK Pre-Shared Key
+RA Registration Authority
+SEG Security Gateway
+VPN Virtual Private Network

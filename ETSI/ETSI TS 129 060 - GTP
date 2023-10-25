@@ -1,0 +1,45 @@
+;; ETSI TS 129 060 V15.3.0 (2019-04)
+;; 3GPP TS 29.060 version 15.3.0 Release 15
+;; GPRS Tunnelling Protocol (GTP) across the Gn and Gp interface
+
+ADD Automatic Device Detection
+APN-AMBR APN-Aggregate Maximum Bit Rate
+BB Backbone Bearer
+C-MSISDN Correlation MSISDN
+DF Don't Fragment
+DTI Direct Tunnel Indication
+FFS For Further Study
+GCSI GPRS CAMEL Subscription Information
+GMLC Gateway Mobile Location Centre
+Gn Interface between GPRS Support Nodes (GSNs) within a PLMN
+Gp Interface between GPRS Support Nodes (GSNs) in different PLMNs
+GTP GPRS Tunnelling Protocol
+GTP-C GTP Control
+GTP-U GTP User
+IANA Internet Assigned Number Authority
+ICMP Internet Control Message Protocol
+IE Information Element
+IGMP Internet Group Management Protocol
+IP Internet Protocol
+IPv4 Internet Protocol version 4
+IPv6 Internet Protocol version 6
+LGW Local Gateway
+LIPA Local IP Access
+MBMS MultiMedia Broadcast/Multicast Service
+MLD Multicast Listener Discover
+MTU Maximum Transmission Unit
+NACC Network Assisted Cell Change
+NRSN Network Requested Support Network
+PUESBINE Provision of User Equipment Specific Behaviour Information to Network Entities
+QoS Quality of Service
+RAN Radio Access Network
+RANAP Radio Access Network Application Part
+RIM RAN Information Management
+RNC Radio Network Controller
+SPID Subscriber Profile ID for RAT/Frequency Priority
+STN-SR Session Transfer Number for SRVCC
+TEID Tunnel Endpoint IDentifier
+TFT Traffic Flow Template
+UDP User Datagram Protocol
+UE-AMBR UE-Aggregate Maximum Bit Rate
+UTRAN UMTS Terrestrial Radio Access Network

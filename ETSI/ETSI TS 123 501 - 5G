@@ -1,0 +1,193 @@
+;; ETSI TS 123 501 V17.10.0 (2023-09)
+;; 3GPP TS 23.501 version 17.10.0 Release 17
+;; System architecture for the 5G System (5GS)
+
+5GC 5G Core Network
+DDNMF 5G Direct Discovery Name Management Function
+LAN 5G Local Area Network
+5GS 5G System
+AN 5G Access Network
+AN-PDB 5G Access Network Packet Delay Budget
+EIR 5G-Equipment Identity Register
+GUTI 5G Globally Unique Temporary Identifier
+BRG 5G Broadband Residential Gateway
+CRG 5G Cable Residential Gateway
+GM 5G Grand Master
+NSWO 5G Non-Seamless WLAN offload
+RG 5G Residential Gateway
+S-TMSI 5G S-Temporary Mobile Subscription Identifier
+VN 5G Virtual Network
+5QI 5G QoS Identifier
+ADRF Analytics Data Repository Function
+AF Application Function
+AKMA Authentication and Key Management for Applications
+AnLF Analytics Logical Function
+AMF Access and Mobility Management Function
+AS Access Stratum
+ATSSS Access Traffic Steering, Switching, Splitting
+ATSSS-LL ATSSS Low-Layer
+AUSF Authentication Server Function
+BMCA Best Master Clock Algorithm
+BSF Binding Support Function
+CAG Closed Access Group
+CAPIF Common API Framework for 3GPP northbound APIs
+CH Credentials Holder
+CHF Charging Function
+CN-PDB Core Network Packet Delay Budget
+CP Control Plane
+DAPS Dual Active Protocol Stacks
+DCCF Data Collection Coordination Function
+DCS Default Credentials Server
+DL Downlink
+DN Data Network
+DNAI DN Access Identifier
+DNN Data Network Name
+DRX Discontinuous Reception
+DS-TT Device-side TSN translator
+EAC Early Admission Control
+ePDG evolved Packet Data Gateway
+EBI EPS Bearer Identity
+EUI Extended Unique Identifier
+FAR Forwarding Action Rule
+FN-BRG Fixed Network Broadband RG
+FN-CRG Fixed Network Cable RG
+FN-RG Fixed Network RG
+FQDN Fully Qualified Domain Name
+GBA Generic Bootstrapping Architecture
+GEO Geostationary Orbit
+GFBR Guaranteed Flow Bit Rate
+GIN Group ID for Network Selection
+GMLC Gateway Mobile Location Centre
+GPSI Generic Public Subscription Identifier
+GUAMI Globally Unique AMF Identifier
+HMTC High-Performance Machine-Type Communications
+HR Home Routed (roaming)
+IAB Integrated access and backhaul
+IMEI/TAC IMEI Type Allocation Code
+IPUPS Inter PLMN UP Security
+I-SMF Intermediate SMF
+I-UPF Intermediate UPF
+LADN Local Area Data Network
+LBO Local Break Out (roaming)
+LEO Low Earth Orbit
+LMF Location Management Function
+LoA Level of Automation
+LPP LTE Positioning Protocol
+LRF Location Retrieval Function
+MBS Multicast/Broadcast Service
+MBSF Multicast/Broadcast Service Function
+MBSTF Multicast/Broadcast Service Transport Function
+MB-SMF Multicast/Broadcast Session Management Function
+MB-UPF Multicast/Broadcast User Plane Function
+MEO Medium Earth Orbit
+MFAF Messaging Framework Adaptor Function
+MCX Mission Critical Service
+MDBV Maximum Data Burst Volume
+MFBR Maximum Flow Bit Rate
+MICO Mobile Initiated Connection Only
+MINT Minimization of Service Interruption
+ML Machine Learning
+MPS Multimedia Priority Service
+MPTCP Multi-Path TCP Protocol
+MTLF Model Training Logical Function
+N3IWF Non-3GPP InterWorking Function
+N5CW Non-5G-Capable over WLAN
+NAI Network Access Identifier
+NEF Network Exposure Function
+NF Network Function
+NGAP Next Generation Application Protocol
+NID Network identifier
+NPN Non-Public Network
+NR New Radio
+NRF Network Repository Function
+NSAC Network Slice Admission Control
+NSACF Network Slice Admission Control Function
+NSAG Network Slice AS Group
+NSI-ID ID Network Slice Instance Identifier
+NSSAA Network Slice-Specific Authentication and Authorization
+NSSAAF Network Slice-specific and SNPN Authentication and Authorization Function
+NSSAI Network Slice Selection Assistance Information
+NSSF Network Slice Selection Function
+NSSP Network Slice Selection Policy
+NSSRG Network Slice Simultaneous Registration Group
+NSWO Non-Seamless WLAN offload
+NSWOF Non-Seamless WLAN offload Function
+NW-TT Network-side TSN translator
+NWDAF Network Data Analytics Function
+ONN Onboarding Network
+ON-SNPN Onboarding Standalone Non-Public Network
+PCF Policy Control Function
+PDB Packet Delay Budget
+PDR Packet Detection Rule
+PDU Protocol Data Unit
+PEI Permanent Equipment Identifier
+PER Packet Error Rate
+PFD Packet Flow Description
+PNI-NPN Public Network Integrated Non-Public Network
+PPD Paging Policy Differentiation
+PPF Paging Proceed Flag
+PPI Paging Policy Indicator
+PSA PDU Session Anchor
+PTP Precision Time Protocol
+PVS Provisioning Server
+QFI QoS Flow Identifier
+QoE Quality of Experience
+RACS Radio Capabilities Signalling optimisation
+RAN Radio Access Network
+RG Residential Gateway
+RIM Remote Interference Management
+RQA Reflective QoS Attribute
+RQI Reflective QoS Indication
+RSN Redundancy Sequence Number
+SA-NR Standalone New Radio
+SBA Service Based Architecture
+SBI Service Based Interface
+SCP Service Communication Proxy
+SD Slice Differentiator
+SEAF Security Anchor Functionality
+SEPP Security Edge Protection Proxy
+SMF Session Management Function
+SMSF Short Message Service Function
+SN Sequence Number
+SNPN Stand-alone Non-Public Network
+S-NSSAI Single Network Slice Selection Assistance Information
+SO-SNPN Subscription Owner Standalone Non-Public Network
+SSC Session and Service Continuity
+SSCMSP Session and Service Continuity Mode
+SST Selection Policy Slice/Service Type
+SUCI Subscription Concealed Identifier
+SUPI Subscription Permanent Identifier
+SV Software Version
+TA Tracking Area
+TAI Tracking Area Identity
+TNAN Trusted Non-3GPP Access Network
+TNAP Trusted Non-3GPP Access Point
+TNGF Trusted Non-3GPP Gateway Function
+TNL Transport Network Layer
+TNLA Transport Network Layer Association
+TSC Time Sensitive Communication
+TSCAI TSC Assistance Information
+TSCTSF Time Sensitive Communication and Time Synchronization Function
+TSN Time Sensitive Networking
+TSN-GM TSN Grand Master
+TSP Traffic Steering Policy
+TT TSN Translator
+TWIF Trusted WLAN Interworking Function
+UAS Uncrewed Aerial System
+NF Network Function
+UCMF UE radio Capability Management Function
+UDM Unified Data Management
+UDR Unified Data Repository
+UDSF Unstructured Data Storage Function
+UL Uplink
+UL-CL Uplink Classifier
+UPF User Plane Function
+URLLC Ultra Reliable Low Latency Communication
+URRP-AMF UE Reachability Request Parameter for AMF
+URSP UE Route Selection Policy
+VID VLAN Identifier
+VLAN Virtual Local Area Network
+W-5GAN Wireline 5G Access Network
+W-5GBAN Wireline BBF Access Network
+W-5GCAN Wireline 5G Cable Access Network
+W-AGF Wireline Access Gateway Function

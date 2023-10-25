@@ -1,0 +1,18 @@
+;; ETSI TS 129 338 V13.2.0 (2016-08)
+;; 3GPP TS 29.338 version 13.2.0 Release 13
+;; Diameter based protocols to support SMS capable MMEs
+
+
+ABNF Augmented Backus-Naur Form
+DRMP Diameter Routing Message Priority
+IANA Internet Assigned Numbers Authority
+IP-SM-GW IP Short Message Gateway
+MWD Message Waiting Data
+RP Relay layer Protocol
+RP-MTI RP Message Type Indicator
+RP-SMEA RP SME-Address
+RP-UI RP User Information
+SM-RL Short Message Relay Layer
+SMS-GMSC Gateway MSC for SMS
+SMS-IWMSC Interworking MSC for SMS
+SMSMI SMS without MSISDN in IMS

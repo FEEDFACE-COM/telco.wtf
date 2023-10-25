@@ -1,0 +1,93 @@
+;; ETSI TR 102 198 V1.1.1 (2003-10)
+;; Services and Protocols for Advanced Networks (SPAN)
+
+
+ADSL Asymmetric Digital Subscriber Line
+AE Application Entity
+AMF Address Mapping Function
+AMI Application Management Interface
+AS Application Server
+ASE Application Service Element
+ASP Application Server Process
+ATM Asynchronous Transfer Mode
+BICC Bearer Independent Call Control
+BSS Base Station System
+BSSAP Base Station System Application Part
+CBC Cipher Block Chaining
+CIC Circuit Identification Code
+DES Data Encryption Standard
+DHCP Dynamic Host Configuration Protocol
+DPC Destination Point Code
+GPRS General Packet Radio Service
+GSM Global System for Mobile communication
+GT Global Title
+GTT Global Title Translation
+HLR Home Location Register
+IETF Internet Engineering Task Force
+IN Intelligent Network
+INAP Intelligent Network Application Part
+IP Internet Protocol
+ISDN Integrated Services Digital Network
+ISUP ISDN User Part
+LAN Local Area Network
+LME Level Management Entity
+LMI Level Management Interface
+M2PA MTP level 2 Peer-to-Peer Adaptation Layer
+M2UA MTP level 2 User Adaptation Layer
+M3UA MTP level 3 User Adaptation Layer
+MAP Mobile Application Part
+MGC Media Gateway Controller
+MGW Media GateWay
+MIB Management Information Base
+MIS Management Information Service
+MPLS Multi Protocol Label Switching
+MSC Mobile-services Switching Centre
+MSU Message Signal Unit
+MT MTP Tester
+MTP Message Transfer Part
+NAT Network Address Translator
+NGN Next Generation Network
+OMAP Operations, Management and Administration Part
+OMASE OMAP ASE
+OPC Origin PC
+OSF Operations Systems Function
+OSI Open Systems Interconnection
+PC Point Code
+PLMN Public Land Mobile Network
+QoS Quality of Service
+RFC Request For Comments
+RSA Rivest Shamir Adleman (public key asymmetric cryptosystem)
+RTP Real Time Protocol
+SCCP Signalling Connection Control Part
+SCN Switched Circuit Network
+SCTP Stream Control Transmission Protocol
+SDH Synchronous Digital Hierarchy
+SDP Session Description Protocol
+SEP Signalling End Point
+SG Signalling Gateway
+SI Service Indicator
+SIGTRAN Signalling Transport (group of the IETF)
+SIO SIOctet
+SIP Session Initiation Protocol
+SLS Signalling Link Selection (field)
+SMSI System Management Service Interface
+SNMP Simple Network Management Protocol
+SRP SCCP Relay Point
+SS7 Signalling System No.7
+SSN Subsystem Number
+ST SCCP Tester
+STP Signalling Transfer Point
+SU Signal Unit
+SUA SCCP User Adaptation Layer
+TC Transaction Capabilities
+TCP Transmission Control Protocol
+TF Transformation Function
+TIPHON Telecommunication and Internet Protocol Harmonization over Networks
+TMN Telecommunications Management Network
+TSP Telcommunication Service Provider
+TT TC Test responder
+TUP Telephony User Part
+UDP User Datagram Protocol
+VLR Visitor Location Register
+VoIP Voice over IP
+VPI/VCI Virtual Path/Virtual Channel Combination

@@ -1,0 +1,41 @@
+;; ETSI TS 102 250-2 V1.1.1 (2003-10)
+;; QoS aspects for popular services in GSM and 3G networks
+
+3G 3rd Generation
+3GPP 3rd Generation Partnership Project
+AD Access Delay
+ATDT ATtention Dial Tone
+CCR Call Completion Ratio
+CR Completion Ratio
+CSD Circuit Switched Data
+DQ Data Quality
+DT Delivery Time
+DCE Data Circuit-terminating Equipment
+DTE Data Terminal Equipment
+GPRS General Packet Radio Service
+GSM Global System for Mobile communications
+MMS Multimedia Messaging Service
+MMSC Multimedia Messaging Service Centre
+MO Mobile Originated
+MOS Mean Opinion Score
+MS Mobile Station
+MT Mobile Terminated
+NA Network Access
+NA-CS Network Access Circuit switched
+NA-PS Network Access Packet switched
+NNA Network Non Accessibility
+PDP Packet Data Protocol
+PESQ Perceptual Evaluation of Speech Quality
+PSD Packet Switched Data
+QoS Quality of Service
+RT Real Time
+SA Service Access
+SA-T Service Accessibility-Telephony
+SMC Short Message Centre
+SMS Short Message Service
+SMSC Short Message Service Centre
+SpQ Speech Quality
+ST-T Setup Time Telephony
+ST Setup Time
+WAP Wireless Application Protocol
+WGR WAP Get Request

@@ -1,0 +1,48 @@
+;; ETS 300 009-2: September 1996
+;; ISDN; SS7; SCCP to support international interconnection
+
+AK Data Acknowledgement message
+;c Conditional
+CC Connection Confirm message
+CR Connection Request message
+CREF Connection Refused message
+DPC Destination Point Code
+DT1 Data Form 1 message
+DT2 Data Form 2 message
+EA Expedited Data Acknowledgement message
+ED Expedited Data message
+EOP End of Optional Parameter
+ERR Protocol Data Unit Error message
+GT Global Title
+ICS Implementation Conformance Statement
+ISDN Integrated Services Digital Network
+IT Inactivity Test message
+IUT Implementation Under Test
+;m Mandatory
+MTP Message Transfer Part
+NSDU Network Service Data Unit
+;o Optional
+OPC Originating Point Code
+OSI Open System Interconnection
+PICS Protocol Implementation Conformance Statement
+RLC Release Complete message
+RLSD Released message
+RSC Reset Confirm message
+RSR Reset Request message
+SCCP Signalling Connection Control Part
+SCS System Conformance Statement
+SOG Subsystem Out Of Service Grant message
+SOR Subsystem Out Of Service Request message
+SPC Signalling Point Code
+SS SubSystem
+SSA Subsystem Allowed message
+SSN SubSystem Number
+SSP Subsystem Prohibited message
+SST Subsystem Status Test message
+SUT System Under Test
+UDT UnitData message
+UDTS UnitData Service message
+UPU User Part Unavailable
+;x Excluded
+XUDT Extended UnitData message
+XUDTS Extended UnitData Service message

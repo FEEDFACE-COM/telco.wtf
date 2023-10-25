@@ -1,0 +1,58 @@
+;; ETSI TS 129 274 V16.5.0 (2020-11)
+;; 3GPP TS 29.274 version 16.5.0 Release 16
+;; Evolved GPRS Tunnelling Protocol for Control plane (GTPv2-C)
+
+
+5GC 5G Core Network
+AMBR Aggregate Maximum Bit Rate
+APN Access Point Name
+APN-NI Access Point Name Network Identifier
+APN-OI Access Point Name Operator Identifier
+C-MSISDN Correlation MSISDN
+EBI EPS Bearer ID
+eNodeB Evolved Node B
+EPC Evolved Packet Core
+ePDG Evolved Packet Data Gateway
+EPS Evolved Packet System
+F-TEID Fully Qualified Tunnel Endpoint Identifier
+G-PDU GTP-U non-signalling PDU
+GPRS General Packet Radio Service
+GTP GPRS Tunnelling Protocol
+GTP-PDU GTP-C PDU or GTP-U PDU
+GTPv2-C GTP version 2, control plane
+GTPv2-U GTP version 2, user plane
+IMSI International Mobile Subscriber Identity
+IP Internet Protocol
+LBI Linked EPS Bearer ID
+L1 Layer 1
+L2 Layer 2
+LGW Local Gateway
+LIPA Local IP Access
+MBMS Multimedia Broadcast/Multicast Service
+MEI Mobile Equipment Identity
+MSISDN Mobile Subscriber ISDN Number
+MT-EDT Mobile Terminated Early Data Transmission
+NBIFOM Network-based IP Flow Mobility
+NTP Network Time Protocol
+PAA PDN Address Allocation
+PCO Protocol Configuration Options
+PDU Protocol Data Unit
+PDN Packet Data Network or Public Data Network
+PGW PDN Gateway
+PTI Procedure Transaction Id
+QoS Quality of Service
+RAT Radio Access Technology
+RIM RAN Information Management
+RLOS Restricted Local Operator Services
+SGW Serving Gateway
+SPID Subscriber Profile ID for RAT/Frequency Priority
+STN-SR Session Transfer Number for SRVCC
+TEID Tunnel Endpoint Identifier
+TEID-C Tunnel Endpoint Identifier, control plane
+TEID-U Tunnel Endpoint Identifier, user plane
+TFT Traffic Flow Template
+TLIV Type Length Instance Value
+TWAN Trusted WLAN Access Network
+UDP User Datagram Protocol
+ULI User Location Information
+

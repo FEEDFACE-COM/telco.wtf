@@ -1,0 +1,19 @@
+$TTL 3600
+telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
+        xxxxxxxxxx      ;Serial
+        3600            ;Refresh
+        300             ;Retry
+        604800          ;Expire
+        10              ;Negative caching TTL
+)
+
+telco.wtf. IN NS   ns0.feedface.com.
+telco.wtf. IN NS   ns2.feedface.com.
+telco.wtf. IN TXT "WTF, Telco?!"
+
+telco.wtf. IN    A     85.199.135.78
+telco.wtf. IN AAAA 2001:1a50:7:1::78
+
+$ORIGIN telco.wtf.
+
+

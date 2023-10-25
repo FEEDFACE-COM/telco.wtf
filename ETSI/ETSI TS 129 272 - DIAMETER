@@ -1,0 +1,22 @@
+;; ETSI TS 129 272 V17.4.0 (2022-10)
+;; 3GPP TS 29.272 version 17.4.0 Release 17
+;; MME and SGSN related interfaces based on Diameter protocol
+
+
+AVP Attribute Value Pair
+;C Conditional
+CSS CSG Subscriber Server
+DCN Dedicated Core Network
+DRMP Diameter Routing Message Priority
+EIR Equipment Identity Register
+ESM EPS Session Management
+HSS Home Subscriber Server
+IE Information Element
+;M Mandatory
+MME Mobility Management Entity
+;O Optional
+ODB Operator Determined Barring
+SCEF Service Capability Exposure Function
+URRP-MME User Reachability Request Parameter for MME
+URPP-SGSN User Reachability Request Parameter for SGSN
+

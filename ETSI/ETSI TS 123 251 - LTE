@@ -1,0 +1,25 @@
+;; ETSI TS 123 251 V10.1.0 (2011-03)
+;; 3GPP TS 23.251 version 10.1.0 Release 10
+;; UMTS; LTE; Network Sharing; Architecture and functional description
+
+BSC Base Station Controller
+CN Core Network
+E-UTRAN Evolved Universal Terrestrial Radio Access Network
+eNodeB E-UTRAN NodeB
+GERAN GSM/EDGE Radio Access Network
+GUTI Globally Unique Temporary Identity
+GWCN Gateway Core Network
+HLR Home Location Register
+MCC Mobile Country Code
+MME Mobility Management Entity
+MNC Mobile Network Code
+MOCN Multi-Operator Core Network
+MSC Mobile Switching Centre
+NITZ Network Identity and Time Zone
+PLMN Public Land Mobile Network
+RNC Radio Network Controller
+SGSN Serving GPRS Support Node
+TMSI Temporary Mobile Subscriber Identity
+UE User Equipment
+UTRAN Universal Terrestrial Radio Access Network
+VLR Visitor Location Register

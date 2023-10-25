@@ -1,0 +1,82 @@
+;; ETSI TS 102 113-1 V1.1.2 (2002-09)
+;; Network Integration Testing between GSM Phase 2+, ISDN and PSTN
+
+3PTY 3-ParTY conference
+ATS Abstract Test Suite
+BC Bearer Capability information element
+BS Base Station
+BSS Base Station Sub-system
+BSS Base Station System
+CAMEL Customized Applications for Mobile network Enhanced Logic
+CD Call Deflection
+CFB Call Forwarding Busy
+CFNR Call Forwarding No Response
+CFNRc Call Forwarding on mobile subscriber Not Reachable
+CFNRy Call Forwarding on No Reply
+CFU Call Forwarding Unconditional
+CI CUG Index
+CLIP Calling Line Identification Presentation
+CLIR Calling Line Identification Restriction
+COLP COnnected Line identification Presentation
+COLR COnnected Line identification Restriction
+CONF CONFerence (add-on)
+CUG Closed User Group
+CW Call Waiting
+ECT Explicit Call Transfer
+FPH FreePHone service
+FTAM File Transfer Access & Management
+GII Global Information Infrastructure
+GMSC Gateway MSC
+GSM Global System for Mobile communication
+HLC High Layer Compatibility information element
+HLR Home Location Register
+HPLMN Home Public Land Mobile Network
+IA Incoming Access
+ICB Incoming Calls Barred within a CUG
+IMSI International Mobile Subscriber Identity
+IN Intelligent Network
+INAP Intelligent Network Application Part
+IP Internet Protocol
+ISDN Integrated Services Digital Network
+ISUP ISDN User Part
+IUT Implementation Under Test
+LLC Low Layer Compatibility information element
+MAP Mobile Application Part
+MCID Malicious Call IDentification
+MS Mobile Station
+MS Mobile Subscriber
+MSC Mobile Switching Center
+MT Mobile Terminal
+MT Mobile Terminated
+NIT Network Integration Testing
+OCB Outgoing Calls Barred within a CUG
+ONP Open Network Provision
+OSI Open Systems Interconnection
+PC Preferential CUG
+PDP Packet Data Protocol
+PI Presentation Indicator
+PIXIT Protocol Implementation eXtra Information for Testing
+PLMN Public Land Mobile Network
+PSTN Public Switched Telephone Network
+SCF Service Control Function
+SI Screening Indicator
+SIM Subscriber Identification Module
+SMS Short Message Service
+SS Supplementary Service
+SUB SUBaddressing
+TMSI Temporary Mobile Subscriber Identity
+TON Type Of Number
+TP Terminal Portability
+TP Test Plant
+TSS Test Suite Structure
+TSS&TP Test Suite Structure and Test Purposes
+UD Unrestricted Digital information
+UDP User Datagram Protocol
+UMTS Universal Mobile Telecommunications System
+UTRAN UMTS Terrestrial Radio Access Network
+UUS User-to-User Signalling
+UUS1 UUS service 1
+UUS2 UUS service 2
+UUS3 UUS service 3
+VLR Visitor Location Register
+VPLMN Visited Public Land Mobile Network

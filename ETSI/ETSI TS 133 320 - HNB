@@ -1,0 +1,55 @@
+;; ETSI TS 133 320 V17.0.0 (2022-04)
+;; TS 33.320 version 17.0.0 Release 17)
+;; Security of Home Node B (HNB) / Home evolved Node B (HeNB)
+
+AAA Authentication, Authorization, and Accounting
+ACL Access Control List
+ACS Auto-Configuration Server
+AKA Authentication and Key Agreement
+CA Certification Authority
+CPE Customer Premises Equipment
+CRL Certificate Revocation List
+CSG Closed Subscriber Group
+DNS Domain Name System
+DPD Dead Peer Detection
+eNB Evolved Node-B
+EAP Extensible Authentication Protocol
+ESP Encapsulating Security Payload
+E-UTRAN Evolved UTRAN
+FQDN Fully Qualified Domain Name
+GNSS Global Navigation Satellite System
+HNB Home NodeB
+HNB-GW Home NodeB Gateway
+HMS Home NodeB Management System
+HeNB Home eNodeB
+HeNB-GW Home eNodeB Gateway
+HeMS Home eNodeB Management System
+HP Hosting Party
+HPM HP Module
+HW Hardware
+IKE Internet Key Exchange
+IMSI International Mobile Subscriber Identity
+L-GW Local Gateway
+LIPA Local IP Access
+LTE Long Term Evolution
+MME Mobility Management Entity
+MSK Master Session Key
+NAPT Network Address Port Translation
+NAT Network Address Translation
+NAT-T NAT-Traversal
+OCSP Online Certificate Status Protocol
+PKI Public Key Infrastructure
+SA Security Association
+SeGW Security Gateway
+SGSN Serving GPRS Support Node
+S-GW Serving Gateway
+TLS Transport Layer Security
+TrE Trusted Environment
+UDP User Datagram Protocol
+UICC Universal Integrated Circuit Card
+URI Uniform Resource Identifier
+URL Uniform Resource Locator
+USIM Universal Subscriber Identity Module
+UMTS Universal Mobile Telecommunications System
+UTRAN Universal Terrestrial Radio Access Network
+WAP Wireless Application Protocol

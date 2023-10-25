@@ -1,0 +1,26 @@
+;; ETSI TS 129 007 V17.0.0 (2022-04)
+;; 3GPP TS 29.007 version 17.0.0 Release 17
+;; Interworking between the PLMN and the ISDN or PSTN
+
+ADPCM Adaptive Differential Pulse Coded Modulation
+BS Bearer Service
+DP Dial Pulse
+DSS1 Digital Subscriber Signalling 1
+FTM Frame Tunnelling Mode
+ITC Information Transfer Capability
+LE Local Exchange
+NT Network Termination
+;NT non-transparent
+PABX Private Automatic Branch Exchange
+PIAFS PHS Internet Access Forum Standard
+PPP Point to Point Protocol
+SPC Stored Program Control
+SS7 Signalling System No.7
+;T transparent
+TE Terminal Equipment
+TA Terminal Adaptor
+TS Teleservice
+TS Technical Specification
+TUP Telephone User Part (of Signalling System No.7)
+UNI User Network Interface
+

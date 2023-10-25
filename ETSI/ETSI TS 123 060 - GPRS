@@ -1,0 +1,152 @@
+;; ETSI TS 123 060 V14.3.0 (2017-05)
+;; 3GPP TS 23.060 version 14.3.0 Release 14
+;; General Packet Radio Service (GPRS)
+
+AAL5 Adaptation Layer type 5
+ADD Automatic Device Detection
+APN Access Point Name
+APN-AMBR APN-Aggregate Maximum Bit Rate
+ATM Asynchronous Transfer Mode
+AUTN Authentication Token
+BCM Bearer Control Mode
+BG Border Gateway
+BSSAP+ Base Station System Application Part +
+BSSGP Base Station System GPRS Protocol
+BVCI BSSGP Virtual Connection Identifier
+CCU Channel Codec Unit
+CDR Call Detail Record
+CGF Charging Gateway Functionality
+CGI Cell Global Identification
+CIoT Cellular IoT
+CK Cipher Key
+CMM Circuit Mobility Management
+CS Circuit Switched
+CSG Closed Subscriber Group
+CSGID Closed Subscriber Group Identity
+CSS CSG Subscriber Server
+DCN Dedicated Core Network
+DHCP Dynamic Host Configuration Protocol
+DNS Domain Name System
+DTI Direct Tunnel Indicator
+DTM Dual Transfer Mode
+EGPRS Enhanced GPRS
+EPS Evolved Packet System
+ESP Encapsulating Security Payload
+ETFTN Extended TFT Support Network
+ETFTU Extended TFT Support UE
+E-UTRAN Evolved UTRAN
+GCSI GPRS CAMEL Subscription Information indicator
+GEA GPRS Encryption Algorithm
+GERAN GSM EDGE Radio Access Network
+GGSN Gateway GPRS Support Node
+GMM/SM GPRS Mobility Management and Session Management
+GPRS-SSF GPRS Service Switching Function
+GPRS-CSI GPRS CAMEL Subscription Information
+GRA GERAN Registration Area
+GSM-SCF GSM Service Control Function
+GSIM GSM Service Identity Module
+GSN GPRS Support Node
+GTP GPRS Tunnelling Protocol
+GTP-C GTP Control Plane
+GTP-U GTP User Plane
+GW Gateway
+HNB Home Node B
+HNBGW Home Node B Gateway
+ICMP Internet Control Message Protocol
+IETF Internet Engineering Task Force
+IK Integrity Key
+IoT Internet of Things
+IP Internet Protocol
+IPv4 Internet Protocol version 4
+IPv6 Internet Protocol version 6
+IPX Internet Packet eXchange
+ISP Internet Service Provider
+KSI Key Set Identifier
+L2TP Layer-2 Tunnelling Protocol
+L-GW Local Gateway
+LIPA Local IP Access
+LL-PDU LLC PDU
+LLC Logical Link Control
+MAC Medium Access Control
+MIP Mobile IP
+MNRF Mobile station Not Reachable Flag
+MNRG Mobile station Not Reachable for GPRS flag
+MNRR Mobile station Not Reachable Reason
+MOCN Multi-Operator Core Network
+MTC Machine Type Communications
+MTP2 Message Transfer Part layer 2
+MTP3 Message Transfer Part layer 3
+MTU Maximum Transfer Unit
+NACC Network Assisted Cell Change
+NGAF Non-GPRS Alert Flag
+N-PDU Network Protocol Data Unit
+NRSU Network Request Support UE
+NRSN Network Request Support Network
+NS Network Service
+NSAPI Network layer Service Access Point Identifier
+NSS Network SubSystem
+OCS Online Charging System
+ODB Operator Determined Barring
+OFCS Offline Charging System
+P-TMSI Packet TMSI
+PCC Policy and Charging Control
+PCRF Policy and Charging Rules Function
+PCU Packet Control Unit
+PDCH Packet Data CHannel
+PDCP Packet Data Convergence Protocol
+PDN Packet Data Network
+PDN-GW Packet Data Network Gateway
+PDP Packet Data Protocol, e.g. IP
+PDU Protocol Data Unit
+P-GW PDN Gateway
+PMM Packet Mobility Management
+PPF Paging Proceed Flag
+PPP Point-to-Point Protocol
+PSM Power Saving Mode
+PTP Point To Point
+PVC Permanent Virtual Circuit
+RA Routeing Area
+RAB Radio Access Bearer
+RAC Routeing Area Code
+RAI Routeing Area Identity
+RANAP Radio Access Network Application Protocol
+RAU Routeing Area Update
+RCAF RAN Congestion Awareness Function
+RLC Radio Link Control
+RNC Radio Network Controller
+RNS Radio Network Subsystem
+RNTI Radio Network Temporary Identity
+RRC Radio Resource Control
+RUCI RAN User Plane Congestion Information
+SBSC Serving Base Station Controller
+SBSS Serving BSS
+SGSN Serving GPRS Support Node
+S-GW Serving Gateway
+SIPTO Selected IP Traffic Offload
+SM Short Message
+SM-SC Short Message service Service Centre
+SMS-GMSC Short Message Service Gateway MSC
+SMS-IWMSC Short Message Service Interworking MSC
+SN-PDU SNDCP PDU
+SNDC SubNetwork Dependent Convergence
+SNDCP SubNetwork Dependent Convergence Protocol
+SPI Security Parameter Index
+SRNC Serving RNC
+SRNS Serving RNS
+TCAP Transaction Capabilities Application Part
+TCP Transmission Control Protocol
+TFT Traffic Flow Template
+TEID Tunnel Endpoint IDentifier
+TLLI Temporary Logical Link Identity
+TOM Tunnelling Of Messages
+TOS Type of Service
+TRAU Transcoder and Rate Adaptor Unit
+UDP User Datagram Protocol
+UE-AMBR UE-Aggregate Maximum Bit Rate
+UEA UMTS Encryption Algorithm
+UESBI-Iu UE Specific Behaviour Information - Iu
+UESBI-Uu UE Specific Behaviour Information - Uu
+UIA UMTS Integrity Algorithm
+URA UTRAN Registration Area
+URRP-SGSN UE Reachability Request Parameter for SGSN
+USIM User Service Identity Module

@@ -1,0 +1,55 @@
+;; ETSI TR 129 949 V12.0.0 (2015-02)
+;; 3GPP TS 29.949 version 12.0.0 Release 12
+;; LTE; Roaming End to End scenarios with VoLTE IMS
+
+AS Application Server
+ATCF Access Transfer Control Function
+ATGW Access Transfer Gateway
+ATU-STI Access Transfer Update – Session Transfer Identifier
+B2BUA Back-to-Back User Agent
+BGCF Breakout Gateway Control Function
+CdPty Called Party
+C-MSISDN Correlation MSISDN
+EATF Emergency Access Transfer Function
+E-CSCF Emergency CSCF
+ENUM E.164 telephone NUmber Mapping
+FQDN Fully Qualified Domain Name
+IARI IMS Application Reference Identifier
+IBCF Interconnection Border Control Function
+IC Interconnection
+ICID IM CN subsystem Charging Identifier
+I-CSCF Interrogating CSCF
+ICSI IMS Communication Service Identifier
+IMS IP Multimedia core network Subsystem
+IMSI International Mobile Subscriber Identity
+IOI Inter Operator Identifier
+LIA Location Information Answer
+LIR Location Information Request
+LRF Location Retrieval Function
+MCC Mobile Country Code
+MGCF Media Gateway Control Function
+MMTEL Multimedia Telephony
+MNC Mobile Network Code
+MOC Mobile Originating Call
+MPS Multimedia Priority Service
+MRFC Multimedia Resource Function Controller
+MRFP Multimedia Resource Function Processor
+OMR Optimal Media Routeing
+PCRF Policy and Charging Rules Function
+P-CSCF Proxy CSCF
+PS Packed Switched (sic)
+PSAP Public Safety Answering Point
+PSI Public Service Identity
+SLA Service Level Agreement
+SLF Subscription Locator Function
+SCC-AS Service Centralization and Continuity AS
+S-CSCF Serving CSCF
+SRVCC Single Radio Voice Call Continuity
+STN-SR Session Transfer Number – Single Radio
+TDM Time Division Multiplex
+TRF Transit and Roaming Function
+UA User Agent
+UAC User Agent Client
+UAS User Agent Server
+URN Uniform Resource Name
+VoLTE Voice over LTE

@@ -1,0 +1,112 @@
+;; ETSI TS 103 397 V1.1.2 (2020-03)
+;; VoLTE and ViLTE interconnect, interworking and roaming test specification with QoS/QoE
+
+3GPP 3rd Generation Partnership Project
+ACM Accumulated Call Meter
+ACR Anonymous Communication Rejection
+ACR-CB Anonymous Call Rejection and Call Barring
+AGCF Access Gateway Control Function
+AMR Adaptative Multi-Rate
+AMR-NB Adaptive Multi Rate - NarrowBand
+AMR-WB Adaptive Multi Rate - Wide Band
+ANM ANswer Message
+APN Access Point Name
+ATP Access Transport Parameter
+ATS Abstract Test Suite
+BCALL Basic CALL
+BICC Bearer Independant Call Control
+CB Communication Barring
+CCBS Completion of Communications to Busy Subscriber
+CCNR Completion of Communications by No Reply
+CD Communication Deflection
+CDIV Communication DIVersion
+CDP Charging Determinating Point
+CDR Communication Data Record
+CFB Communication Forwarding Busy
+CFNL Communication Forwarding Not Logged in
+CFNR Communication Forwarding No Reply
+CFU Communication Forwarding Unconditional
+CONF CONFerence
+CPG Call Progress Message
+CS Circuit-Switched
+CSCF Call Session Control Function
+CSFB Circuit Switched Fall Back
+CUG Closed User Group
+CW Communication Waiting
+DRX Discontinuous Reception
+DTMF Dual Tone Multi Frequency
+ECM EPS Connection Management
+ECT Explicit Communication Transfer
+ENUM Telephone Number Mapping
+FFS For Further Study
+GBR Gross Bit Rate
+GRX/IPX GPRS Roaming eXchange/IP eXchange
+GW GateWay
+HEVC High Efficiency Video Coding
+HLC High Layer Compatibility
+HOLD communication HOLD
+HPLMN Home Public Land Mobile Network
+HPMN Home Public Mobile Network
+IAM Initial Address Message
+IBCF Interconnect Border Control Function
+II-NNI Inter-IMS Network to Network Interface
+IPTV Internal Protocol TeleVision
+ISDN Integrated Services Digital Network
+ISIM Inter-System Interface Mobility Management
+IUT Implementation Under Test
+IVR Interactive V oice Response
+JPEG Joint Photographic Expert Group
+LBO Local Break Out
+LI Lawful Interception
+LLC Low Layer Compatibility
+LPC Linear Predictive Coding
+MBR Maximum BitRate
+MCID Malicious Communication Identification
+MGCF Media Gateway Control Function
+MPV Management Protocol Version
+MTBF Mean Time Between Failure
+MWI Message Waiting Indication
+NDUB Network Determined User Busy
+NNI Network to Network Interface
+OIP Originating Identification Presentation
+OIR Originating Identification presentation Restriction
+OMR Optimal Media Routeing
+OVL OVer-Load point
+PASP Public Answering Safety Point
+PBX Private Branch eXchange
+PCMA Pulse-Code-Modulation- A law
+PCMU Pulse Code Modulation μ -law
+PCRF Policy and Charging Rule Function
+PDD Post Dial Delay
+PDN Public Data Network
+PGW Packet GateWay
+PICS Protocol Implementation Conformance Statement
+PRACK Provisional Response Acknowledgement
+PS Packet Switched
+PSTN Public Switched Telephone Network
+QCELP Qualcomm Code-Excited Linear Prediction
+QCI QoS Class Identifier
+QCIF Quarter Common Intermediate Format
+QoS Quality of Service
+R-NNI Roaming Network to Network Interface
+RTCP Real Time Control Protocol
+SDU Service Data Unit
+SIP Session Initiation Protocol
+SIP-I Session Initiation Protocol - ISUP (SIP with encapsulated ISUP)
+SRVCC Single Radio Voice Call Continuity
+SWB Super Wide Band
+TBR Technical Basis for Regulation
+TIP Terminating Identification Presentation
+TIR Terminating Identification Restriction
+TMF Management Task Force
+TP Test Purpose
+TRFO Transcoder free operation
+TSS Test Suite Structure
+UAC User Agent Client
+UDUB User Determined User Busy
+UUS The User-to-User Signalling supplementary service
+VGW Voice GateWay
+VoPS IMS Voice over PS session
+VPLMN Visited Public Land Mobile Network
+VPMN Visited Public Mobile Network
+XCAP eXtended Camel Application Part

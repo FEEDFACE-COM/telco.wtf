@@ -1,0 +1,75 @@
+;; ETSI TS 136 101 V14.5.0 (2017-11)
+;; 3GPP TS 36.101 version 14.5.0 Release 14
+;; E-UTRA; User Equipment (UE) radio transmission and reception
+
+ABS Almost Blank Subframe
+ACLR Adjacent Channel Leakage Ratio
+ACS Adjacent Channel Selectivity
+A-MPR Additional Maximum Power Reduction
+AWGN Additive White Gaussian Noise
+BS Base Station
+CA Carrier Aggregation
+;CA_X Intra-band contiguous CA of component carriers in one sub-block within Band X where X is the applicable E-UTRA operating band
+;CA_X-X Intra-band non-contiguous CA of component carriers in two sub-blocks within Band X where X is the applicable E-UTRA operating band
+;CA_X-Y Inter-band CA of component carrier(s) in one sub-block within Band X and component carrier(s) in one sub-block within Band Y where X and Y are the applicable E-UTRA operating band
+;CA_X-X-Y CA of component carriers in two sub-blocks within Band X and component carrier(s) in one sub- block within Band Y where X and Y are the applicable E-UTRA operating bands
+CC Component Carriers
+CG Carrier Group
+CPE Customer Premise Equipment
+CPE_X Customer Premise Equipment for E-UTRA operating band X
+CW Continuous Wave
+DC Dual Connectivity
+;DC_X-Y Inter-band DC of component carrier(s) in one sub-block within Band X and component carrier(s) in one sub-block within Band Y where X and Y are the applicable E-UTRA operating band
+DL Downlink
+DIP Dominant Interferer Proportion
+EARFCN E-UTRA Absolute Radio Frequency Channel Number
+EIRP Effective Isotropic Radiated Power
+EPRE Energy Per Resource Element
+E-UTRA Evolved UMTS Terrestrial Radio Access
+EUTRAN Evolved UMTS Terrestrial Radio Access Network
+EVM Error Vector Magnitude
+FDD Frequency Division Duplex
+FRC Fixed Reference Channel
+GNSS Global Navigation Satellite Systems
+HD Half-Duplex for Sidelink Operation
+HD-FDD Half- Duplex FDD
+ITS Intelligent Transportation Systems
+MCS Modulation and Coding Scheme
+MCG Main Carrier Group
+MOP Maximum Output Power
+MPR Maximum Power Reduction
+MSD Maximum Sensitivity Degradation
+OCNG OFDMA Channel Noise Generator
+OFDMA Orthogonal Frequency Division Multiple Access
+OOB Out-of-band
+PA Power Amplifier
+PCC Primary Component Carrier
+P-MPR Power Management Maximum Power Reduction
+ProSe Proximity-based Services
+PSBCH Physical Sidelink Broadcast CHannel
+PSCCH Physical Sidelink Control CHannel
+PSDCH Physical Sidelink Discovery CHannel
+PSS Primary Synchronization Signal
+PSS_RA PSS-to-RS EPRE ratio for the channel PSS
+SSSS Secondary Sidelink Synchronization Signal
+PSSCH Physical Sidelink Shared CHannel
+PSSS Primary Sidelink Synchronization Signal
+RE Resource Element
+REFSENS Reference Sensitivity power level
+rms Root Mean Square
+SCC Secondary Component Carrier
+SCG Secondary Carrier Group
+SINR Signal-to-Interference-and-Noise Ratio
+SNR Signal-to-Noise Ratio
+SSS Secondary Synchronization Signal
+SSS_RA SSS-to-RS EPRE ratio for the channel
+TDD Time Division Duplex
+UE User Equipment
+UL Uplink
+UL-MIMO Up Link Multiple Antenna transmission
+UMTS Universal Mobile Telecommunications System
+UTRA UMTS Terrestrial Radio Access
+UTRAN UMTS Terrestrial Radio Access Network
+V2X Vehicle to Everything
+;xCH_RA xCH-to-RS EPRE ratio for the channel xCH in all transmitted OFDM symbols not containing cell- specific RS
+;xCH_RB xCH-to-RS EPRE ratio for the channel xCH in all transmitted OFDM symbols containing cell- specific RS

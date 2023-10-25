@@ -1,0 +1,108 @@
+;; ETSI TS 133 401 V17.4.0 (2023-07)
+;; 3GPP TS 33.401 version 17.4.0 Release 17
+
+AES Advanced Encryption Standard
+AK Anonymity Key
+AKA Authentication and Key Agreement
+AMF Authentication Management Field
+AN Access Network
+AS Access Stratum
+AUTN Authentication token
+AV Authentication Vector
+ASME Access Security Management Entity
+Cell-ID Cell Identity as used in TS 36.331
+CHO Conditional Handover
+CK Cipher Key
+CKSN Cipher Key Sequence Number
+C-RNTI Cell RNTI as used in TS 36.331
+CRL Certificate Revocation List
+DeNB Donor eNB
+DoS Denial of Service
+DSCP Differentiated Services Code Point
+EARFCN-DL E-UTRA Absolute Radio Frequency Channel Number-Down Link
+ECM EPS Connection Management
+EDT Early Data Transmission
+EEA EPS Encryption Algorithm
+EIA EPS Integrity Algorithm
+eKSI Key Set Identifier in E-UTRAN
+EMM EPS Mobility Management
+eNB Evolved Node-B
+EPC Evolved Packet Core
+EPS Evolved Packet System
+EPS-AV EPS authentication vector
+E-UTRAN Evolved UTRAN
+gNB Next Generation Node-B
+GERAN GSM EDGE Radio Access Network
+GUTI Globally Unique Temporary Identity
+HE Home Environment
+HFN Hyper Frame Number
+HO Hand Over
+HSS Home Subscriber Server
+IAB Integrated Access and Backhaul
+IK Integrity Key
+IKE Internet Key Exchange
+IMEI International Mobile Station Equipment Identity
+IMEISV International Mobile Station Equipment Identity and Software Version number
+IMSI International Mobile Subscriber Identity
+IOPS Isolated E-UTRAN Operation for Public Safety
+IRAT Inter-Radio Access Technology
+ISR Idle Mode Signaling Reduction
+KDF Key Derivation Function
+KSI Key Set Identifier
+LWIP LTE WLAN RAN Level Integration using IPSec
+LSB Least Significant Bit
+LSM Limited Service Mode
+LWA LTE-WLAN Aggregation
+MAC-I Message Authentication Code for Integrity (terminology of TS36.323)
+MACT Message Authentication Code T used in AES CMAC calculation
+MeNB Master eNB
+ME Mobile Equipment
+MME Mobility Management Entity
+MME-RN MME serving the RN
+MS Mobile Station
+MSC Mobile Switching Center
+MSIN Mobile Station Identification Number
+NAS Non Access Stratum
+NAS-MAC Message Authentication Code for NAS for Integrity (called MAC in TS24.301)
+NASDVM Non Access Stratum - Data via MME
+NCC Next hop Chaining Counter
+NH Next Hop
+OCSP Online Certificate Status Protocol
+OTA Over-The-Air (update of UICCs)
+PCI Physical Cell Identity as used in TS 36.331
+PDCP Packet Data Convergence Protocol
+PLMN Public Land Mobile Network
+PRNG Pseudo Random Number Generator
+PSK Pre-shared Key
+P-TMSI Packet- Temporary Mobile Subscriber Identity
+RAND RANDom number
+RAU Routing Area Update
+RLOS Restricted Local Operator Services
+RN Relay Node
+RRC Radio Resource Control
+SCG Secondary Cell Group
+SEG Security Gateway
+SGSN Serving GPRS Support Node
+SIM Subscriber Identity Module
+SMC Security Mode Command
+SeNB Secondary eNB
+SgNB Secondary gNB
+SN Serving Network
+SN-id Serving Network identity
+SQN Sequence Number
+SRB Source Route Bridge
+SRVCC Single Radio Voice Call Continuity
+S-TMSI S-Temporary Mobile Subscriber Identity
+TAI Tracking Area Identity
+TAU Tracking Area Update
+UE User Equipment
+UEA UMTS Encryption Algorithm
+UIA UMTS Integrity Algorithm
+UICC Universal Integrated Circuit Card
+UMTS Universal Mobile Telecommunication System
+UP User Plane
+USIM Universal Subscriber Identity Module
+UTRAN Universal Terrestrial Radio Access Network
+WT WLAN Termination as used in TS 36.300
+XRES Expected Response
+

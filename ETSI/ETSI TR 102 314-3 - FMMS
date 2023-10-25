@@ -1,0 +1,27 @@
+;; ETSI TR 102 314-3 V1.1.1 (2005-03)
+;; Fixed network Multimedia Messaging Service (F-MMS); PSTN/ISDN
+
+3GPP 3rd Generation Partnership Project
+DB Data Base
+ENUM Electronic NUMbering
+F-MMS Fixed network MMS
+F-MMSC Fixed network MMSC
+FQDN Fully Qualified Domain Name
+HLR Home Location Register
+ID IDentification
+ISDN Integrated Services Digital Network
+MM Multimedia Message
+MM4 Interface between two MMS Relay/Server
+MMS Multimedia Messaging Service
+MMSC Multimedia Messaging Service Centre
+MNP Mobile Number Portability
+MCC Mobile Country Code
+MNC Mobile Network Code
+MSISDN Mobile Station International ISDN number
+NPAC Number Portability Administration Center
+OMA Open Mobile Alliance
+PLMN Public Land Mobile Network
+PSTN Public Switched Telecommunications Networks
+SMS Short Message Service
+SS7 Signalling System #7
+ZMRDB Zentrale Master Routing-DatenBank (central master routing database)

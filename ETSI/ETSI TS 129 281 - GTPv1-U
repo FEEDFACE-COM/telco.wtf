@@ -1,0 +1,31 @@
+;; ETSI TS 129 281 V17.4.0 (2022-10)
+;; 3GPP TS 29.281 version 17.4.0 Release 17
+;; GPRS Tunnelling Protocol User Plane (GTPv1-U)
+
+C-TEID Common Tunnel Endpoint IDentifier
+EN-DC E-UTRA-NR Dual Connectivity
+ePDG Evolved Packet Data Gateway
+GSN GPRS Support Node
+GGSN Gateway GPRS Support Node
+G-PDU GTP encapsulated user Plane Data Unit
+GTP GPRS Tunnelling Protocol
+GTP-C GTP Control
+GTP-U GTP User
+IE Information Element
+IGMP Internet Group Management Protocol
+IP Internet Protocol
+IPv4 Internet Protocol version 4
+IPv6 Internet Protocol version 6
+MME Mobility Management Entity
+PDU Packet Data Unit
+PGW PDN Gateway
+QoS Quality of Service
+RANAP Radio Access Network Application Part
+RNC Radio Network Controller
+SGSN Serving GPRS Support Node
+SGW Serving Gateway
+TEID Tunnel Endpoint IDentifier
+T-PDU Transport PDU
+TWAN Trusted WLAN Access Network
+UDP User Datagram Protocol
+UTRAN UMTS Terrestrial Radio Access Network

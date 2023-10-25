@@ -1,0 +1,126 @@
+;; ETSI TS 133 501 V17.11.1 (2023-10)
+;; 3GPP TS 33.501 version 17.11.1 Release 17
+;; Security architecture and procedures for 5G System
+
+5GC 5G Core Network
+5G-AN 5G Access Network
+5G-RG 5G Residential Gateway
+NG-RAN 5G Radio Access Network
+5G-AV 5G Authentication Vector
+5G-HE-AV 5G Home Environment Authentication Vector
+5G-NSWO 5G Non-Seamless WLAN Offload
+5G-SE-AV 5G Serving Environment Authentication Vector
+ABBA Anti-Bidding down Between Architectures
+AEAD Authenticated Encryption with Associated Data
+AES Advanced Encryption Standard
+AKA Authentication and Key Agreement
+AMF Access and Mobility Management Function
+ARPF Authentication credential Repository and Processing Function
+AUSF Authentication Server Function
+AUTN AUthentication TokeN
+AV Authentication Vector
+AV' transformed Authentication Vector
+BAP Backhaul Adaptation Protocol
+BH Backhaul
+CCA Client Credentials Assertion
+Cell-ID Cell Identity as used in TS 38.331
+CH Credentials Holder
+CHO Conditional Handover
+CIoT Cellular Internet of Things
+cIPX consumer's IPX
+CK-SRVCC Cipher Key for Single Radio Voice Continuity
+cNRF consumer's NRF
+CP Control Plane
+cPLMN consumer's PLMN
+cSEPP consumer's SEPP
+CTR Counter (mode)
+CU Central Unit
+DCS Default Credentials Server
+DN Data Network
+DNN Data Network Name
+DU Distributed Unit
+EAP Extensible Authentication Protocol
+EDT Early Data Transmission
+EMSK Extended Master Session Key
+EN-DC E-UTRA-NR Dual Connectivity
+ENSI External Network Slice Information
+EPS Evolved Packet System
+FN-RG Fixed Network RG
+gNB NR Node B
+GUTI Globally Unique Temporary UE Identity
+HRES Hash RESponse
+HXRES Hash eXpected RESponse
+IAB Integrated Access and Backhaul
+IKE Internet Key Exchange
+IK-SRVCC Integrity Key for Single Radio Voice Continuity
+IPUPS Inter-PLMN UP Security
+IPX IP exchange service
+KSI Key Set Identifier
+KSI-SRVCC Key Set Identifier for Single Radio Voice Continuity
+LI Lawful Intercept
+MBSF Multicast/Broadcast Service Function
+MBSTF Multicast/Broadcast Service Transport Function
+MeNB Master eNB
+MN Master Node
+MO-EDT Mobile Originated Early Data Transmission
+MT-EDT Mobile Terminated Early Data Transmission
+MR-DC Multi-Radio Dual Connectivity
+MSK Master Session Key
+N3IWF Non-3GPP access InterWorking Function
+NAI Network Access Identifier
+NAS Non Access Stratum
+NDS Network Domain Security
+NEA Encryption Algorithm for 5G
+NF Network Function
+NG Next Generation
+ng-eNB Next Generation Evolved Node-B
+ngKSI Key Set Identifier in 5G
+N5CW Non-5G-Capable over WLAN
+N5GC Non-5G-Capable
+NIA Integrity Algorithm for 5G
+NR New Radio
+NR-DC NR-NR Dual Connectivity
+NSSAI Network Slice Selection Assistance Information
+NSSAA Network Slice Specific Authentication and Authorization
+NSWO Non-Seamless WLAN Offload
+NSWOF Non-Seamless WLAN Offload Function
+PDN Packet Data Network
+PEI Permanent Equipment Identifier
+pIPX producer's IPX
+pNRF producer's NRF
+pPLMN producer's PLMN
+PRINS PRotocol for N32 INterconnect Security
+pSEPP producer's SEPP
+PUR Preconfigured Uplink Resource
+QoS Quality of Service
+RES RESponse
+SCG Secondary Cell Group
+SEAF SEcurity Anchor Function
+SCP Service Communication Proxy
+SEPP Security Edge Protection Proxy
+SgNB Secondary gNB
+SIDF Subscription Identifier De-concealing Function
+SMC Security Mode Command
+SMF Session Management Function
+SN Secondary Node
+SN-Id Serving Network Identifier
+SUCI Subscription Concealed Identifier
+SUPI Subscription Permanent Identifier
+TLS Transport Layer Security
+TNAN Trusted Non-3GPP Access Network
+TNAP Trusted Non-3GPP Access Point
+TNGF Trusted Non-3GPP Gateway Function
+TWAP Trusted WLAN Access Point
+TWIF Trusted WLAN Interworking Function
+TSC Time Sensitive Communication
+UE User Equipment
+UEA UMTS Encryption Algorithm
+UDM Unified Data Management
+UDR Unified Data Repository
+UIA UMTS Integrity Algorithm
+ULR Update Location Request
+UP User Plane
+UPF User Plane Function
+URLLC Ultra Reliable Low Latency Communication
+USIM Universal Subscriber Identity Module
+XRES eXpected RESponse
