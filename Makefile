@@ -54,8 +54,9 @@ telco.go: ${SPECS}
 
 
 deploy: zone cgi
+	cp -f cgi/wtf /var/www/htdocs/telco.wtf/cgi-bin/wtf
 	cp -f zone/telco.wtf /var/nsd/zones/master/telco.wtf
-	cp -f cgi/wtf /var/www/htdocs/telco.wtf/cgi-bin/telco.wtf
+	doas nsd-control reload telco.wtf
 
 
 run: wtf.go telco.go
