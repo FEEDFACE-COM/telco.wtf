@@ -35,7 +35,7 @@
   >  
 
 
-* bash alias
+* bash shortcuts
 
 		alias wtf='dig -t txt +domain=telco.wtf +short' # dns
 		wtf(){ curl http://telco.wtf/$1; }              # http
@@ -54,6 +54,7 @@
   * ETSI TS 102 113-1
   * ETSI TS 102 250-2
   * ETSI TS 103 397
+  * ETSI TS 103 859
   * ETSI TS 122 261
   * ETSI TS 123 060
   * ETSI TS 123 078
@@ -64,6 +65,7 @@
   * ETSI TS 128 530
   * ETSI TS 129 007
   * ETSI TS 129 060
+  * ETSI TS 129 214
   * ETSI TS 129 272
   * ETSI TS 129 274
   * ETSI TS 129 281
