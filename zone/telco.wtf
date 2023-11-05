@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1698227375      ;Serial
+        1699202954      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN AAAA 2001:1a50:7:1::78
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.0.1 FEEDFACE.COM 2023-10"
+wtf              IN TXT "WTF, Telco?! v1.0.1-2-g289f8b6 FEEDFACE.COM 2023-11"
 
 
 
@@ -1945,6 +1945,29 @@ XCAP             IN TXT "eXtended Camel Application Part"
 
 
 
+;; ETSI TS 103 859 V7.0.2 (2022-09)
+;; O-RAN Fronthaul Control, User and Synchronization Plane
+
+eNB              IN TXT "e NodeB (applies to LTE)"
+FHM              IN TXT "Fronthaul Multiplexer"
+gNB              IN TXT "g NodeB (applies to NR)"
+O-DU             IN TXT "O-RAN Distributed Unit"
+O-RU             IN TXT "O-RAN Radio Unit"
+SMO              IN TXT "Service Management and Orchestration"
+BMCA             IN TXT "Best Master Clock Algorithm"
+CA               IN TXT "Carrier Aggregation"
+eEEC             IN TXT "enhanced Ethernet Equipment Clock"
+ePRTC            IN TXT "enhanced Primary Reference Time Clock"
+OTA              IN TXT "Over the Air"
+OTDOA            IN TXT "Observed Time Delay Of Arrival"
+PRC              IN TXT "Primary Reference Clock"
+PTP              IN TXT "Precision Time Protocol"
+SYNCE            IN TXT "Synchronous Ethernet"
+T-BC             IN TXT "Telecom Boundary Clock"
+T-GM             IN TXT "Telecom Grand Master"
+
+
+
 ;; ETSI TS 122 261 V15.5.0 (2018-07)
 ;; 3GPP TS 22.261 version 15.5.0 Release 15
 ;; 5G; Service requirements for next generation new services and markets
@@ -2619,6 +2642,26 @@ TFT              IN TXT "Traffic Flow Template"
 UDP              IN TXT "User Datagram Protocol"
 UE-AMBR          IN TXT "UE-Aggregate Maximum Bit Rate"
 UTRAN            IN TXT "UMTS Terrestrial Radio Access Network"
+
+
+
+;; ETSI TS 129 214 V9.9.0 (2012-01)
+;; 3GPP TS 29.214 version 9.9.0 Release 9
+;; LTE; Policy and charging control over Rx reference point
+
+AF               IN TXT "Application Function"
+AVP              IN TXT "Attribute Value Pair"
+CRF              IN TXT "Charging Rules Function"
+IP-CAN           IN TXT "IP Connectivity Access Network"
+PCC              IN TXT "Policy and Charging Control"
+PCEF             IN TXT "Policy and Charging Enforcement Function"
+PCRF             IN TXT "Policy and Charging Rule Function"
+PDF              IN TXT "Policy Decision Function"
+P-CSCF           IN TXT "Proxy-Call Session Control Function"
+QoS              IN TXT "Quality of Service"
+SDF              IN TXT "Service Data Flow"
+SPR              IN TXT "Subscriber Profile Repository"
+UE               IN TXT "User Equipment"
 
 
 

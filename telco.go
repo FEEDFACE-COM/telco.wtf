@@ -1915,6 +1915,28 @@ var telco = []struct{k,v string} {
   {"XCAP",       "eXtended Camel Application Part"},
 
 
+// ETSI TS 103 859 V7.0.2 (2022-09)
+// O-RAN Fronthaul Control, User and Synchronization Plane
+
+  {"eNB",        "e NodeB (applies to LTE)"},
+  {"FHM",        "Fronthaul Multiplexer"},
+  {"gNB",        "g NodeB (applies to NR)"},
+  {"O-DU",       "O-RAN Distributed Unit"},
+  {"O-RU",       "O-RAN Radio Unit"},
+  {"SMO",        "Service Management and Orchestration"},
+  {"BMCA",       "Best Master Clock Algorithm"},
+  {"CA",         "Carrier Aggregation"},
+  {"eEEC",       "enhanced Ethernet Equipment Clock"},
+  {"ePRTC",      "enhanced Primary Reference Time Clock"},
+  {"OTA",        "Over the Air"},
+  {"OTDOA",      "Observed Time Delay Of Arrival"},
+  {"PRC",        "Primary Reference Clock"},
+  {"PTP",        "Precision Time Protocol"},
+  {"SYNCE",      "Synchronous Ethernet"},
+  {"T-BC",       "Telecom Boundary Clock"},
+  {"T-GM",       "Telecom Grand Master"},
+
+
 // ETSI TS 122 261 V15.5.0 (2018-07)
 // 3GPP TS 22.261 version 15.5.0 Release 15
 // 5G; Service requirements for next generation new services and markets
@@ -2580,6 +2602,25 @@ var telco = []struct{k,v string} {
   {"UDP",        "User Datagram Protocol"},
   {"UE-AMBR",    "UE-Aggregate Maximum Bit Rate"},
   {"UTRAN",      "UMTS Terrestrial Radio Access Network"},
+
+
+// ETSI TS 129 214 V9.9.0 (2012-01)
+// 3GPP TS 29.214 version 9.9.0 Release 9
+// LTE; Policy and charging control over Rx reference point
+
+  {"AF",         "Application Function"},
+  {"AVP",        "Attribute Value Pair"},
+  {"CRF",        "Charging Rules Function"},
+  {"IP-CAN",     "IP Connectivity Access Network"},
+  {"PCC",        "Policy and Charging Control"},
+  {"PCEF",       "Policy and Charging Enforcement Function"},
+  {"PCRF",       "Policy and Charging Rule Function"},
+  {"PDF",        "Policy Decision Function"},
+  {"P-CSCF",     "Proxy-Call Session Control Function"},
+  {"QoS",        "Quality of Service"},
+  {"SDF",        "Service Data Flow"},
+  {"SPR",        "Subscriber Profile Repository"},
+  {"UE",         "User Equipment"},
 
 
 // ETSI TS 129 272 V17.4.0 (2022-10)

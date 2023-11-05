@@ -1,0 +1,20 @@
+;; ETSI TS 103 859 V7.0.2 (2022-09)
+;; O-RAN Fronthaul Control, User and Synchronization Plane
+
+eNB e NodeB (applies to LTE)
+FHM Fronthaul Multiplexer
+gNB g NodeB (applies to NR)
+O-DU O-RAN Distributed Unit
+O-RU O-RAN Radio Unit
+SMO Service Management and Orchestration
+BMCA Best Master Clock Algorithm
+CA Carrier Aggregation
+eEEC enhanced Ethernet Equipment Clock
+ePRTC enhanced Primary Reference Time Clock
+OTA Over the Air
+OTDOA Observed Time Delay Of Arrival
+PRC Primary Reference Clock
+PTP Precision Time Protocol
+SYNCE Synchronous Ethernet
+T-BC Telecom Boundary Clock
+T-GM Telecom Grand Master

@@ -1,0 +1,18 @@
+;; ETSI TS 129 214 V9.9.0 (2012-01)
+;; 3GPP TS 29.214 version 9.9.0 Release 9
+;; LTE; Policy and charging control over Rx reference point
+
+
+AF Application Function
+AVP Attribute Value Pair
+CRF Charging Rules Function
+IP-CAN IP Connectivity Access Network
+PCC Policy and Charging Control
+PCEF Policy and Charging Enforcement Function
+PCRF Policy and Charging Rule Function
+PDF Policy Decision Function
+P-CSCF Proxy-Call Session Control Function
+QoS Quality of Service
+SDF Service Data Flow
+SPR Subscriber Profile Repository
+UE User Equipment

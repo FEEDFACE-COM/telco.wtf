@@ -8,9 +8,9 @@ DATE     ?= $(shell date +%Y-%m)
 
 
 all: clean zone cgi
-zone: telco.wtf
-cgi: wtf-cgi
-cli: wtf
+zone: zone/telco.wtf
+cgi: cgi/wtf
+cli: cli/wtf
 
 help:
 	@echo "## telco.wtf"
@@ -20,31 +20,27 @@ help:
 	@echo " make cli       # compile cli tool"
 	@echo " make check     # verify zone file"      
 
-rem:
-	@echo 'pbpaste | for k in ABC ; do read line; echo "$$k $$line"; done'
 
 
-
-
-telco.wtf: SOA ${SPECS}
-	cat SOA | sed "s/xxxxxxxxxx/${SERIAL}/" >| ./telco.wtf
-	echo 'wtf\t IN TXT "WTF, Telco?! v${VERSION} FEEDFACE.COM ${DATE}"\n\n\n' | pr -t -e16 >> ./telco.wtf 
+zone/telco.wtf: SOA ${SPECS}
+	cat SOA | sed "s/xxxxxxxxxx/${SERIAL}/" >| ./zone/telco.wtf
+	echo 'wtf\t IN TXT "WTF, Telco?! v${VERSION} FEEDFACE.COM ${DATE}"\n\n\n' | pr -t -e16 >> ./zone/telco.wtf 
 	for spec in ${SPECS}; do \
       head -3 "$$spec" | egrep "^;;"; echo;  \
       cat "$$spec" | awk -f zone.awk | pr -t -e16; \
       echo; echo; echo; \
-    done >> ./telco.wtf
+    done >> ./zone/telco.wtf
 
-wtf-cgi: wtf.go telco.go
+cgi/wtf: wtf.go telco.go
 	CGO_ENABLED=0 go build \
       -ldflags "-X main.VERSION=${VERSION} -X main.DATE=${DATE} \
                 -linkmode 'external' -extldflags '-static' " \
-      -o wtf-cgi wtf.go telco.go
+      -o cgi/wtf wtf.go telco.go
 
-wtf: wtf.go telco.go
+cli/wtf: wtf.go telco.go
 	CGO_ENABLED=0 go build \
       -ldflags "-X main.VERSION=${VERSION} -X main.DATE=${DATE}" \
-      -o wtf wtf.go telco.go \
+      -o cli/wtf wtf.go telco.go \
 
 telco.go: ${SPECS}
 	echo "package main;" >| telco.go
@@ -57,13 +53,16 @@ telco.go: ${SPECS}
 	echo "}\n" >> ./telco.go
 
 
+deploy: zone cgi
+	cp -f zone/telco.wtf /var/nsd/zones/master/telco.wtf
+	cp -f cgi/wtf /var/www/htdocs/telco.wtf/cgi-bin/telco.wtf
 
 
-run: wtf.go
+run: wtf.go telco.go
 	go run wtf.go telco.go
 
 clean:
-	rm -f telco.go telco.wtf wtf wtf-cgi
+	rm -f telco.go zone/telco.wtf cgi/wtf cli/wtf
 
 info:
 	@echo "## telco.wtf\n"
@@ -78,7 +77,7 @@ info:
 
 
 check: telco.wtf
-	named-checkzone telco.wtf ./telco.wtf
+	named-checkzone telco.wtf ./zone/telco.wtf
 
 touch:
 	touch ${SPECS} 
