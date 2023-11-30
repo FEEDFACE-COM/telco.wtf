@@ -1,0 +1,102 @@
+;; ETSI GS NFV-REL 001 V1.1.1 (2015-01)
+;; Network Functions Virtualisation (NFV); Resiliency Requirements
+
+AAA Authentication, Authorization, Accountability
+API Application Programming Interface
+BNA Broad Network Access
+BSS Business Support System
+CIMS Cloud Infrastructure Management System
+COTS Commercial-Off-The-Shelf
+CPU Central Processing Unit
+CRC Cyclic Redundancy Check
+CSCF Call Session Control Function
+DAS Direct Attached Storage
+DDoS Distributed Denial of Service
+DIMM Dual In-line Memory Module
+DNS Domain Name System
+ECC Error Correcting Code
+EMS Element Management System
+ETS Emergency Telecommunication Service
+GERAN GSM Edge Radio Access Network
+GGSN Gateway GPRS Support Node
+HA High Availability
+IMS IP Multimedia Subsystem
+IO Input/Output
+IOMMU Input/Output Memory Management Unit
+IP Internet Protocol
+IS Information Security
+ISMS Information Security Management System
+ISP Internet Service Provider
+IT Information Technologies
+KPI Key Performance Indicator
+LAN Local Area Network
+LDAP Leightweight Directory Access Protocol
+LSP Label Switsch Path
+LU Logical Unit
+MAC Media Access Control
+MITM Man-in-the-Middle
+MME Mobility Management Entity
+MPLS Multi Protocol Label Switching
+MS Measured Service
+MTTF Mean Time To Failure
+MTTR Mean Time To Repair
+NAS Network Attached Storage
+NEBS Network Equipment-Building System
+NF Network Function
+NFVI Network Function Virtualisation Infrastructure
+NFVI-PoP Network Function Virtualisation Infrastructure Point of Presence
+NFV-MANO Network Function Virtualisation Management and Orchestration
+NFVO Network Function Virtualisation Orchestrator
+NGN Next Generation Networks
+NIC Network Interface Card
+NIC-ID Network Interface Card Identifier
+NIST National Institute of Standards and Technology
+NSD Network Service Descriptor
+OAM Operation, Administration, and Management
+OI Operational Issues
+OS Operating System
+OSS Operation Support System
+OTT Over The Top
+PGW Packet Data Network Gateway
+PI Physical Infrastructure
+PNF Physical Network Function
+PoP Point of Presence
+QoS Quality of Service
+RAID Redundant Array of Inexpensive/Independent Disks
+RAS Reliability, Availability, and Serviceability
+RE Rapid Elasticity
+RNC Radio Network Controller
+RP Resource Pooling
+SA Service Availability
+SAN Storage Area Network
+SDN Software Defined Networking
+S-GW Serving Gateway
+SIP Session Initiation Protocol
+SLA Service Level Agreement
+SMS Short Messaging Service
+SP Service Provider
+SQL Structured Query Language
+SQM Service Quality Metrics
+SR-IOV Single Root I/O Virtualisation
+SW Software
+TV Television
+UE User Equipment
+US United States
+UTRAN UMTS Terrestrial Radio Access Network
+VDU Virtualisation Deployment Unit
+VIM Virtualised Infrastructure Manager
+VLAN Virtual Local Area Network
+VM Virtual Machine
+VN Virtualisation
+VNF Virtualised Network Function
+VNFC Virtualised Network Function Component
+VNFD Virtualised Network Function Descriptor
+VNF-EMS Virtualised Network Function Element Management System
+VNF-FG VNF Forwarding Graph
+VNFM Virtualised Network Function Manager
+VoIP Voice over IP
+VoLTE Voice over LTE
+VPN Virtual Private Network
+VS Virtual Storage
+WAF Web Application Firewall
+WAN Wide Area Network
