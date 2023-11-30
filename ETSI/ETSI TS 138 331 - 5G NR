@@ -1,0 +1,85 @@
+;; ETSI TS 138 331 V15.3.0 (2018-10)
+;; 3GPP TS 38.331 version 15.3.0 Release 15
+;; 5G; NR; Radio Resource Control (RRC);
+
+
+5GC 5G Core Network
+ACK Acknowledgement
+AM Acknowledged Mode
+ARQ Automatic Repeat Request
+AS Access Stratum
+ASN.1 Abstract Syntax Notation One
+BLER Block Error Rate
+BWP Bandwidth Part
+CA Carrier Aggregation
+CCCH Common Control Channel
+CG Cell Group
+CMAS Commercial Mobile Alert Service
+CP Control Plane
+C-RNTI Cell RNTI
+CSI Channel State Information
+DC Dual Connectivity
+DCCH Dedicated Control Channel
+DCI Downlink Control Information
+DL Downlink
+DL-SCH Downlink Shared Channel
+DRB (user) Data Radio Bearer
+DRX Discontinuous Reception
+DTCH Dedicated Traffic Channel
+EN-DC E-UTRA NR Dual Connectivity
+EPC Evolved Packet Core
+EPS Evolved Packet System
+ETWS Earthquake and Tsunami Warning System
+E-UTRA Evolved Universal Terrestrial Radio Access
+E-UTRA/5GC E-UTRA connected to 5GC
+E-UTRA/EPC E-UTRA connected to EPC
+E-UTRAN Evolved Universal Terrestrial Radio Access Network
+FDD Frequency Division Duplex
+FFS For Further Study
+GERAN GSM/EDGE Radio Access Network
+GNSS Global Navigation Satellite System
+GSM Global System for Mobile Communications
+HARQ Hybrid Automatic Repeat Request
+IE Information element
+IMSI International Mobile Subscriber Identity
+kB Kilobyte (1000 bytes)
+L1 Layer 1
+L2 Layer 2
+L3 Layer 3
+MAC Medium Access Control
+MCG Master Cell Group
+MIB Master Information Block
+N/A Not Applicable
+NR/5GC NR connected to 5GC
+PCell Primary Cell
+PDCP Packet Data Convergence Protocol
+PDU Protocol Data Unit
+PLMN Public Land Mobile Network
+PSCell Primary SCG Cell
+PTAG Primary Timing Advance Group
+PWS Public Warning System
+QoS Quality of Service
+RAN Radio Access Network
+RAT Radio Access Technology
+RLC Radio Link Control
+RNA RAN-based Notification Area
+RNTI Radio Network Temporary Identifier
+ROHC Robust Header Compression
+RRC Radio Resource Control
+RS Reference Signal
+SCell Secondary Cell
+SCG Secondary Cell Group
+SFN System Frame Number
+SFTD SFN and Frame Timing Difference
+SI System Information
+SIB System Information Block
+SpCell Special Cell
+SRB Signalling Radio Bearer
+SSB Synchronization Signal Block
+TAG Timing Advance Group
+TDD Time Division Duplex
+TM Transparent Mode
+UE User Equipment
+UL Uplink
+UM Unacknowledged Mode
+UP User Plane
