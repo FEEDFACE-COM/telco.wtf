@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1701318394      ;Serial
+        1703583877      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN AAAA 2001:1a50:7:1::78
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.0.2-5-g725a1af FEEDFACE.COM 2023-11"
+wtf              IN TXT "WTF, Telco?! v1.0.4 FEEDFACE.COM 2023-12"
 
 
 
@@ -3484,6 +3484,93 @@ V2X              IN TXT "Vehicle to Everything"
 
 
 
+;; ETSI TS 138 331 V15.3.0 (2018-10)
+;; 3GPP TS 38.331 version 15.3.0 Release 15
+;; 5G; NR; Radio Resource Control (RRC);
+
+5GC              IN TXT "5G Core Network"
+ACK              IN TXT "Acknowledgement"
+AM               IN TXT "Acknowledged Mode"
+ARQ              IN TXT "Automatic Repeat Request"
+AS               IN TXT "Access Stratum"
+ASN.1            IN TXT "Abstract Syntax Notation One"
+BLER             IN TXT "Block Error Rate"
+BWP              IN TXT "Bandwidth Part"
+CA               IN TXT "Carrier Aggregation"
+CCCH             IN TXT "Common Control Channel"
+CG               IN TXT "Cell Group"
+CMAS             IN TXT "Commercial Mobile Alert Service"
+CP               IN TXT "Control Plane"
+C-RNTI           IN TXT "Cell RNTI"
+CSI              IN TXT "Channel State Information"
+DC               IN TXT "Dual Connectivity"
+DCCH             IN TXT "Dedicated Control Channel"
+DCI              IN TXT "Downlink Control Information"
+DL               IN TXT "Downlink"
+DL-SCH           IN TXT "Downlink Shared Channel"
+DRB              IN TXT "(user) Data Radio Bearer"
+DRX              IN TXT "Discontinuous Reception"
+DTCH             IN TXT "Dedicated Traffic Channel"
+EN-DC            IN TXT "E-UTRA NR Dual Connectivity"
+EPC              IN TXT "Evolved Packet Core"
+EPS              IN TXT "Evolved Packet System"
+ETWS             IN TXT "Earthquake and Tsunami Warning System"
+E-UTRA           IN TXT "Evolved Universal Terrestrial Radio Access"
+E-UTRA/5GC       IN TXT "E-UTRA connected to 5GC"
+E-UTRA/EPC       IN TXT "E-UTRA connected to EPC"
+E-UTRAN          IN TXT "Evolved Universal Terrestrial Radio Access Network"
+FDD              IN TXT "Frequency Division Duplex"
+FFS              IN TXT "For Further Study"
+GERAN            IN TXT "GSM/EDGE Radio Access Network"
+GNSS             IN TXT "Global Navigation Satellite System"
+GSM              IN TXT "Global System for Mobile Communications"
+HARQ             IN TXT "Hybrid Automatic Repeat Request"
+IE               IN TXT "Information element"
+IMSI             IN TXT "International Mobile Subscriber Identity"
+kB               IN TXT "Kilobyte (1000 bytes)"
+L1               IN TXT "Layer 1"
+L2               IN TXT "Layer 2"
+L3               IN TXT "Layer 3"
+MAC              IN TXT "Medium Access Control"
+MCG              IN TXT "Master Cell Group"
+MIB              IN TXT "Master Information Block"
+N/A              IN TXT "Not Applicable"
+NR/5GC           IN TXT "NR connected to 5GC"
+PCell            IN TXT "Primary Cell"
+PDCP             IN TXT "Packet Data Convergence Protocol"
+PDU              IN TXT "Protocol Data Unit"
+PLMN             IN TXT "Public Land Mobile Network"
+PSCell           IN TXT "Primary SCG Cell"
+PTAG             IN TXT "Primary Timing Advance Group"
+PWS              IN TXT "Public Warning System"
+QoS              IN TXT "Quality of Service"
+RAN              IN TXT "Radio Access Network"
+RAT              IN TXT "Radio Access Technology"
+RLC              IN TXT "Radio Link Control"
+RNA              IN TXT "RAN-based Notification Area"
+RNTI             IN TXT "Radio Network Temporary Identifier"
+ROHC             IN TXT "Robust Header Compression"
+RRC              IN TXT "Radio Resource Control"
+RS               IN TXT "Reference Signal"
+SCell            IN TXT "Secondary Cell"
+SCG              IN TXT "Secondary Cell Group"
+SFN              IN TXT "System Frame Number"
+SFTD             IN TXT "SFN and Frame Timing Difference"
+SI               IN TXT "System Information"
+SIB              IN TXT "System Information Block"
+SpCell           IN TXT "Special Cell"
+SRB              IN TXT "Signalling Radio Bearer"
+SSB              IN TXT "Synchronization Signal Block"
+TAG              IN TXT "Timing Advance Group"
+TDD              IN TXT "Time Division Duplex"
+TM               IN TXT "Transparent Mode"
+UE               IN TXT "User Equipment"
+UL               IN TXT "Uplink"
+UM               IN TXT "Unacknowledged Mode"
+UP               IN TXT "User Plane"
+
+
+
 ;; ETSI TS 138 412 V17.1.0 (2023-07)
 ;; 3GPP TS 38.412 version 17.1.0 Release 17
 ;; NG-RAN; NG signalling transport
@@ -3495,13 +3582,6 @@ DiffServ         IN TXT "Differentiated Service"
 PPP              IN TXT "Point to Point Protocol"
 IANA             IN TXT "Internet Assigned Number Authority"
 AMF              IN TXT "Access and Mobility Management Function"
-
-
-
-;; credz
-
-FF               IN TXT "FEEDFACE.COM"
-LM               IN TXT "thnx luca! =)"
 
 
 

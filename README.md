@@ -85,5 +85,5 @@
 
 
 --
- # WTF, Telco?! v1.0.2-8-g7fda6ac FEEDFACE.COM 2023-12
+ # WTF, Telco?! v1.0.4 FEEDFACE.COM 2023-12
 
