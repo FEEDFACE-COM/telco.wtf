@@ -16,8 +16,6 @@ func Error(format string, args ...interface{}) { fmt.Fprintf(os.Stderr,"WTF: "+f
 type set map[string]bool
 type res struct{Key string; Set set}
 
-var VERSION, DATE string = "0.0.0", "1970-01"
-
 const HTML = 
 `<html><head>
 <title>WTF, Telco?!</title>

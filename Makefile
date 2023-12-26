@@ -34,17 +34,16 @@ zone/telco.wtf: SOA ${SPECS}
 
 cgi/wtf: wtf.go telco.go
 	CGO_ENABLED=0 go build \
-      -ldflags "-X main.VERSION=${VERSION} -X main.DATE=${DATE} \
-                -linkmode 'external' -extldflags '-static' " \
+      -ldflags "-linkmode 'external' -extldflags '-static' " \
       -o cgi/wtf wtf.go telco.go
 
 cli/wtf: wtf.go telco.go
 	CGO_ENABLED=0 go build \
-      -ldflags "-X main.VERSION=${VERSION} -X main.DATE=${DATE}" \
       -o cli/wtf wtf.go telco.go \
 
 telco.go: ${SPECS}
 	echo "package main;" >| telco.go
+	echo "var VERSION, DATE string = \"${VERSION}\", \"${DATE}\"" >> telco.go
 	echo "var telco = []struct{k,v string} {\n" >> telco.go 
 	for spec in ${SPECS} credz; do \
       head -3 "$$spec" | egrep "^;;" | sed 's.;;.//.g'; echo;  \
