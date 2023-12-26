@@ -1,7 +1,7 @@
 
 
 
-SPECS    ?= $(shell find ETSI -type f | sort |sed -e 's/ /\\ /g') credz
+SPECS    ?= $(shell find ETSI -type f | sort | sed -e 's/ /\\ /g')
 SERIAL   ?= $(shell date +%s)
 VERSION  ?= $(shell git describe --tags)
 DATE     ?= $(shell date +%Y-%m)
@@ -18,6 +18,7 @@ help:
 	@echo " make zone      # assemble zone file"
 	@echo " make cgi       # compile cgi service"
 	@echo " make cli       # compile cli tool"
+	@echo " make readme    # assemble README.md"
 	@echo " make check     # verify zone file"      
 
 
@@ -45,7 +46,7 @@ cli/wtf: wtf.go telco.go
 telco.go: ${SPECS}
 	echo "package main;" >| telco.go
 	echo "var telco = []struct{k,v string} {\n" >> telco.go 
-	for spec in ${SPECS}; do \
+	for spec in ${SPECS} credz; do \
       head -3 "$$spec" | egrep "^;;" | sed 's.;;.//.g'; echo;  \
       cat "$$spec" | awk -f cgi.awk | pr -t -e16; \
       echo; echo; \
@@ -65,9 +66,18 @@ run: wtf.go telco.go
 clean:
 	rm -f telco.go zone/telco.wtf cgi/wtf cli/wtf
 
+readme:
+	readme=$$(cat README.md | awk '//{print;}/### Sources/{exit;}') ;\
+	(echo "$${readme}"; echo; \
+	for spec in ${SPECS}; do printf "  * $$(echo $${spec} | sed -e 's:^.*/::g;s: -.*$$::g;' )\n"; done; \
+	echo; echo; echo "--"; echo " # WTF, Telco?! v${VERSION} FEEDFACE.COM ${DATE}"; echo; \
+	) >| README.md
+
+
+
 info:
 	@echo "## telco.wtf\n"
-	@all=0; for spec in ${SPECS}; do \
+	@all=0; for spec in ${SPECS} credz; do \
         cnt=$$(cat "$${spec}" | egrep "^[0-9a-zA-Z-].*" | wc -l ); \
         all=$$(( $$all + $$cnt )); \
         printf "%5d %s\n" "$$cnt" "$$spec";\
@@ -83,4 +93,4 @@ check: telco.wtf
 touch:
 	touch ${SPECS} 
 
-.PHONY: help info zone cgi clean check touch run all
+.PHONY: help info readme zone cgi clean check touch run all

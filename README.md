@@ -1,50 +1,53 @@
 
 ## WTF, Telco?!
 
-`telco.wtf` is a DNS zone, web service and command line tool for looking up the many acronyms and abbreviations in use in the telecommunications industry. 
+`telco.wtf` is a lookup tool for acronyms and abbreviations used in the telecommunications industry. It is provided as a web service, DNS zone and command line tool. 
 
 ### Usage
 
-* DNS query
+
+* HTTP Request
+
+		$ curl telco.wtf/mno
+		# WTF, Telco?!
+		MNO - Mobile Network Operator
+
+* Command Line Tool
+
+		$ ./wtf mcc
+		# WTF, Telco?!
+		MNO - Mobile Network Operator
+
+* DNS Zone query
 
 		$ dig +short txt mno.telco.wtf
 		"Mobile Network Operator"
 	    
 
-* HTTP request, accept text/plain
+* Web Browser
 
-		$ curl telco.wtf/mvno
-		# WTF, Telco?!
-		MVNO - Mobile Virtual Network Operator
-
-
-* Local executable
-
-		$ ./wtf mcc
-		# WTF, Telco?!
-		MCC - Mobile Country Code
-
-
-* Web browser
-
-	<http://telco.wtf/mnc>
+	<http://telco.wtf/mno>
   >
   >  **WTF, Telco?!** 
   >  
-  >  * **MNC** - Mobile Network Code
+  >  ---
+  >
+  >  * **MNO** - Mobile Network Operator
   >  
 
 
-* bash shortcuts
+* Bash Shortcuts
 
-		alias wtf='dig -t txt +domain=telco.wtf +short' # dns
-		wtf(){ curl http://telco.wtf/$1; }              # http
+		wtf(){ curl http://telco.wtf/$1; }                  # http
+		wtf(){ dig -t txt +domain=telco.wtf +short $1; }    # dns
 
 
 
 ### Sources
 
+  * ETSI ES 203 700
   * ETSI ETS 300 009-2
+  * ETSI GS NFV-REL 001
   * ETSI TR 102 140
   * ETSI TR 102 198
   * ETSI TR 102 314-3
@@ -53,8 +56,10 @@
   * ETSI TS 101 441
   * ETSI TS 102 113-1
   * ETSI TS 102 250-2
+  * ETSI TS 103 247
   * ETSI TS 103 397
   * ETSI TS 103 859
+  * ETSI TS 110 174-2-2
   * ETSI TS 122 261
   * ETSI TS 123 060
   * ETSI TS 123 078
@@ -75,15 +80,10 @@
   * ETSI TS 133 401
   * ETSI TS 133 501
   * ETSI TS 136 101
+  * ETSI TS 138 331
   * ETSI TS 138 412
 
 
-
 --
-
-2023-10 FEEDFACE.COM
-
- 
-
-
+ # WTF, Telco?! v1.0.2-8-g7fda6ac FEEDFACE.COM 2023-12
 
