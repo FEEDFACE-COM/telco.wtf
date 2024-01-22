@@ -15,10 +15,10 @@ cli: cli/wtf
 help:
 	@echo "## telco.wtf"
 	@echo " make info      # show info"
-	@echo " make zone      # assemble zone file"
+	@echo " make zone      # generate zone file"
 	@echo " make cgi       # compile cgi service"
 	@echo " make cli       # compile cli tool"
-	@echo " make readme    # assemble README.md"
+	@echo " make readme    # generate README.md"
 	@echo " make check     # verify zone file"      
 
 

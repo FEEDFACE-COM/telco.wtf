@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.0.4", "2023-12"
+var VERSION, DATE string = "1.0.5", "2024-01"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 700 V1.1.1 (2021-02)
@@ -2806,6 +2806,56 @@ var telco = []struct{k,v string} {
   {"W-5GBAN",    "Wireline BBF Access Network"},
   {"W-5GCAN",    "Wireline 5G Cable Access Network"},
   {"W-AGF",      "Wireline Access Gateway Function"},
+
+
+// ETSI TS 124 301 V9.8.0 (2011-10)
+// 3GPP TS 24.301 version 9.8.0 Release 9
+// UMTS; LTE; Non-Access-Stratum (NAS) protocol for EPS;
+
+  {"AKA",        "Authentication and Key Agreement"},
+  {"AMBR",       "Aggregate Maximum Bit Rate"},
+  {"APN",        "Access Point Name"},
+  {"APN-AMBR",   "APN Aggregate Maximum Bit Rate"},
+  {"ARP",        "Allocation Retention Priority"},
+  {"CSG",        "Closed Subscriber Group"},
+  {"E-UTRA",     "Evolved Universal Terrestrial Radio Access"},
+  {"E-UTRAN",    "Evolved Universal Terrestrial Radio Access Network"},
+  {"ECM",        "EPS Connection Management"},
+  {"eKSI",       "Key Set Identifier for E-UTRAN"},
+  {"EMM",        "EPS Mobility Management"},
+  {"EPC",        "Evolved Packet Core Network"},
+  {"EPS",        "Evolved Packet System"},
+  {"ESM",        "EPS Session Management"},
+  {"GBR",        "Guaranteed Bit Rate"},
+  {"GUMMEI",     "Globally Unique MME Identifier"},
+  {"GUTI",       "Globally Unique Temporary Identifier"},
+  {"HRPD",       "High Rate Packet Data"},
+  {"IP-CAN",     "IP-Connectivity Access Network"},
+  {"ISR",        "Idle mode Signalling Reduction"},
+  {"kbps",       "Kilobits per second"},
+  {"KSI",        "Key Set Identifier"},
+  {"M-TMSI",     "M-Temporary Mobile Subscriber Identity"},
+  {"Mbps",       "Megabits per second"},
+  {"MBR",        "Maximum Bit Rate"},
+  {"MME",        "Mobility Management Entity"},
+  {"MMEC",       "MME Code"},
+  {"PCO",        "Protocol Configuration Options"},
+  {"PD",         "Protocol Discriminator"},
+  {"PDN",        "GW Packet Data Network Gateway"},
+  {"PTI",        "Procedure Transaction Identity"},
+  {"QCI",        "QoS Class Identifier"},
+  {"QoS",        "Quality of Service"},
+  {"RRC",        "Radio Resource Control"},
+  {"S-TMSI",     "S-Temporary Mobile Subscriber Identity"},
+  {"S101-AP",    "S101 Application Protocol"},
+  {"S1AP",       "S1 Application Protocol"},
+  {"SAE",        "System Architecture Evolution"},
+  {"TA",         "Tracking Area"},
+  {"TAC",        "Tracking Area Code"},
+  {"TAI",        "Tracking Area Identity"},
+  {"TFT",        "Traffic Flow Template"},
+  {"TI",         "Transaction Identifier"},
+  {"TIN",        "Temporary Identity used in Next update"},
 
 
 // ETSI TS 128 530 V17.2.0 (2022-05)

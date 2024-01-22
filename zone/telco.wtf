@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1703583877      ;Serial
+        1705904484      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN AAAA 2001:1a50:7:1::78
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.0.4 FEEDFACE.COM 2023-12"
+wtf              IN TXT "WTF, Telco?! v1.0.5 FEEDFACE.COM 2024-01"
 
 
 
@@ -2846,6 +2846,57 @@ W-5GAN           IN TXT "Wireline 5G Access Network"
 W-5GBAN          IN TXT "Wireline BBF Access Network"
 W-5GCAN          IN TXT "Wireline 5G Cable Access Network"
 W-AGF            IN TXT "Wireline Access Gateway Function"
+
+
+
+;; ETSI TS 124 301 V9.8.0 (2011-10)
+;; 3GPP TS 24.301 version 9.8.0 Release 9
+;; UMTS; LTE; Non-Access-Stratum (NAS) protocol for EPS;
+
+AKA              IN TXT "Authentication and Key Agreement"
+AMBR             IN TXT "Aggregate Maximum Bit Rate"
+APN              IN TXT "Access Point Name"
+APN-AMBR         IN TXT "APN Aggregate Maximum Bit Rate"
+ARP              IN TXT "Allocation Retention Priority"
+CSG              IN TXT "Closed Subscriber Group"
+E-UTRA           IN TXT "Evolved Universal Terrestrial Radio Access"
+E-UTRAN          IN TXT "Evolved Universal Terrestrial Radio Access Network"
+ECM              IN TXT "EPS Connection Management"
+eKSI             IN TXT "Key Set Identifier for E-UTRAN"
+EMM              IN TXT "EPS Mobility Management"
+EPC              IN TXT "Evolved Packet Core Network"
+EPS              IN TXT "Evolved Packet System"
+ESM              IN TXT "EPS Session Management"
+GBR              IN TXT "Guaranteed Bit Rate"
+GUMMEI           IN TXT "Globally Unique MME Identifier"
+GUTI             IN TXT "Globally Unique Temporary Identifier"
+HRPD             IN TXT "High Rate Packet Data"
+IP-CAN           IN TXT "IP-Connectivity Access Network"
+ISR              IN TXT "Idle mode Signalling Reduction"
+kbps             IN TXT "Kilobits per second"
+KSI              IN TXT "Key Set Identifier"
+M-TMSI           IN TXT "M-Temporary Mobile Subscriber Identity"
+Mbps             IN TXT "Megabits per second"
+MBR              IN TXT "Maximum Bit Rate"
+MME              IN TXT "Mobility Management Entity"
+MMEC             IN TXT "MME Code"
+PCO              IN TXT "Protocol Configuration Options"
+PD               IN TXT "Protocol Discriminator"
+PDN              IN TXT "GW Packet Data Network Gateway"
+PTI              IN TXT "Procedure Transaction Identity"
+QCI              IN TXT "QoS Class Identifier"
+QoS              IN TXT "Quality of Service"
+RRC              IN TXT "Radio Resource Control"
+S-TMSI           IN TXT "S-Temporary Mobile Subscriber Identity"
+S101-AP          IN TXT "S101 Application Protocol"
+S1AP             IN TXT "S1 Application Protocol"
+SAE              IN TXT "System Architecture Evolution"
+TA               IN TXT "Tracking Area"
+TAC              IN TXT "Tracking Area Code"
+TAI              IN TXT "Tracking Area Identity"
+TFT              IN TXT "Traffic Flow Template"
+TI               IN TXT "Transaction Identifier"
+TIN              IN TXT "Temporary Identity used in Next update"
 
 
 
