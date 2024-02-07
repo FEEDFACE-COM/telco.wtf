@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1707315295      ;Serial
+        1707315382      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN AAAA 2001:1a50:7:1::78
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.0.5-1-g1655afe FEEDFACE.COM 2024-02"
+wtf              IN TXT "WTF, Telco?! v1.0.6 FEEDFACE.COM 2024-02"
 
 
 

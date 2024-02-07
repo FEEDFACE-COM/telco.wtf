@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.0.5-1-g1655afe", "2024-02"
+var VERSION, DATE string = "1.0.6", "2024-02"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 700 V1.1.1 (2021-02)
