@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.0.5", "2024-01"
+var VERSION, DATE string = "1.0.5-1-g1655afe", "2024-02"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 700 V1.1.1 (2021-02)
@@ -2611,6 +2611,32 @@ var telco = []struct{k,v string} {
   {"UTM",        "Uncrewed Aerial System Traffic Management"},
   {"UUAA",       "USS UAV Authorization/Authentication"},
   {"UUID",       "Universal Unique Identifier"},
+
+
+// ETSI TS 123 273 V17.4.0 (2022-05)
+// 3GPP TS 23.273 version 17.4.0 Release 17
+// 5G Location Services
+
+  {"APN",        "Access Point Name"},
+  {"APN-NI",     "APN Network Identifier"},
+  {"EDT",        "Early Data Transmission"},
+  {"E-SMLC",     "Evolved Serving Mobile Location Centre"},
+  {"GMLC",       "Gateway Mobile Location Centre"},
+  {"HGMLC",      "Home GMLC"},
+  {"LCS",        "LoCation Services"},
+  {"LDR",        "Location Deferred Request"},
+  {"LMF",        "Location Management Function"},
+  {"LPI",        "LCS Privacy Indicator"},
+  {"LRF",        "Location Retrieval Function"},
+  {"MO-LR",      "Mobile Originated Location Request"},
+  {"MT-LR",      "Mobile Terminated Location Request"},
+  {"NI-LR",      "Network Induced Location Request"},
+  {"PMD",        "Pseudonym mediation device functionality"},
+  {"POI",        "Privacy Override Indicator"},
+  {"TNAN",       "Trusted Non-3GPP Access Network"},
+  {"TNAP",       "Trusted Non-3GPP Access Point"},
+  {"TWAP",       "Trusted WLAN Access Point"},
+  {"VGMLC",      "Visited GMLC"},
 
 
 // ETSI TS 123 501 V17.10.0 (2023-09)

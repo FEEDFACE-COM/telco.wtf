@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1705904484      ;Serial
+        1707315295      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN AAAA 2001:1a50:7:1::78
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.0.5 FEEDFACE.COM 2024-01"
+wtf              IN TXT "WTF, Telco?! v1.0.5-1-g1655afe FEEDFACE.COM 2024-02"
 
 
 
@@ -2650,6 +2650,33 @@ USS              IN TXT "UAS Service Supplier"
 UTM              IN TXT "Uncrewed Aerial System Traffic Management"
 UUAA             IN TXT "USS UAV Authorization/Authentication"
 UUID             IN TXT "Universal Unique Identifier"
+
+
+
+;; ETSI TS 123 273 V17.4.0 (2022-05)
+;; 3GPP TS 23.273 version 17.4.0 Release 17
+;; 5G Location Services
+
+APN              IN TXT "Access Point Name"
+APN-NI           IN TXT "APN Network Identifier"
+EDT              IN TXT "Early Data Transmission"
+E-SMLC           IN TXT "Evolved Serving Mobile Location Centre"
+GMLC             IN TXT "Gateway Mobile Location Centre"
+HGMLC            IN TXT "Home GMLC"
+LCS              IN TXT "LoCation Services"
+LDR              IN TXT "Location Deferred Request"
+LMF              IN TXT "Location Management Function"
+LPI              IN TXT "LCS Privacy Indicator"
+LRF              IN TXT "Location Retrieval Function"
+MO-LR            IN TXT "Mobile Originated Location Request"
+MT-LR            IN TXT "Mobile Terminated Location Request"
+NI-LR            IN TXT "Network Induced Location Request"
+PMD              IN TXT "Pseudonym mediation device functionality"
+POI              IN TXT "Privacy Override Indicator"
+TNAN             IN TXT "Trusted Non-3GPP Access Network"
+TNAP             IN TXT "Trusted Non-3GPP Access Point"
+TWAP             IN TXT "Trusted WLAN Access Point"
+VGMLC            IN TXT "Visited GMLC"
 
 
 

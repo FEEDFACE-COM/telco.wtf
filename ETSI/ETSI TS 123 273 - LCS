@@ -1,0 +1,25 @@
+;; ETSI TS 123 273 V17.4.0 (2022-05)
+;; 3GPP TS 23.273 version 17.4.0 Release 17
+;; 5G Location Services
+
+
+APN Access Point Name
+APN-NI APN Network Identifier
+EDT Early Data Transmission
+E-SMLC Evolved Serving Mobile Location Centre
+GMLC Gateway Mobile Location Centre
+HGMLC Home GMLC
+LCS LoCation Services
+LDR Location Deferred Request
+LMF Location Management Function
+LPI LCS Privacy Indicator
+LRF Location Retrieval Function
+MO-LR Mobile Originated Location Request
+MT-LR Mobile Terminated Location Request
+NI-LR Network Induced Location Request
+PMD Pseudonym mediation device functionality
+POI Privacy Override Indicator
+TNAN Trusted Non-3GPP Access Network
+TNAP Trusted Non-3GPP Access Point
+TWAP Trusted WLAN Access Point
+VGMLC Visited GMLC
