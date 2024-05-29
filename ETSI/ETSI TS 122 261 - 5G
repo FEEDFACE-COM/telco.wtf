@@ -1,29 +1,41 @@
-;; ETSI TS 122 261 V15.5.0 (2018-07)
-;; 3GPP TS 22.261 version 15.5.0 Release 15
+;; ETSI TS 122 261 V16.15.0 (2021-10)
+;; 3GPP TS 22.261 version 16.15.0 Release 16
 ;; 5G; Service requirements for next generation new services and markets
 
 
 3D Three Dimensional
 5G Fifth Generation
+LAN-VN 5G LAN-Virtual Network
 AR Augmented Reality
-A/S Actuator/sensor
+A/S Actuator/Sensor
 E2E End to End
 eFMSS Enhancement to Flexible Mobile Service Steering
+eV2X Enhanced V2X
 FMSS Flexible Mobile Service Steering
+IAB-MT Integrated Access Backhaul -Mobile Termination
 ICP Internet Content Provider
 ID Identification
+IMU Inertial Measurement Unit
 IOPS Isolated E-UTRAN Operation for Public Safety
 IoT Internet of Things
 KPI Key Performance Indicator
+LCS Location Services
 MBB Mobile BroadBand
+MCS Mission Critical Services
+MCX Mission Critical X, with X = PTT or X = Video or X = Data
 MIoT Massive Internet of Things
+MMTEL Multimedia Telephony
 MNO Mobile Network Operator
 MPS Multimedia Priority Service
+MSGin5G Message Service Within the 5G System
 MVNO Mobile Virtual Network Operator
 NGMN Next Generation Mobile Networks
 QoE Quality of Experience
-SEES Service Exposure and Enablement Support
+RSTP Rapid Spanning Tree Protocol
+SEES Service Exposure and Enablement S
+URLLC Ultra Reliable Low Latency Communication Support
 SST Slice/Service Type
+TTFF Time To First Fix
 UAV Unmanned Aerial Vehicle
 UHD Ultra High Definition
 VR Virtual Reality
