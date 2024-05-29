@@ -1,0 +1,40 @@
+;; ETSI TS 124 523 V12.1.0 (2014-10)
+;; 3GPP TS 24.523 version 12.1.0 Release 12
+;; LTE; Core and enterprise Next Generation Network (NGN) interaction scenarios; Architecture and functional description
+
+
+API Application Programming Interface
+AS Application Server
+ASP Application Service Provider
+BGCF Breakout Gateway Control Function
+CN Core Netwrok
+CND Customer Network Device
+CNG Customer Network Gateway
+DHCP Dynamic Host Configuration Protocol
+FQDN Fully Qualified Domain Name
+HES Hosted Enterprise Services
+HSS Home Subscriber Server
+IBCF Interconnection Border Control Function
+I-CSCF Interrogating CSCF
+IM IP Multimedia
+IMCN IP Multimedia Core Network
+IMS IP Multimedia Subsystem
+IOI Inter Operator Identifier
+IP Internet Protocol
+IWF InterWorking Function
+MACF Multiple Association Control Function
+NASS Network Attachment SubSystem
+NAT Network Address Translator
+NGCN Next Generation Corporate Network
+NGN Next Generation Network
+P-CSCF Proxy CSCF
+PNP Private Numbering Plan
+PSAP Public Safety Answering Point
+RACS Resource and Admission Control Subsystem
+S-CSCF Serving CSCF
+SIP Session Initiation Protocol
+SSP Session Service Provider
+TE Terminal Equipment
+TSP Transport Service Provider
+UE User Equipment
+URI Uniform Resource Identifie
