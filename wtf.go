@@ -19,6 +19,7 @@ type res struct{Key string; Set set}
 const HTML = 
 `<html><head>
 <title>WTF, Telco?!</title>
+<style>@media (prefers-color-scheme: dark) {body {color:white; background:black;} } </style>
 </head><body>
 <h2>WTF, Telco?!</h2><hr>
 {{- $length := len .Result }}
