@@ -69,7 +69,7 @@ readme:
 	readme=$$(cat README.md | awk '//{print;}/### Sources/{exit;}') ;\
 	(echo "$${readme}"; echo; \
 	for spec in ${SPECS}; do printf "  * $$(echo $${spec} | sed -e 's:^.*/::g;s: -.*$$::g;' )\n"; done; \
-	echo; echo; echo "--"; echo " # WTF, Telco?! v${VERSION} FEEDFACE.COM ${DATE}"; echo; \
+	echo; echo; echo "---"; echo; echo "\\# WTF, Telco?! v${VERSION} FEEDFACE.COM ${DATE}"; echo; \
 	) >| README.md
 
 

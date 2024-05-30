@@ -14,7 +14,7 @@
 
 * Command Line Tool
 
-		$ ./wtf mcc
+		$ ./wtf mno
 		# WTF, Telco?!
 		MNO - Mobile Network Operator
 
@@ -66,8 +66,10 @@
   * ETSI TS 123 228
   * ETSI TS 123 251
   * ETSI TS 123 256
+  * ETSI TS 123 273
   * ETSI TS 123 501
   * ETSI TS 124 301
+  * ETSI TS 124 523
   * ETSI TS 128 530
   * ETSI TS 129 007
   * ETSI TS 129 060
@@ -85,6 +87,7 @@
   * ETSI TS 138 412
 
 
---
- # WTF, Telco?! v1.0.5 FEEDFACE.COM 2024-01
+---
+
+\# WTF, Telco?! v1.0.7-1-g8ede212 FEEDFACE.COM 2024-05
 
