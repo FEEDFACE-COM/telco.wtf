@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1707315382      ;Serial
+        1717027672      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN AAAA 2001:1a50:7:1::78
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.0.6 FEEDFACE.COM 2024-02"
+wtf              IN TXT "WTF, Telco?! v1.0.7 FEEDFACE.COM 2024-05"
 
 
 
@@ -544,8 +544,7 @@ CCE              IN TXT "Control Channel Element"
 CCF              IN TXT "Call Control Function"
 CCH              IN TXT "Control Channel"
 CCI              IN TXT "Capability / Configuration Identifier"
-CCITT            IN TXT "Comité Consultatif International Télégraphique et Téléphonique (The International Telegraph and"
-Telephone        IN TXT "Consultative Committee)"
+CCITT            IN TXT "Comité Consultatif International Télégraphique et Téléphonique (The International Telegraph and Telephone Consultative Committee)"
 CCK              IN TXT "Corporate Control Key"
 CCM              IN TXT "Certificate Configuration Message"
 CCM              IN TXT "Current Call Meter"
@@ -2265,31 +2264,43 @@ WiFi             IN TXT "Wireless Fidelity (wireless technology)"
 
 
 
-;; ETSI TS 122 261 V15.5.0 (2018-07)
-;; 3GPP TS 22.261 version 15.5.0 Release 15
+;; ETSI TS 122 261 V16.15.0 (2021-10)
+;; 3GPP TS 22.261 version 16.15.0 Release 16
 ;; 5G; Service requirements for next generation new services and markets
 
 3D               IN TXT "Three Dimensional"
 5G               IN TXT "Fifth Generation"
+LAN-VN           IN TXT "5G LAN-Virtual Network"
 AR               IN TXT "Augmented Reality"
-A/S              IN TXT "Actuator/sensor"
+A/S              IN TXT "Actuator/Sensor"
 E2E              IN TXT "End to End"
 eFMSS            IN TXT "Enhancement to Flexible Mobile Service Steering"
+eV2X             IN TXT "Enhanced V2X"
 FMSS             IN TXT "Flexible Mobile Service Steering"
+IAB-MT           IN TXT "Integrated Access Backhaul -Mobile Termination"
 ICP              IN TXT "Internet Content Provider"
 ID               IN TXT "Identification"
+IMU              IN TXT "Inertial Measurement Unit"
 IOPS             IN TXT "Isolated E-UTRAN Operation for Public Safety"
 IoT              IN TXT "Internet of Things"
 KPI              IN TXT "Key Performance Indicator"
+LCS              IN TXT "Location Services"
 MBB              IN TXT "Mobile BroadBand"
+MCS              IN TXT "Mission Critical Services"
+MCX              IN TXT "Mission Critical X, with X = PTT or X = Video or X = Data"
 MIoT             IN TXT "Massive Internet of Things"
+MMTEL            IN TXT "Multimedia Telephony"
 MNO              IN TXT "Mobile Network Operator"
 MPS              IN TXT "Multimedia Priority Service"
+MSGin5G          IN TXT "Message Service Within the 5G System"
 MVNO             IN TXT "Mobile Virtual Network Operator"
 NGMN             IN TXT "Next Generation Mobile Networks"
 QoE              IN TXT "Quality of Experience"
-SEES             IN TXT "Service Exposure and Enablement Support"
+RSTP             IN TXT "Rapid Spanning Tree Protocol"
+SEES             IN TXT "Service Exposure and Enablement S"
+URLLC            IN TXT "Ultra Reliable Low Latency Communication Support"
 SST              IN TXT "Slice/Service Type"
+TTFF             IN TXT "Time To First Fix"
 UAV              IN TXT "Unmanned Aerial Vehicle"
 UHD              IN TXT "Ultra High Definition"
 VR               IN TXT "Virtual Reality"
@@ -2924,6 +2935,48 @@ TAI              IN TXT "Tracking Area Identity"
 TFT              IN TXT "Traffic Flow Template"
 TI               IN TXT "Transaction Identifier"
 TIN              IN TXT "Temporary Identity used in Next update"
+
+
+
+;; ETSI TS 124 523 V12.1.0 (2014-10)
+;; 3GPP TS 24.523 version 12.1.0 Release 12
+;; LTE; Core and enterprise Next Generation Network (NGN) interaction scenarios; Architecture and functional description
+
+API              IN TXT "Application Programming Interface"
+AS               IN TXT "Application Server"
+ASP              IN TXT "Application Service Provider"
+BGCF             IN TXT "Breakout Gateway Control Function"
+CN               IN TXT "Core Netwrok"
+CND              IN TXT "Customer Network Device"
+CNG              IN TXT "Customer Network Gateway"
+DHCP             IN TXT "Dynamic Host Configuration Protocol"
+FQDN             IN TXT "Fully Qualified Domain Name"
+HES              IN TXT "Hosted Enterprise Services"
+HSS              IN TXT "Home Subscriber Server"
+IBCF             IN TXT "Interconnection Border Control Function"
+I-CSCF           IN TXT "Interrogating CSCF"
+IM               IN TXT "IP Multimedia"
+IMCN             IN TXT "IP Multimedia Core Network"
+IMS              IN TXT "IP Multimedia Subsystem"
+IOI              IN TXT "Inter Operator Identifier"
+IP               IN TXT "Internet Protocol"
+IWF              IN TXT "InterWorking Function"
+MACF             IN TXT "Multiple Association Control Function"
+NASS             IN TXT "Network Attachment SubSystem"
+NAT              IN TXT "Network Address Translator"
+NGCN             IN TXT "Next Generation Corporate Network"
+NGN              IN TXT "Next Generation Network"
+P-CSCF           IN TXT "Proxy CSCF"
+PNP              IN TXT "Private Numbering Plan"
+PSAP             IN TXT "Public Safety Answering Point"
+RACS             IN TXT "Resource and Admission Control Subsystem"
+S-CSCF           IN TXT "Serving CSCF"
+SIP              IN TXT "Session Initiation Protocol"
+SSP              IN TXT "Session Service Provider"
+TE               IN TXT "Terminal Equipment"
+TSP              IN TXT "Transport Service Provider"
+UE               IN TXT "User Equipment"
+URI              IN TXT "Uniform Resource Identifie"
 
 
 

@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.0.6", "2024-02"
+var VERSION, DATE string = "1.0.7", "2024-05"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 700 V1.1.1 (2021-02)
@@ -519,8 +519,7 @@ var telco = []struct{k,v string} {
   {"CCF",        "Call Control Function"},
   {"CCH",        "Control Channel"},
   {"CCI",        "Capability / Configuration Identifier"},
-  {"CCITT",      "Comité Consultatif International Télégraphique et Téléphonique (The International Telegraph and"},
-  {"Telephone",  "Consultative Committee)"},
+  {"CCITT",      "Comité Consultatif International Télégraphique et Téléphonique (The International Telegraph and Telephone Consultative Committee)"},
   {"CCK",        "Corporate Control Key"},
   {"CCM",        "Certificate Configuration Message"},
   {"CCM",        "Current Call Meter"},
@@ -2231,31 +2230,43 @@ var telco = []struct{k,v string} {
   {"WiFi",       "Wireless Fidelity (wireless technology)"},
 
 
-// ETSI TS 122 261 V15.5.0 (2018-07)
-// 3GPP TS 22.261 version 15.5.0 Release 15
+// ETSI TS 122 261 V16.15.0 (2021-10)
+// 3GPP TS 22.261 version 16.15.0 Release 16
 // 5G; Service requirements for next generation new services and markets
 
   {"3D",         "Three Dimensional"},
   {"5G",         "Fifth Generation"},
+  {"LAN-VN",     "5G LAN-Virtual Network"},
   {"AR",         "Augmented Reality"},
-  {"A/S",        "Actuator/sensor"},
+  {"A/S",        "Actuator/Sensor"},
   {"E2E",        "End to End"},
   {"eFMSS",      "Enhancement to Flexible Mobile Service Steering"},
+  {"eV2X",       "Enhanced V2X"},
   {"FMSS",       "Flexible Mobile Service Steering"},
+  {"IAB-MT",     "Integrated Access Backhaul -Mobile Termination"},
   {"ICP",        "Internet Content Provider"},
   {"ID",         "Identification"},
+  {"IMU",        "Inertial Measurement Unit"},
   {"IOPS",       "Isolated E-UTRAN Operation for Public Safety"},
   {"IoT",        "Internet of Things"},
   {"KPI",        "Key Performance Indicator"},
+  {"LCS",        "Location Services"},
   {"MBB",        "Mobile BroadBand"},
+  {"MCS",        "Mission Critical Services"},
+  {"MCX",        "Mission Critical X, with X = PTT or X = Video or X = Data"},
   {"MIoT",       "Massive Internet of Things"},
+  {"MMTEL",      "Multimedia Telephony"},
   {"MNO",        "Mobile Network Operator"},
   {"MPS",        "Multimedia Priority Service"},
+  {"MSGin5G",    "Message Service Within the 5G System"},
   {"MVNO",       "Mobile Virtual Network Operator"},
   {"NGMN",       "Next Generation Mobile Networks"},
   {"QoE",        "Quality of Experience"},
-  {"SEES",       "Service Exposure and Enablement Support"},
+  {"RSTP",       "Rapid Spanning Tree Protocol"},
+  {"SEES",       "Service Exposure and Enablement S"},
+  {"URLLC",      "Ultra Reliable Low Latency Communication Support"},
   {"SST",        "Slice/Service Type"},
+  {"TTFF",       "Time To First Fix"},
   {"UAV",        "Unmanned Aerial Vehicle"},
   {"UHD",        "Ultra High Definition"},
   {"VR",         "Virtual Reality"},
@@ -2882,6 +2893,47 @@ var telco = []struct{k,v string} {
   {"TFT",        "Traffic Flow Template"},
   {"TI",         "Transaction Identifier"},
   {"TIN",        "Temporary Identity used in Next update"},
+
+
+// ETSI TS 124 523 V12.1.0 (2014-10)
+// 3GPP TS 24.523 version 12.1.0 Release 12
+// LTE; Core and enterprise Next Generation Network (NGN) interaction scenarios; Architecture and functional description
+
+  {"API",        "Application Programming Interface"},
+  {"AS",         "Application Server"},
+  {"ASP",        "Application Service Provider"},
+  {"BGCF",       "Breakout Gateway Control Function"},
+  {"CN",         "Core Netwrok"},
+  {"CND",        "Customer Network Device"},
+  {"CNG",        "Customer Network Gateway"},
+  {"DHCP",       "Dynamic Host Configuration Protocol"},
+  {"FQDN",       "Fully Qualified Domain Name"},
+  {"HES",        "Hosted Enterprise Services"},
+  {"HSS",        "Home Subscriber Server"},
+  {"IBCF",       "Interconnection Border Control Function"},
+  {"I-CSCF",     "Interrogating CSCF"},
+  {"IM",         "IP Multimedia"},
+  {"IMCN",       "IP Multimedia Core Network"},
+  {"IMS",        "IP Multimedia Subsystem"},
+  {"IOI",        "Inter Operator Identifier"},
+  {"IP",         "Internet Protocol"},
+  {"IWF",        "InterWorking Function"},
+  {"MACF",       "Multiple Association Control Function"},
+  {"NASS",       "Network Attachment SubSystem"},
+  {"NAT",        "Network Address Translator"},
+  {"NGCN",       "Next Generation Corporate Network"},
+  {"NGN",        "Next Generation Network"},
+  {"P-CSCF",     "Proxy CSCF"},
+  {"PNP",        "Private Numbering Plan"},
+  {"PSAP",       "Public Safety Answering Point"},
+  {"RACS",       "Resource and Admission Control Subsystem"},
+  {"S-CSCF",     "Serving CSCF"},
+  {"SIP",        "Session Initiation Protocol"},
+  {"SSP",        "Session Service Provider"},
+  {"TE",         "Terminal Equipment"},
+  {"TSP",        "Transport Service Provider"},
+  {"UE",         "User Equipment"},
+  {"URI",        "Uniform Resource Identifie"},
 
 
 // ETSI TS 128 530 V17.2.0 (2022-05)
