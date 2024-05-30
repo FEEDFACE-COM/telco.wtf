@@ -86,7 +86,7 @@ info:
       printf "%5d unique\n" "$$uniq"; \
 
 
-check: telco.wtf
+check: zone/telco.wtf
 	named-checkzone telco.wtf ./zone/telco.wtf
 
 touch:
