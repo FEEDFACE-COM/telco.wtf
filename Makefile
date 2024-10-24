@@ -92,4 +92,4 @@ check: zone/telco.wtf
 touch:
 	touch ${SPECS} 
 
-.PHONY: help info readme zone cgi clean check touch run all
+.PHONY: help info readme zone cgi clean check touch run all deploy
