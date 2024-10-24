@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.0.7", "2024-05"
+var VERSION, DATE string = "1.1.0", "2024-10"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 700 V1.1.1 (2021-02)
@@ -340,6 +340,65 @@ var telco = []struct{k,v string} {
   {"SMS",        "Short Message Service"},
   {"SS7",        "Signalling System #7"},
   {"ZMRDB",      "Zentrale Master Routing-DatenBank (central master routing database)"},
+
+
+// ETSI TR 103 829 V1.1.1 (2022-08)
+// Lawful Interception (LI)
+// IP address retention and traceability
+
+  {"4G",         "4th Generation Mobile Technology"},
+  {"5G",         "5th Generation Mobile Technology"},
+  {"5GC",        "5G Core Network"},
+  {"AAA",        "Authentication, Authorization, and Accounting"},
+  {"APN",        "Access Point Name"},
+  {"CGNAT",      "Carrier Grade Network Address Translation"},
+  {"CPE",        "Consumer Premises Equipment"},
+  {"CSP",        "Communication Service Provider"},
+  {"DNS",        "Domain Name Server"},
+  {"DHCP",       "Dynamic Host Configuration Protocol"},
+  {"EPC",        "Evolved Packet Core"},
+  {"FTP",        "File Transport Protocol"},
+  {"GB",         "Gigabyte"},
+  {"IANA",       "Internet Assigned Numbers Authority"},
+  {"ICANN",      "Internet Corporation for Assigned Names and Numbers"},
+  {"ID",         "Identifier"},
+  {"IMEI",       "International Mobile Equipment Identifier"},
+  {"IMEISV",     "International Mobile Subscriber Identity and Software Version"},
+  {"IMSI",       "International Mobile Subscriber Identity"},
+  {"IP",         "Internet Protocol"},
+  {"IPv4",       "Internet Protocol version 4"},
+  {"IPv6",       "Internet Protocol version 6"},
+  {"ISP",        "Internet Service Provider"},
+  {"LEA",        "Law Enforcement Agency"},
+  {"LI",         "Lawful Intercept"},
+  {"LSN",        "Large Scale Network Address Translation"},
+  {"MAC",        "Media Access Control"},
+  {"MSISDN",     "Mobile Station International Subscriber Directory Number"},
+  {"NAT",        "Network Address Translation"},
+  {"NIC",        "Network Interface Controller"},
+  {"OTT",        "Over The Top"},
+  {"PAT",        "Port Address Translation"},
+  {"PCF",        "Policy and Charging Function"},
+  {"PCRF",       "Policy and Charging Rules Function"},
+  {"PDU",        "Protocol Data Unit"},
+  {"PGw",        "Packet Gateway"},
+  {"RADIUS",     "Remote Authentication Dial-In User Service"},
+  {"RIR",        "Regional Internet Registry"},
+  {"SBI",        "Service Based Interface"},
+  {"SMF",        "Session Management Function"},
+  {"SPAN",       "Switched Port Analyser"},
+  {"SQL",        "Structured Query Language"},
+  {"SSL",        "Secure Sockets Layer"},
+  {"TB",         "Terabyte"},
+  {"TOR",        "The Onion Router"},
+  {"TR",         "Technical Report"},
+  {"UDM",        "Unified Data Management"},
+  {"UE",         "User Equipment"},
+  {"UPF",        "User Plane Function"},
+  {"URL",        "Uniform Resource Locator"},
+  {"UTC",        "Coordinated Universal Time"},
+  {"VPN",        "Virtual Private Network"},
+  {"Wi-Fi",      "Wireless Fidelity"},
 
 
 // ETSI TR 121 905 V14.1.1 (2017-07)
@@ -1792,6 +1851,55 @@ var telco = []struct{k,v string} {
   {"UAS",        "User Agent Server"},
   {"URN",        "Uniform Resource Name"},
   {"VoLTE",      "Voice over LTE"},
+
+
+// ETSI TS 101 046 V5.0.1 (1997-04)
+// Customized Applications for Mobile networks using Enhanced Logic; CAMEL Application Part (CAP) specification
+
+  {"AC",         "Application Context"},
+  {"ACM",        "Address Complete Message"},
+  {"AE",         "Application Entity"},
+  {"ASE",        "Application Service Element"},
+  {"ASN.1",      "Abstract Syntax Notation One"},
+  {"BCSM",       "Basic Call State Model"},
+  {"CAP",        "CAMEL Application Part"},
+  {"CS1",        "Capability Set 1"},
+  {"CSI",        "CAMEL Subscription Information"},
+  {"DP",         "Detection Point"},
+  {"DSS1",       "Digital Subscriber Signalling System No. One"},
+  {"EDP",        "Event Detection Point"},
+  {"EDP-R",      "Event Detection Point - Request"},
+  {"FE",         "Functional Entity"},
+  {"FSM",        "Finite State Model"},
+  {"gsmSCF",     "GSM SCF"},
+  {"gsmSSF",     "GSM SSF"},
+  {"IAM",        "Initial Address Message"},
+  {"ID",         "Identifier"},
+  {"IN",         "Intelligent Network"},
+  {"INAP",       "Intelligent Network Application Protocol"},
+  {"ISDN",       "Integrated Services Digital Network"},
+  {"ISUP",       "ISDN User Part"},
+  {"MACF",       "Multiple Association Control Function"},
+  {"MTP",        "Message Transfer Part"},
+  {"OCSI",       "Originating CSI"},
+  {"PE",         "Physical Entity"},
+  {"REL",        "Release"},
+  {"ROSE",       "Remote Operations Service Element"},
+  {"SACF",       "Single Association Control Function"},
+  {"SAO",        "Single Association Object"},
+  {"SCCP",       "Signalling Connection Control Part"},
+  {"SCF",        "Service Control Function"},
+  {"SCME",       "SCF Management Entity"},
+  {"SCSM",       "SCF Call State Model"},
+  {"SLP",        "Service Logic Program"},
+  {"SSF",        "Service Switching Function"},
+  {"SSME",       "SSF Management Entity"},
+  {"SSN",        "Sub-System Number"},
+  {"TC",         "Transaction Capabilities"},
+  {"TCAP",       "Transaction Capabilities Application Part"},
+  {"TCSI",       "Terminating CSI"},
+  {"TDP",        "Trigger Detection Point"},
+  {"TDP-R",      "Trigger Detection Point - Request"},
 
 
 // ETSI TS 101 441 V7.8.1 (2002-08)
