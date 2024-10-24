@@ -1,0 +1,49 @@
+;; ETSI TS 101 046 V5.0.1 (1997-04)
+;; Customized Applications for Mobile networks using Enhanced Logic; CAMEL Application Part (CAP) specification
+
+
+
+AC Application Context
+ACM Address Complete Message
+AE Application Entity
+ASE Application Service Element
+ASN.1 Abstract Syntax Notation One
+BCSM Basic Call State Model
+CAP CAMEL Application Part
+CS1 Capability Set 1
+CSI CAMEL Subscription Information
+DP Detection Point
+DSS1 Digital Subscriber Signalling System No. One
+EDP Event Detection Point
+EDP-R Event Detection Point - Request
+FE Functional Entity
+FSM Finite State Model
+gsmSCF GSM SCF
+gsmSSF GSM SSF
+IAM Initial Address Message
+ID Identifier
+IN Intelligent Network
+INAP Intelligent Network Application Protocol
+ISDN Integrated Services Digital Network
+ISUP ISDN User Part
+MACF Multiple Association Control Function
+MTP Message Transfer Part
+OCSI Originating CSI
+PE Physical Entity
+REL Release
+ROSE Remote Operations Service Element
+SACF Single Association Control Function
+SAO Single Association Object
+SCCP Signalling Connection Control Part
+SCF Service Control Function
+SCME SCF Management Entity
+SCSM SCF Call State Model
+SLP Service Logic Program
+SSF Service Switching Function
+SSME SSF Management Entity
+SSN Sub-System Number
+TC Transaction Capabilities
+TCAP Transaction Capabilities Application Part
+TCSI Terminating CSI
+TDP Trigger Detection Point
+TDP-R Trigger Detection Point - Request
