@@ -11,8 +11,8 @@ telco.wtf. IN NS   ns0.feedface.com.
 telco.wtf. IN NS   ns2.feedface.com.
 telco.wtf. IN TXT "WTF, Telco?!"
 
-telco.wtf. IN    A     85.199.135.78
-telco.wtf. IN AAAA 2001:1a50:7:1::78
+telco.wtf. IN    A    85.199.138.233
+
 
 $ORIGIN telco.wtf.
 
