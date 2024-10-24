@@ -1,6 +1,51 @@
 package main;
-var VERSION, DATE string = "1.1.1", "2024-10"
+var VERSION, DATE string = "1.1.2", "2024-10"
 var telco = []struct{k,v string} {
+
+// ETSI ES 203 178 V1.1.1 (2015-02)
+// Functional architecture to support European requirements on emergency caller location determination and transport
+
+  {"ANP",        "Access Network Provider"},
+  {"AP",         "Access Point"},
+  {"CGN",        "Carrier Grade NAT"},
+  {"DHCP",       "Dynamic Host Configuration Protocol"},
+  {"DNS",        "Domain Name Server"},
+  {"EC",         "European Commission"},
+  {"ECSP",       "Emergency Call Service Provider"},
+  {"ESO",        "European Standards Organization"},
+  {"ESRF",       "Emergency Service Routing Function"},
+  {"ESRP",       "Emergency Service Routeing Proxy"},
+  {"ETSI",       "European Telecommunications Standards Institute"},
+  {"FID",        "Flow Identity"},
+  {"FID-N",      "Nth Flow Identity"},
+  {"FQDN",       "Fully Qualified Domain Name"},
+  {"IETF",       "Internet Engineering Task Force"},
+  {"IMS",        "IP Multimedia Subsystem"},
+  {"IP",         "Internet Protocol"},
+  {"ISDN",       "Integrated Services Digital Network"},
+  {"LS",         "Location Server"},
+  {"LS-N",       "Nth Location Server"},
+  {"NAPTR",      "Naming Authority Pointer"},
+  {"NAT",        "Network Address Translation"},
+  {"NGN",        "Next Generation Network"},
+  {"PAT",        "Port and Address Translation"},
+  {"PBX",        "Private Branch Exchange"},
+  {"PCRF",       "Policy and Charging Rules Function"},
+  {"PSAP",       "Public Safety Answering Point"},
+  {"PSP",        "PSAP Service Provider"},
+  {"PSTN",       "Public Switched Telephone Network"},
+  {"RFC",        "Request For Comment"},
+  {"SIP",        "Session Initiation Protocol"},
+  {"TCP",        "Transmission Control Protocol"},
+  {"UDP",        "User Datagram Protocol"},
+  {"UE",         "User Equipment"},
+  {"URI",        "Uniform Resource Identifier"},
+  {"VAE",        "VSP Aggregating Entity"},
+  {"VAP",        "VSP Aggegation Provider"},
+  {"VoIP",       "Voice over Internet Protocol"},
+  {"VPN",        "Virtual Private Network"},
+  {"VSP",        "Voice Service Provider"},
+
 
 // ETSI ES 203 700 V1.1.1 (2021-02)
 // Environmental Engineering (EE); Sustainable power feeding solutions for 5G network
@@ -1794,6 +1839,17 @@ var telco = []struct{k,v string} {
   {"XML",        "eXtensible Markup Language"},
   {"XRES",       "EXpected user RESponse"},
   {"ZC",         "Zone Code"},
+
+
+// ETSI TR 123 975 V18.0.0 (2024-04)
+// Digital cellular telecommunications system (Phase 2+) (GSM);
+// Universal Mobile Telecommunications System (UMTS);
+
+  {"NAPT44",     "Network Address and Port Translation IPv4 to IPv4"},
+  {"NAT44",      "Network Address Translation IPv4 to IPv4"},
+  {"NAPT64",     "Network Address and Port Translation IPv6 to IPv4"},
+  {"NAT64",      "Network Address Translation IPv6 to IPv4"},
+  {"PCC",        "Policy and Charging Control"},
 
 
 // ETSI TR 129 949 V12.0.0 (2015-02)

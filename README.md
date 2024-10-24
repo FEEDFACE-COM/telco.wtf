@@ -45,6 +45,7 @@
 
 ### Sources
 
+  * ETSI ES 203 178
   * ETSI ES 203 700
   * ETSI ETS 300 009-2
   * ETSI GS NFV-REL 001
@@ -53,6 +54,7 @@
   * ETSI TR 102 314-3
   * ETSI TR 103 829
   * ETSI TR 121 905
+  * ETSI TR 123 975
   * ETSI TR 129 949
   * ETSI TS 101 046
   * ETSI TS 101 441
@@ -91,5 +93,5 @@
 
 ---
 
-\# WTF, Telco?! v1.1.0 FEEDFACE.COM 2024-10
+\# WTF, Telco?! v1.1.2 FEEDFACE.COM 2024-10
 

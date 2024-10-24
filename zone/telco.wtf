@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1729742456      ;Serial
+        1729743702      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,53 @@ telco.wtf. IN    A    85.199.138.233
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.1.1 FEEDFACE.COM 2024-10"
+wtf              IN TXT "WTF, Telco?! v1.1.2 FEEDFACE.COM 2024-10"
+
+
+
+;; ETSI ES 203 178 V1.1.1 (2015-02)
+;; Functional architecture to support European requirements on emergency caller location determination and transport
+
+ANP              IN TXT "Access Network Provider"
+AP               IN TXT "Access Point"
+CGN              IN TXT "Carrier Grade NAT"
+DHCP             IN TXT "Dynamic Host Configuration Protocol"
+DNS              IN TXT "Domain Name Server"
+EC               IN TXT "European Commission"
+ECSP             IN TXT "Emergency Call Service Provider"
+ESO              IN TXT "European Standards Organization"
+ESRF             IN TXT "Emergency Service Routing Function"
+ESRP             IN TXT "Emergency Service Routeing Proxy"
+ETSI             IN TXT "European Telecommunications Standards Institute"
+FID              IN TXT "Flow Identity"
+FID-N            IN TXT "Nth Flow Identity"
+FQDN             IN TXT "Fully Qualified Domain Name"
+IETF             IN TXT "Internet Engineering Task Force"
+IMS              IN TXT "IP Multimedia Subsystem"
+IP               IN TXT "Internet Protocol"
+ISDN             IN TXT "Integrated Services Digital Network"
+LS               IN TXT "Location Server"
+LS-N             IN TXT "Nth Location Server"
+NAPTR            IN TXT "Naming Authority Pointer"
+NAT              IN TXT "Network Address Translation"
+NGN              IN TXT "Next Generation Network"
+PAT              IN TXT "Port and Address Translation"
+PBX              IN TXT "Private Branch Exchange"
+PCRF             IN TXT "Policy and Charging Rules Function"
+PSAP             IN TXT "Public Safety Answering Point"
+PSP              IN TXT "PSAP Service Provider"
+PSTN             IN TXT "Public Switched Telephone Network"
+RFC              IN TXT "Request For Comment"
+SIP              IN TXT "Session Initiation Protocol"
+TCP              IN TXT "Transmission Control Protocol"
+UDP              IN TXT "User Datagram Protocol"
+UE               IN TXT "User Equipment"
+URI              IN TXT "Uniform Resource Identifier"
+VAE              IN TXT "VSP Aggregating Entity"
+VAP              IN TXT "VSP Aggegation Provider"
+VoIP             IN TXT "Voice over Internet Protocol"
+VPN              IN TXT "Virtual Private Network"
+VSP              IN TXT "Voice Service Provider"
 
 
 
@@ -1820,6 +1866,18 @@ XMAC             IN TXT "exXpected Message Authentication Code (calculated by th
 XML              IN TXT "eXtensible Markup Language"
 XRES             IN TXT "EXpected user RESponse"
 ZC               IN TXT "Zone Code"
+
+
+
+;; ETSI TR 123 975 V18.0.0 (2024-04)
+;; Digital cellular telecommunications system (Phase 2+) (GSM);
+;; Universal Mobile Telecommunications System (UMTS);
+
+NAPT44           IN TXT "Network Address and Port Translation IPv4 to IPv4"
+NAT44            IN TXT "Network Address Translation IPv4 to IPv4"
+NAPT64           IN TXT "Network Address and Port Translation IPv6 to IPv4"
+NAT64            IN TXT "Network Address Translation IPv6 to IPv4"
+PCC              IN TXT "Policy and Charging Control"
 
 
 
