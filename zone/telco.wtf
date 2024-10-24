@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1717027672      ;Serial
+        1729742456      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -11,13 +11,13 @@ telco.wtf. IN NS   ns0.feedface.com.
 telco.wtf. IN NS   ns2.feedface.com.
 telco.wtf. IN TXT "WTF, Telco?!"
 
-telco.wtf. IN    A     85.199.135.78
-telco.wtf. IN AAAA 2001:1a50:7:1::78
+telco.wtf. IN    A    85.199.138.233
+
 
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.0.7 FEEDFACE.COM 2024-05"
+wtf              IN TXT "WTF, Telco?! v1.1.1 FEEDFACE.COM 2024-10"
 
 
 
@@ -364,6 +364,66 @@ PSTN             IN TXT "Public Switched Telecommunications Networks"
 SMS              IN TXT "Short Message Service"
 SS7              IN TXT "Signalling System #7"
 ZMRDB            IN TXT "Zentrale Master Routing-DatenBank (central master routing database)"
+
+
+
+;; ETSI TR 103 829 V1.1.1 (2022-08)
+;; Lawful Interception (LI)
+;; IP address retention and traceability
+
+4G               IN TXT "4th Generation Mobile Technology"
+5G               IN TXT "5th Generation Mobile Technology"
+5GC              IN TXT "5G Core Network"
+AAA              IN TXT "Authentication, Authorization, and Accounting"
+APN              IN TXT "Access Point Name"
+CGNAT            IN TXT "Carrier Grade Network Address Translation"
+CPE              IN TXT "Consumer Premises Equipment"
+CSP              IN TXT "Communication Service Provider"
+DNS              IN TXT "Domain Name Server"
+DHCP             IN TXT "Dynamic Host Configuration Protocol"
+EPC              IN TXT "Evolved Packet Core"
+FTP              IN TXT "File Transport Protocol"
+GB               IN TXT "Gigabyte"
+IANA             IN TXT "Internet Assigned Numbers Authority"
+ICANN            IN TXT "Internet Corporation for Assigned Names and Numbers"
+ID               IN TXT "Identifier"
+IMEI             IN TXT "International Mobile Equipment Identifier"
+IMEISV           IN TXT "International Mobile Subscriber Identity and Software Version"
+IMSI             IN TXT "International Mobile Subscriber Identity"
+IP               IN TXT "Internet Protocol"
+IPv4             IN TXT "Internet Protocol version 4"
+IPv6             IN TXT "Internet Protocol version 6"
+ISP              IN TXT "Internet Service Provider"
+LEA              IN TXT "Law Enforcement Agency"
+LI               IN TXT "Lawful Intercept"
+LSN              IN TXT "Large Scale Network Address Translation"
+MAC              IN TXT "Media Access Control"
+MSISDN           IN TXT "Mobile Station International Subscriber Directory Number"
+NAT              IN TXT "Network Address Translation"
+NIC              IN TXT "Network Interface Controller"
+OTT              IN TXT "Over The Top"
+PAT              IN TXT "Port Address Translation"
+PCF              IN TXT "Policy and Charging Function"
+PCRF             IN TXT "Policy and Charging Rules Function"
+PDU              IN TXT "Protocol Data Unit"
+PGw              IN TXT "Packet Gateway"
+RADIUS           IN TXT "Remote Authentication Dial-In User Service"
+RIR              IN TXT "Regional Internet Registry"
+SBI              IN TXT "Service Based Interface"
+SMF              IN TXT "Session Management Function"
+SPAN             IN TXT "Switched Port Analyser"
+SQL              IN TXT "Structured Query Language"
+SSL              IN TXT "Secure Sockets Layer"
+TB               IN TXT "Terabyte"
+TOR              IN TXT "The Onion Router"
+TR               IN TXT "Technical Report"
+UDM              IN TXT "Unified Data Management"
+UE               IN TXT "User Equipment"
+UPF              IN TXT "User Plane Function"
+URL              IN TXT "Uniform Resource Locator"
+UTC              IN TXT "Coordinated Universal Time"
+VPN              IN TXT "Virtual Private Network"
+Wi-Fi            IN TXT "Wireless Fidelity"
 
 
 
@@ -1818,6 +1878,56 @@ UAC              IN TXT "User Agent Client"
 UAS              IN TXT "User Agent Server"
 URN              IN TXT "Uniform Resource Name"
 VoLTE            IN TXT "Voice over LTE"
+
+
+
+;; ETSI TS 101 046 V5.0.1 (1997-04)
+;; Customized Applications for Mobile networks using Enhanced Logic; CAMEL Application Part (CAP) specification
+
+AC               IN TXT "Application Context"
+ACM              IN TXT "Address Complete Message"
+AE               IN TXT "Application Entity"
+ASE              IN TXT "Application Service Element"
+ASN.1            IN TXT "Abstract Syntax Notation One"
+BCSM             IN TXT "Basic Call State Model"
+CAP              IN TXT "CAMEL Application Part"
+CS1              IN TXT "Capability Set 1"
+CSI              IN TXT "CAMEL Subscription Information"
+DP               IN TXT "Detection Point"
+DSS1             IN TXT "Digital Subscriber Signalling System No. One"
+EDP              IN TXT "Event Detection Point"
+EDP-R            IN TXT "Event Detection Point - Request"
+FE               IN TXT "Functional Entity"
+FSM              IN TXT "Finite State Model"
+gsmSCF           IN TXT "GSM SCF"
+gsmSSF           IN TXT "GSM SSF"
+IAM              IN TXT "Initial Address Message"
+ID               IN TXT "Identifier"
+IN               IN TXT "Intelligent Network"
+INAP             IN TXT "Intelligent Network Application Protocol"
+ISDN             IN TXT "Integrated Services Digital Network"
+ISUP             IN TXT "ISDN User Part"
+MACF             IN TXT "Multiple Association Control Function"
+MTP              IN TXT "Message Transfer Part"
+OCSI             IN TXT "Originating CSI"
+PE               IN TXT "Physical Entity"
+REL              IN TXT "Release"
+ROSE             IN TXT "Remote Operations Service Element"
+SACF             IN TXT "Single Association Control Function"
+SAO              IN TXT "Single Association Object"
+SCCP             IN TXT "Signalling Connection Control Part"
+SCF              IN TXT "Service Control Function"
+SCME             IN TXT "SCF Management Entity"
+SCSM             IN TXT "SCF Call State Model"
+SLP              IN TXT "Service Logic Program"
+SSF              IN TXT "Service Switching Function"
+SSME             IN TXT "SSF Management Entity"
+SSN              IN TXT "Sub-System Number"
+TC               IN TXT "Transaction Capabilities"
+TCAP             IN TXT "Transaction Capabilities Application Part"
+TCSI             IN TXT "Terminating CSI"
+TDP              IN TXT "Trigger Detection Point"
+TDP-R            IN TXT "Trigger Detection Point - Request"
 
 
 
