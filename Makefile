@@ -33,7 +33,7 @@ zone/telco.wtf: SOA ${SPECS}
     done >> ./zone/telco.wtf
 
 cgi/wtf: wtf.go telco.go
-	CGO_ENABLED=0 go build \
+	CGO_ENABLED=1 go build \
       -ldflags "-linkmode 'external' -extldflags '-static' " \
       -o cgi/wtf wtf.go telco.go
 
