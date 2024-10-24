@@ -1,0 +1,58 @@
+;; ETSI TR 103 829 V1.1.1 (2022-08)
+;; Lawful Interception (LI)
+;; IP address retention and traceability
+
+
+4G 4th Generation Mobile Technology
+5G 5th Generation Mobile Technology
+5GC 5G Core Network
+AAA Authentication, Authorization, and Accounting
+APN Access Point Name
+CGNAT Carrier Grade Network Address Translation
+CPE Consumer Premises Equipment
+CSP Communication Service Provider
+DNS Domain Name Server
+DHCP Dynamic Host Configuration Protocol
+EPC Evolved Packet Core
+FTP File Transport Protocol
+GB Gigabyte
+IANA Internet Assigned Numbers Authority
+ICANN Internet Corporation for Assigned Names and Numbers
+ID Identifier
+IMEI International Mobile Equipment Identifier
+IMEISV International Mobile Subscriber Identity and Software Version
+IMSI International Mobile Subscriber Identity
+IP Internet Protocol
+IPv4 Internet Protocol version 4
+IPv6 Internet Protocol version 6
+ISP Internet Service Provider
+LEA Law Enforcement Agency
+LI Lawful Intercept
+LSN Large Scale Network Address Translation
+MAC Media Access Control
+MSISDN Mobile Station International Subscriber Directory Number
+NAT Network Address Translation
+NIC Network Interface Controller
+OTT Over The Top
+PAT Port Address Translation
+PCF Policy and Charging Function
+PCRF Policy and Charging Rules Function
+PDU Protocol Data Unit
+PGw Packet Gateway
+RADIUS Remote Authentication Dial-In User Service
+RIR Regional Internet Registry
+SBI Service Based Interface
+SMF Session Management Function
+SPAN Switched Port Analyser
+SQL Structured Query Language
+SSL Secure Sockets Layer
+TB Terabyte
+TOR The Onion Router
+TR Technical Report
+UDM Unified Data Management
+UE User Equipment
+UPF User Plane Function
+URL Uniform Resource Locator
+UTC Coordinated Universal Time
+VPN Virtual Private Network
+Wi-Fi Wireless Fidelity
