@@ -1,0 +1,51 @@
+;; ETSI TS 124 604 V13.4.0 (2016-04)
+;; Digital cellular telecommmmunications system (Phase 2+) (GSM);
+;; Universal Mobile Telelecommunications System (UMTS);
+;; LTE;
+;; Communication Diverersion (CDIV) using IP Multimedia (IM) Core Network (CN) subsystem;
+;; Protrotocol specification
+
+ACM Address Complete Message
+ACR Anonymous Communication Rejection
+ANM ANswer Message
+AP Authentication Proxy
+AS Application Server
+CB Communication Barring
+CD Communication Deflection
+CDIV Communication DIVersion
+CFB Communication Forwarding Busy
+CFNL Communication Forwarding on Not Logged-in
+CFNR Communication Forwarding No Reply
+CFNRc Communication Forwarding on subscriber Not Reachable
+CFU Communication Forwarding Unconditional
+CONF CONFerence
+CPG Call ProGress message
+CSCF Call Session Control Function
+ECT Explicit Communication Transfer
+HOLD communication HOLD
+IAM Initial Address Message
+IFC Initial Filter Criteria
+IMS IP Multimedia Subsystem
+IP Internet Protocol
+ISDN Integrated Service Data Network
+ISUP Integrated Service digital network User Part
+MCID Malicious Communication IDentification
+MGCF Media Gateway Control Function
+OCB Outgoing Communication Barring
+ODB Operator Determined Barring
+OIP Originating Identification Presentation
+OIR Originating Identification Restriction
+P-CSCF Proxy-Call Session Control Function
+PSAP Public Safety Answering Point
+PSTN Public Switched Telephone Network
+RTP Real-Time Transport Protocol
+S-CSCF Server-Call Session Control Function
+SDP Session Description Protocol
+SIP Session Initiation Protocol
+TIP Terminating Identification Presentation
+TIR Terminating Identification Restriction
+UA User Agent
+UE User Equipment
+URI Universal Resource Identifier
+XCAP XML Configuration Access Protocol
+XML eXtensible Markup Language

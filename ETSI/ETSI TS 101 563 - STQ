@@ -1,0 +1,49 @@
+;; ETSI TS 101 563 V2.1.1 (2024-07)
+;; Speech and multimedia Transmission Quality (STQ);
+;; IMS/PES/VoLTE/VoNR exchange performance requirements
+
+5GC 5G Core
+AGCF Access Gateway Control Function
+AMR/G Adaptive Multirate
+ASBC Access Session Border Controller
+BSBC Border Session Border Controller
+CST Call Setup Time
+EPC Evolved Packet Core
+FB Fullband
+IAD Integrated Access Device
+IMS IP Multimedia Subsystem
+ISDN Integrated Service Digital Network
+ITU-T ITU Telecommunication Standardization Sector
+LTE Long Term Evolution
+MGW Media Gateway
+MO Mobile Originating
+MOS Mean Opinion Score
+MOS-LQE MOS Listening Quality Estimated
+MOS-LQEF MOS Listening Quality Estimated in FB context
+MOS-LQO MOS Listening Quality Objective
+MOS-LQOF MOS Listening Quality Objective in FB context
+MOS-LQxF MOS Listening Quality Fullband (either from Objective, Subjective or Estimation assessment)
+MSAN Multi Service Access Node
+MT Mobile Terminating
+NB Narrowband
+NGN New Generation Network
+NNI Network Network Interface
+NSA Non-Standalone
+PCM Pulse Code Modulation
+P-CSCF Proxy Call Server Control Function
+PES PSTN/ISDN Emulation Subsystem
+PSTN Public Switched Telephone Network
+QoE Quality of Experience
+RRC Radio Resource Control
+RTP Real Time Protocol
+SBC Session Border Controller
+SDP Session Description Protocol
+SIP Session Initiation Protocol
+TIE Time Interval Error
+UE User Equipment
+UNI User Network Interface
+VGW Voice GateWay
+VoLTE Voice over LTE
+VoNR Voice over New Radio
+WB Wideband
+
