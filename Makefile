@@ -7,7 +7,7 @@ VERSION  ?= $(shell git describe --tags)
 DATE     ?= $(shell date +%Y-%m)
 
 
-all: clean zone cgi
+new: clean telco.go zone/telco.wtf readme
 zone: zone/telco.wtf
 cgi: cgi/wtf
 cli: cli/wtf
