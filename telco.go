@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.1.2", "2024-10"
+var VERSION, DATE string = "1.1.3", "2024-10"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 178 V1.1.1 (2015-02)
@@ -1997,6 +1997,56 @@ var telco = []struct{k,v string} {
   {"VPLMN",      "Visited PLMN"},
 
 
+// ETSI TS 101 563 V2.1.1 (2024-07)
+// Speech and multimedia Transmission Quality (STQ);
+// IMS/PES/VoLTE/VoNR exchange performance requirements
+
+  {"5GC",        "5G Core"},
+  {"AGCF",       "Access Gateway Control Function"},
+  {"AMR/G",      "Adaptive Multirate"},
+  {"ASBC",       "Access Session Border Controller"},
+  {"BSBC",       "Border Session Border Controller"},
+  {"CST",        "Call Setup Time"},
+  {"EPC",        "Evolved Packet Core"},
+  {"FB",         "Fullband"},
+  {"IAD",        "Integrated Access Device"},
+  {"IMS",        "IP Multimedia Subsystem"},
+  {"ISDN",       "Integrated Service Digital Network"},
+  {"ITU-T",      "ITU Telecommunication Standardization Sector"},
+  {"LTE",        "Long Term Evolution"},
+  {"MGW",        "Media Gateway"},
+  {"MO",         "Mobile Originating"},
+  {"MOS",        "Mean Opinion Score"},
+  {"MOS-LQE",    "MOS Listening Quality Estimated"},
+  {"MOS-LQEF",   "MOS Listening Quality Estimated in FB context"},
+  {"MOS-LQO",    "MOS Listening Quality Objective"},
+  {"MOS-LQOF",   "MOS Listening Quality Objective in FB context"},
+  {"MOS-LQxF",   "MOS Listening Quality Fullband (either from Objective, Subjective or Estimation assessment)"},
+  {"MSAN",       "Multi Service Access Node"},
+  {"MT",         "Mobile Terminating"},
+  {"NB",         "Narrowband"},
+  {"NGN",        "New Generation Network"},
+  {"NNI",        "Network Network Interface"},
+  {"NSA",        "Non-Standalone"},
+  {"PCM",        "Pulse Code Modulation"},
+  {"P-CSCF",     "Proxy Call Server Control Function"},
+  {"PES",        "PSTN/ISDN Emulation Subsystem"},
+  {"PSTN",       "Public Switched Telephone Network"},
+  {"QoE",        "Quality of Experience"},
+  {"RRC",        "Radio Resource Control"},
+  {"RTP",        "Real Time Protocol"},
+  {"SBC",        "Session Border Controller"},
+  {"SDP",        "Session Description Protocol"},
+  {"SIP",        "Session Initiation Protocol"},
+  {"TIE",        "Time Interval Error"},
+  {"UE",         "User Equipment"},
+  {"UNI",        "User Network Interface"},
+  {"VGW",        "Voice GateWay"},
+  {"VoLTE",      "Voice over LTE"},
+  {"VoNR",       "Voice over New Radio"},
+  {"WB",         "Wideband"},
+
+
 // ETSI TS 102 113-1 V1.1.2 (2002-09)
 // Network Integration Testing between GSM Phase 2+, ISDN and PSTN
 
@@ -3098,6 +3148,56 @@ var telco = []struct{k,v string} {
   {"TSP",        "Transport Service Provider"},
   {"UE",         "User Equipment"},
   {"URI",        "Uniform Resource Identifie"},
+
+
+// ETSI TS 124 604 V13.4.0 (2016-04)
+// Digital cellular telecommmmunications system (Phase 2+) (GSM);
+// Universal Mobile Telelecommunications System (UMTS);
+
+  {"ACM",        "Address Complete Message"},
+  {"ACR",        "Anonymous Communication Rejection"},
+  {"ANM",        "ANswer Message"},
+  {"AP",         "Authentication Proxy"},
+  {"AS",         "Application Server"},
+  {"CB",         "Communication Barring"},
+  {"CD",         "Communication Deflection"},
+  {"CDIV",       "Communication DIVersion"},
+  {"CFB",        "Communication Forwarding Busy"},
+  {"CFNL",       "Communication Forwarding on Not Logged-in"},
+  {"CFNR",       "Communication Forwarding No Reply"},
+  {"CFNRc",      "Communication Forwarding on subscriber Not Reachable"},
+  {"CFU",        "Communication Forwarding Unconditional"},
+  {"CONF",       "CONFerence"},
+  {"CPG",        "Call ProGress message"},
+  {"CSCF",       "Call Session Control Function"},
+  {"ECT",        "Explicit Communication Transfer"},
+  {"HOLD",       "communication HOLD"},
+  {"IAM",        "Initial Address Message"},
+  {"IFC",        "Initial Filter Criteria"},
+  {"IMS",        "IP Multimedia Subsystem"},
+  {"IP",         "Internet Protocol"},
+  {"ISDN",       "Integrated Service Data Network"},
+  {"ISUP",       "Integrated Service digital network User Part"},
+  {"MCID",       "Malicious Communication IDentification"},
+  {"MGCF",       "Media Gateway Control Function"},
+  {"OCB",        "Outgoing Communication Barring"},
+  {"ODB",        "Operator Determined Barring"},
+  {"OIP",        "Originating Identification Presentation"},
+  {"OIR",        "Originating Identification Restriction"},
+  {"P-CSCF",     "Proxy-Call Session Control Function"},
+  {"PSAP",       "Public Safety Answering Point"},
+  {"PSTN",       "Public Switched Telephone Network"},
+  {"RTP",        "Real-Time Transport Protocol"},
+  {"S-CSCF",     "Server-Call Session Control Function"},
+  {"SDP",        "Session Description Protocol"},
+  {"SIP",        "Session Initiation Protocol"},
+  {"TIP",        "Terminating Identification Presentation"},
+  {"TIR",        "Terminating Identification Restriction"},
+  {"UA",         "User Agent"},
+  {"UE",         "User Equipment"},
+  {"URI",        "Universal Resource Identifier"},
+  {"XCAP",       "XML Configuration Access Protocol"},
+  {"XML",        "eXtensible Markup Language"},
 
 
 // ETSI TS 128 530 V17.2.0 (2022-05)

@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1729743702      ;Serial
+        1730052686      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN    A    85.199.138.233
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.1.2 FEEDFACE.COM 2024-10"
+wtf              IN TXT "WTF, Telco?! v1.1.3 FEEDFACE.COM 2024-10"
 
 
 
@@ -2029,6 +2029,57 @@ VPLMN            IN TXT "Visited PLMN"
 
 
 
+;; ETSI TS 101 563 V2.1.1 (2024-07)
+;; Speech and multimedia Transmission Quality (STQ);
+;; IMS/PES/VoLTE/VoNR exchange performance requirements
+
+5GC              IN TXT "5G Core"
+AGCF             IN TXT "Access Gateway Control Function"
+AMR/G            IN TXT "Adaptive Multirate"
+ASBC             IN TXT "Access Session Border Controller"
+BSBC             IN TXT "Border Session Border Controller"
+CST              IN TXT "Call Setup Time"
+EPC              IN TXT "Evolved Packet Core"
+FB               IN TXT "Fullband"
+IAD              IN TXT "Integrated Access Device"
+IMS              IN TXT "IP Multimedia Subsystem"
+ISDN             IN TXT "Integrated Service Digital Network"
+ITU-T            IN TXT "ITU Telecommunication Standardization Sector"
+LTE              IN TXT "Long Term Evolution"
+MGW              IN TXT "Media Gateway"
+MO               IN TXT "Mobile Originating"
+MOS              IN TXT "Mean Opinion Score"
+MOS-LQE          IN TXT "MOS Listening Quality Estimated"
+MOS-LQEF         IN TXT "MOS Listening Quality Estimated in FB context"
+MOS-LQO          IN TXT "MOS Listening Quality Objective"
+MOS-LQOF         IN TXT "MOS Listening Quality Objective in FB context"
+MOS-LQxF         IN TXT "MOS Listening Quality Fullband (either from Objective, Subjective or Estimation assessment)"
+MSAN             IN TXT "Multi Service Access Node"
+MT               IN TXT "Mobile Terminating"
+NB               IN TXT "Narrowband"
+NGN              IN TXT "New Generation Network"
+NNI              IN TXT "Network Network Interface"
+NSA              IN TXT "Non-Standalone"
+PCM              IN TXT "Pulse Code Modulation"
+P-CSCF           IN TXT "Proxy Call Server Control Function"
+PES              IN TXT "PSTN/ISDN Emulation Subsystem"
+PSTN             IN TXT "Public Switched Telephone Network"
+QoE              IN TXT "Quality of Experience"
+RRC              IN TXT "Radio Resource Control"
+RTP              IN TXT "Real Time Protocol"
+SBC              IN TXT "Session Border Controller"
+SDP              IN TXT "Session Description Protocol"
+SIP              IN TXT "Session Initiation Protocol"
+TIE              IN TXT "Time Interval Error"
+UE               IN TXT "User Equipment"
+UNI              IN TXT "User Network Interface"
+VGW              IN TXT "Voice GateWay"
+VoLTE            IN TXT "Voice over LTE"
+VoNR             IN TXT "Voice over New Radio"
+WB               IN TXT "Wideband"
+
+
+
 ;; ETSI TS 102 113-1 V1.1.2 (2002-09)
 ;; Network Integration Testing between GSM Phase 2+, ISDN and PSTN
 
@@ -3145,6 +3196,57 @@ TE               IN TXT "Terminal Equipment"
 TSP              IN TXT "Transport Service Provider"
 UE               IN TXT "User Equipment"
 URI              IN TXT "Uniform Resource Identifie"
+
+
+
+;; ETSI TS 124 604 V13.4.0 (2016-04)
+;; Digital cellular telecommmmunications system (Phase 2+) (GSM);
+;; Universal Mobile Telelecommunications System (UMTS);
+
+ACM              IN TXT "Address Complete Message"
+ACR              IN TXT "Anonymous Communication Rejection"
+ANM              IN TXT "ANswer Message"
+AP               IN TXT "Authentication Proxy"
+AS               IN TXT "Application Server"
+CB               IN TXT "Communication Barring"
+CD               IN TXT "Communication Deflection"
+CDIV             IN TXT "Communication DIVersion"
+CFB              IN TXT "Communication Forwarding Busy"
+CFNL             IN TXT "Communication Forwarding on Not Logged-in"
+CFNR             IN TXT "Communication Forwarding No Reply"
+CFNRc            IN TXT "Communication Forwarding on subscriber Not Reachable"
+CFU              IN TXT "Communication Forwarding Unconditional"
+CONF             IN TXT "CONFerence"
+CPG              IN TXT "Call ProGress message"
+CSCF             IN TXT "Call Session Control Function"
+ECT              IN TXT "Explicit Communication Transfer"
+HOLD             IN TXT "communication HOLD"
+IAM              IN TXT "Initial Address Message"
+IFC              IN TXT "Initial Filter Criteria"
+IMS              IN TXT "IP Multimedia Subsystem"
+IP               IN TXT "Internet Protocol"
+ISDN             IN TXT "Integrated Service Data Network"
+ISUP             IN TXT "Integrated Service digital network User Part"
+MCID             IN TXT "Malicious Communication IDentification"
+MGCF             IN TXT "Media Gateway Control Function"
+OCB              IN TXT "Outgoing Communication Barring"
+ODB              IN TXT "Operator Determined Barring"
+OIP              IN TXT "Originating Identification Presentation"
+OIR              IN TXT "Originating Identification Restriction"
+P-CSCF           IN TXT "Proxy-Call Session Control Function"
+PSAP             IN TXT "Public Safety Answering Point"
+PSTN             IN TXT "Public Switched Telephone Network"
+RTP              IN TXT "Real-Time Transport Protocol"
+S-CSCF           IN TXT "Server-Call Session Control Function"
+SDP              IN TXT "Session Description Protocol"
+SIP              IN TXT "Session Initiation Protocol"
+TIP              IN TXT "Terminating Identification Presentation"
+TIR              IN TXT "Terminating Identification Restriction"
+UA               IN TXT "User Agent"
+UE               IN TXT "User Equipment"
+URI              IN TXT "Universal Resource Identifier"
+XCAP             IN TXT "XML Configuration Access Protocol"
+XML              IN TXT "eXtensible Markup Language"
 
 
 
