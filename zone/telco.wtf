@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1730054706      ;Serial
+        1730777795      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN    A    85.199.138.233
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.1.4 FEEDFACE.COM 2024-10"
+wtf              IN TXT "WTF, Telco?! v1.1.5 FEEDFACE.COM 2024-11"
 
 
 
@@ -167,6 +167,34 @@ UDTS             IN TXT "UnitData Service message"
 UPU              IN TXT "User Part Unavailable"
 XUDT             IN TXT "Extended UnitData message"
 XUDTS            IN TXT "Extended UnitData Service message"
+
+
+
+;; ETSI GS ISI 001-2 V1.1.2 (2015-06)
+;; Information Security Indicators (ISI); Indicators (INC); Part 2: Guide to select operational indicators
+
+based            IN TXT "on the full set given in part 1"
+CAG              IN TXT "Consensus Audit Guidelines"
+CC               IN TXT "Critical Controls"
+CCMB             IN TXT "Common Criteria Management Board"
+CIA              IN TXT "Confidentiality Integrity Availability"
+COBIT            IN TXT "Control OBjectives for Information and related Technology"
+CVSS             IN TXT "Common Vulnerability Scoring System"
+DS               IN TXT "Deliver and Support"
+ISMS             IN TXT "Information Security Management System"
+ISO              IN TXT "International Organization for Standardization"
+IT               IN TXT "Information Technology"
+ITIL             IN TXT "Information Technology Infrastructure Library"
+ME               IN TXT "Monitor and Evaluate"
+NIST             IN TXT "National Institute of Standards and Technology (USA)"
+NOC              IN TXT "Network Operations Center"
+OE               IN TXT "Operational Environment"
+PDCA             IN TXT "Plan Do Check Act"
+SFR              IN TXT "Security Functional Requirements"
+SIEM             IN TXT "Security Information and Event Management"
+SOC              IN TXT "Security Operations Centre"
+SP               IN TXT "Special Publication"
+TOE              IN TXT "Target Of Evaluation"
 
 
 
@@ -410,6 +438,140 @@ PSTN             IN TXT "Public Switched Telecommunications Networks"
 SMS              IN TXT "Short Message Service"
 SS7              IN TXT "Signalling System #7"
 ZMRDB            IN TXT "Zentrale Master Routing-DatenBank (central master routing database)"
+
+
+
+;; ETSI TR 103 305-1 V4.1.2 (2022-04)
+;; Cyber Security (CYBER);
+;; Critical Security Controls for Effective Cyber Defence; Part 1: The Critical Security Controls
+
+AAA              IN TXT "Authentication, Authorization and Auditing"
+AD               IN TXT "Active Directory"
+AoC              IN TXT "Attestation of Compliance"
+API              IN TXT "Application Programming Interface"
+ATT&CK®         IN TXT "Adversarial Tactics, Techniques and Common Knowledge"
+BEC              IN TXT "Business Email Compromise"
+C2               IN TXT "Command and Control"
+CDM              IN TXT "Continuous Diagnostic and Mitigation"
+CIS              IN TXT "Center for Internet Security"
+COTS             IN TXT "Commercial Off-The-Shelf"
+CPE              IN TXT "Common Platform Enumeration"
+CREST            IN TXT "Council of Registered Security Testers"
+CSA              IN TXT "Cloud Security Alliance"
+CSC              IN TXT "Critical Security Control or Capability"
+CSP              IN TXT "Cloud Service Provider"
+DBIR             IN TXT "Data Breach Investigations Report"
+DHCP             IN TXT "Dynamic Host Configuration Protocol"
+DLP              IN TXT "Data Loss Prevention"
+DMARC            IN TXT "Domain-based Message Authentication, Reporting and Conformance"
+DMZ              IN TXT "Demilitarized Zone"
+DNS              IN TXT "Domain Name System"
+DPI              IN TXT "Deep Packet Inspection"
+EDR              IN TXT "Endpoint Detection and Response"
+EOL              IN TXT "End-Of-Life"
+HTTP             IN TXT "Hypertext Transfer Protocol"
+HTTPS            IN TXT "Hypertext Transfer Protocol Secure"
+IaaS             IN TXT "Infrastructure as a Service"
+IAM              IN TXT "Identity and Access Management"
+ICT              IN TXT "Information and Communication Technology"
+IDS              IN TXT "Intrusion Detection System"
+IG               IN TXT "Implementation Group"
+IOC              IN TXT "Indicator Of Compromise"
+IoT              IN TXT "Internet of Things"
+IP               IN TXT "Internet Protocol"
+IPS              IN TXT "Intrusion Prevention System"
+ISAC             IN TXT "Information Sharing and Analysis Center"
+ISO              IN TXT "International Organization for Standardization"
+IT               IN TXT "Information Technology"
+LotL             IN TXT "Living off the Land"
+MDM              IN TXT "Mobile Device Management"
+MFA              IN TXT "Multi-Factor Authentication"
+MS-ISAC          IN TXT "Multi-State Information Sharing and Analysis Center"
+NaaS             IN TXT "Network as a Service"
+NIDS             IN TXT "Network Intrusion Detection System"
+NIST             IN TXT "National Institute of Standards and Technology"
+OS               IN TXT "Operating System"
+OSS              IN TXT "Open Source Software"
+OWASP            IN TXT "Open Web Application Security Project"
+PaaS             IN TXT "Platform as a Service"
+PAM              IN TXT "Privileged Access Management"
+PCI              IN TXT "Payment Card Industry"
+SaaS             IN TXT "Software as a Service"
+SAFECode         IN TXT "Software Assurance Forum for Excellence in Code"
+SCADA            IN TXT "Supervisory Control and Data Acquisition"
+SCAP             IN TXT "Security Content Automation Program"
+SIEM             IN TXT "Security Information Event Management or Security Incident Event Management"
+SMS              IN TXT "Short Messaging Service"
+SOC              IN TXT "Security Operations Center"
+SOC              IN TXT "2 Service Organization Control 2"
+SPAM             IN TXT "Something Posing As Mail"
+SPF              IN TXT "Sender Policy Framework"
+SQL              IN TXT "Structured Query Language"
+SSH              IN TXT "Secure Shell"
+SSO              IN TXT "Single Sign-On"
+Telnet           IN TXT "Teletype Network"
+TLS              IN TXT "Transport Layer Security"
+TTPs             IN TXT "Tactics, Techniques and Procedures"
+URL              IN TXT "Uniform Resource Locator"
+USB              IN TXT "Universal Serial Bus"
+VPN              IN TXT "Virtual Private Network"
+WPA2             IN TXT "Wi-Fi Protected Access 2"
+
+
+
+;; ETSI TR 103 331 V1.2.1 (2019-09)
+;; CYBER;
+;; Structured threat information sharing
+
+ACDC             IN TXT "Advanced Cyber Defence Centre"
+AS               IN TXT "Autonomous System"
+ATT&CK™        IN TXT "Adversarial Tactics, Techniques and Common Knowledge"
+CERT             IN TXT "Computer Emergency Response Team"
+CIF              IN TXT "Collection Intelligence Framework"
+COBIT            IN TXT "Control OBjectives for Information and related Technology"
+CPNI             IN TXT "Centre for the Protection of National Infrastructure"
+CSAF             IN TXT "Common Security Advisory Framework"
+CSIRT            IN TXT "Computer Security Incidence Response Team"
+CTI              IN TXT "Cyber Threat Intelligence"
+CVRF             IN TXT "Common Vulnerability Reporting Framework"
+CYBEX            IN TXT "Cybersecurity Information Exchange"
+CybOX™         IN TXT "Cyber Observable Expression"
+DHS              IN TXT "Department of Homeland Security"
+DoS              IN TXT "Denial of Service"
+DTCC             IN TXT "Depository Trust & Clearing Corporation"
+ENISA            IN TXT "European Union Agency for Network and Information Security"
+EU               IN TXT "European Union"
+FIRST            IN TXT "Forum of Incident Response and Security Teams"
+FS-ISAC          IN TXT "Financial Services ISAC"
+GS               IN TXT "Group Specification"
+HTTP             IN TXT "Hypertext Transfer Protocol"
+IDS              IN TXT "Identification Detection System"
+IETF             IN TXT "Internet Engineering Task Force"
+INC              IN TXT "INdiCators"
+INCH             IN TXT "INCident Handling"
+IODEF            IN TXT "Incident Object Description Exchange Format"
+IP               IN TXT "Internet Protocol"
+ISAC             IN TXT "Information Sharing and Analysis Center"
+ISACA            IN TXT "Information Systems Audit and Control Association"
+ISG              IN TXT "Industry Specification Group"
+ISI              IN TXT "Information Security Indicators"
+IT               IN TXT "Information Technology"
+ITU-T            IN TXT "International Telecommunication Union Telecommunication Standardization"
+JSON             IN TXT "JavaScript™ Object Notation"
+KPSI             IN TXT "Key Performance Security Indicators"
+MAEC™          IN TXT "Malware attribute enumeration and characterization"
+MILE             IN TXT "Managed Incident Lightweight Exchange"
+NIS              IN TXT "Network and Information Security"
+OASIS            IN TXT "Organization for the Advancement of Structured Information Standards"
+OMG              IN TXT "Object Management Group"
+OSSIM            IN TXT "Open Source Security Information Management"
+OTX              IN TXT "Open Threat eXchange"
+RID              IN TXT "Real-time Inter-network Defense"
+STIX™          IN TXT "Structured Threat Information Expression"
+TAXII™         IN TXT "Trusted Automated Exchange of Indicator Information"
+TTP              IN TXT "Tactics, Techniques and Procedures"
+US               IN TXT "United States"
+VERIS            IN TXT "Vocabulary for Event Recording and Incident Sharing"
 
 
 
@@ -2426,6 +2588,28 @@ PTP              IN TXT "Precision Time Protocol"
 SYNCE            IN TXT "Synchronous Ethernet"
 T-BC             IN TXT "Telecom Boundary Clock"
 T-GM             IN TXT "Telecom Grand Master"
+
+
+
+;; ETSI TS 103 994-1 V1.1.1 (2024-03)
+;; Cyber Security (CYBER);
+;; Privileged Access Workstations; Part 1: Physical Device
+
+AV               IN TXT "Anti-virus"
+CA               IN TXT "Certificate Authority"
+CIS              IN TXT "Center for Internet Security"
+EDR              IN TXT "Endpoint Detection and Response Software"
+MFA              IN TXT "Multi-Factor Authentication"
+NAT              IN TXT "Network Address Translation"
+OEM              IN TXT "Original Equipment Manufacturer"
+OS               IN TXT "Operating System"
+PAW              IN TXT "Privileged Access Workstation"
+PIN              IN TXT "Personal Identification Number"
+SCF              IN TXT "Security Critical Function"
+SIEM             IN TXT "Security Information and Event Management"
+TPM              IN TXT "Trusted Platform Module"
+UEFI             IN TXT "Unified Extensible Firmware Interface"
+XSS              IN TXT "Cross Site Scripting"
 
 
 

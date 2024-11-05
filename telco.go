@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.1.4", "2024-10"
+var VERSION, DATE string = "1.1.5", "2024-11"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 178 V1.1.1 (2015-02)
@@ -146,6 +146,33 @@ var telco = []struct{k,v string} {
   {"UPU",        "User Part Unavailable"},
   {"XUDT",       "Extended UnitData message"},
   {"XUDTS",      "Extended UnitData Service message"},
+
+
+// ETSI GS ISI 001-2 V1.1.2 (2015-06)
+// Information Security Indicators (ISI); Indicators (INC); Part 2: Guide to select operational indicators
+
+  {"based",      "on the full set given in part 1"},
+  {"CAG",        "Consensus Audit Guidelines"},
+  {"CC",         "Critical Controls"},
+  {"CCMB",       "Common Criteria Management Board"},
+  {"CIA",        "Confidentiality Integrity Availability"},
+  {"COBIT",      "Control OBjectives for Information and related Technology"},
+  {"CVSS",       "Common Vulnerability Scoring System"},
+  {"DS",         "Deliver and Support"},
+  {"ISMS",       "Information Security Management System"},
+  {"ISO",        "International Organization for Standardization"},
+  {"IT",         "Information Technology"},
+  {"ITIL",       "Information Technology Infrastructure Library"},
+  {"ME",         "Monitor and Evaluate"},
+  {"NIST",       "National Institute of Standards and Technology (USA)"},
+  {"NOC",        "Network Operations Center"},
+  {"OE",         "Operational Environment"},
+  {"PDCA",       "Plan Do Check Act"},
+  {"SFR",        "Security Functional Requirements"},
+  {"SIEM",       "Security Information and Event Management"},
+  {"SOC",        "Security Operations Centre"},
+  {"SP",         "Special Publication"},
+  {"TOE",        "Target Of Evaluation"},
 
 
 // ETSI GS NFV-REL 001 V1.1.1 (2015-01)
@@ -385,6 +412,138 @@ var telco = []struct{k,v string} {
   {"SMS",        "Short Message Service"},
   {"SS7",        "Signalling System #7"},
   {"ZMRDB",      "Zentrale Master Routing-DatenBank (central master routing database)"},
+
+
+// ETSI TR 103 305-1 V4.1.2 (2022-04)
+// Cyber Security (CYBER);
+// Critical Security Controls for Effective Cyber Defence; Part 1: The Critical Security Controls
+
+  {"AAA",        "Authentication, Authorization and Auditing"},
+  {"AD",         "Active Directory"},
+  {"AoC",        "Attestation of Compliance"},
+  {"API",        "Application Programming Interface"},
+  {"ATT&CK®",   "Adversarial Tactics, Techniques and Common Knowledge"},
+  {"BEC",        "Business Email Compromise"},
+  {"C2",         "Command and Control"},
+  {"CDM",        "Continuous Diagnostic and Mitigation"},
+  {"CIS",        "Center for Internet Security"},
+  {"COTS",       "Commercial Off-The-Shelf"},
+  {"CPE",        "Common Platform Enumeration"},
+  {"CREST",      "Council of Registered Security Testers"},
+  {"CSA",        "Cloud Security Alliance"},
+  {"CSC",        "Critical Security Control or Capability"},
+  {"CSP",        "Cloud Service Provider"},
+  {"DBIR",       "Data Breach Investigations Report"},
+  {"DHCP",       "Dynamic Host Configuration Protocol"},
+  {"DLP",        "Data Loss Prevention"},
+  {"DMARC",      "Domain-based Message Authentication, Reporting and Conformance"},
+  {"DMZ",        "Demilitarized Zone"},
+  {"DNS",        "Domain Name System"},
+  {"DPI",        "Deep Packet Inspection"},
+  {"EDR",        "Endpoint Detection and Response"},
+  {"EOL",        "End-Of-Life"},
+  {"HTTP",       "Hypertext Transfer Protocol"},
+  {"HTTPS",      "Hypertext Transfer Protocol Secure"},
+  {"IaaS",       "Infrastructure as a Service"},
+  {"IAM",        "Identity and Access Management"},
+  {"ICT",        "Information and Communication Technology"},
+  {"IDS",        "Intrusion Detection System"},
+  {"IG",         "Implementation Group"},
+  {"IOC",        "Indicator Of Compromise"},
+  {"IoT",        "Internet of Things"},
+  {"IP",         "Internet Protocol"},
+  {"IPS",        "Intrusion Prevention System"},
+  {"ISAC",       "Information Sharing and Analysis Center"},
+  {"ISO",        "International Organization for Standardization"},
+  {"IT",         "Information Technology"},
+  {"LotL",       "Living off the Land"},
+  {"MDM",        "Mobile Device Management"},
+  {"MFA",        "Multi-Factor Authentication"},
+  {"MS-ISAC",    "Multi-State Information Sharing and Analysis Center"},
+  {"NaaS",       "Network as a Service"},
+  {"NIDS",       "Network Intrusion Detection System"},
+  {"NIST",       "National Institute of Standards and Technology"},
+  {"OS",         "Operating System"},
+  {"OSS",        "Open Source Software"},
+  {"OWASP",      "Open Web Application Security Project"},
+  {"PaaS",       "Platform as a Service"},
+  {"PAM",        "Privileged Access Management"},
+  {"PCI",        "Payment Card Industry"},
+  {"SaaS",       "Software as a Service"},
+  {"SAFECode",   "Software Assurance Forum for Excellence in Code"},
+  {"SCADA",      "Supervisory Control and Data Acquisition"},
+  {"SCAP",       "Security Content Automation Program"},
+  {"SIEM",       "Security Information Event Management or Security Incident Event Management"},
+  {"SMS",        "Short Messaging Service"},
+  {"SOC",        "Security Operations Center"},
+  {"SOC",        "2 Service Organization Control 2"},
+  {"SPAM",       "Something Posing As Mail"},
+  {"SPF",        "Sender Policy Framework"},
+  {"SQL",        "Structured Query Language"},
+  {"SSH",        "Secure Shell"},
+  {"SSO",        "Single Sign-On"},
+  {"Telnet",     "Teletype Network"},
+  {"TLS",        "Transport Layer Security"},
+  {"TTPs",       "Tactics, Techniques and Procedures"},
+  {"URL",        "Uniform Resource Locator"},
+  {"USB",        "Universal Serial Bus"},
+  {"VPN",        "Virtual Private Network"},
+  {"WPA2",       "Wi-Fi Protected Access 2"},
+
+
+// ETSI TR 103 331 V1.2.1 (2019-09)
+// CYBER;
+// Structured threat information sharing
+
+  {"ACDC",       "Advanced Cyber Defence Centre"},
+  {"AS",         "Autonomous System"},
+  {"ATT&CK™",  "Adversarial Tactics, Techniques and Common Knowledge"},
+  {"CERT",       "Computer Emergency Response Team"},
+  {"CIF",        "Collection Intelligence Framework"},
+  {"COBIT",      "Control OBjectives for Information and related Technology"},
+  {"CPNI",       "Centre for the Protection of National Infrastructure"},
+  {"CSAF",       "Common Security Advisory Framework"},
+  {"CSIRT",      "Computer Security Incidence Response Team"},
+  {"CTI",        "Cyber Threat Intelligence"},
+  {"CVRF",       "Common Vulnerability Reporting Framework"},
+  {"CYBEX",      "Cybersecurity Information Exchange"},
+  {"CybOX™",   "Cyber Observable Expression"},
+  {"DHS",        "Department of Homeland Security"},
+  {"DoS",        "Denial of Service"},
+  {"DTCC",       "Depository Trust & Clearing Corporation"},
+  {"ENISA",      "European Union Agency for Network and Information Security"},
+  {"EU",         "European Union"},
+  {"FIRST",      "Forum of Incident Response and Security Teams"},
+  {"FS-ISAC",    "Financial Services ISAC"},
+  {"GS",         "Group Specification"},
+  {"HTTP",       "Hypertext Transfer Protocol"},
+  {"IDS",        "Identification Detection System"},
+  {"IETF",       "Internet Engineering Task Force"},
+  {"INC",        "INdiCators"},
+  {"INCH",       "INCident Handling"},
+  {"IODEF",      "Incident Object Description Exchange Format"},
+  {"IP",         "Internet Protocol"},
+  {"ISAC",       "Information Sharing and Analysis Center"},
+  {"ISACA",      "Information Systems Audit and Control Association"},
+  {"ISG",        "Industry Specification Group"},
+  {"ISI",        "Information Security Indicators"},
+  {"IT",         "Information Technology"},
+  {"ITU-T",      "International Telecommunication Union Telecommunication Standardization"},
+  {"JSON",       "JavaScript™ Object Notation"},
+  {"KPSI",       "Key Performance Security Indicators"},
+  {"MAEC™",    "Malware attribute enumeration and characterization"},
+  {"MILE",       "Managed Incident Lightweight Exchange"},
+  {"NIS",        "Network and Information Security"},
+  {"OASIS",      "Organization for the Advancement of Structured Information Standards"},
+  {"OMG",        "Object Management Group"},
+  {"OSSIM",      "Open Source Security Information Management"},
+  {"OTX",        "Open Threat eXchange"},
+  {"RID",        "Real-time Inter-network Defense"},
+  {"STIX™",    "Structured Threat Information Expression"},
+  {"TAXII™",   "Trusted Automated Exchange of Indicator Information"},
+  {"TTP",        "Tactics, Techniques and Procedures"},
+  {"US",         "United States"},
+  {"VERIS",      "Vocabulary for Event Recording and Incident Sharing"},
 
 
 // ETSI TR 103 829 V1.1.1 (2022-08)
@@ -2389,6 +2548,27 @@ var telco = []struct{k,v string} {
   {"SYNCE",      "Synchronous Ethernet"},
   {"T-BC",       "Telecom Boundary Clock"},
   {"T-GM",       "Telecom Grand Master"},
+
+
+// ETSI TS 103 994-1 V1.1.1 (2024-03)
+// Cyber Security (CYBER);
+// Privileged Access Workstations; Part 1: Physical Device
+
+  {"AV",         "Anti-virus"},
+  {"CA",         "Certificate Authority"},
+  {"CIS",        "Center for Internet Security"},
+  {"EDR",        "Endpoint Detection and Response Software"},
+  {"MFA",        "Multi-Factor Authentication"},
+  {"NAT",        "Network Address Translation"},
+  {"OEM",        "Original Equipment Manufacturer"},
+  {"OS",         "Operating System"},
+  {"PAW",        "Privileged Access Workstation"},
+  {"PIN",        "Personal Identification Number"},
+  {"SCF",        "Security Critical Function"},
+  {"SIEM",       "Security Information and Event Management"},
+  {"TPM",        "Trusted Platform Module"},
+  {"UEFI",       "Unified Extensible Firmware Interface"},
+  {"XSS",        "Cross Site Scripting"},
 
 
 // ETSI TS 110 174-2-2 V1.2.1 (2020-11)
