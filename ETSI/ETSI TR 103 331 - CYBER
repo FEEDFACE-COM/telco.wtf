@@ -1,0 +1,54 @@
+;; ETSI TR 103 331 V1.2.1 (2019-09)
+;; CYBER;
+;; Structured threat information sharing
+
+
+ACDC Advanced Cyber Defence Centre
+AS Autonomous System
+ATT&CK™ Adversarial Tactics, Techniques and Common Knowledge
+CERT Computer Emergency Response Team
+CIF Collection Intelligence Framework
+COBIT Control OBjectives for Information and related Technology
+CPNI Centre for the Protection of National Infrastructure
+CSAF Common Security Advisory Framework
+CSIRT Computer Security Incidence Response Team
+CTI Cyber Threat Intelligence
+CVRF Common Vulnerability Reporting Framework
+CYBEX Cybersecurity Information Exchange
+CybOX™ Cyber Observable Expression
+DHS Department of Homeland Security
+DoS Denial of Service
+DTCC Depository Trust & Clearing Corporation
+ENISA European Union Agency for Network and Information Security
+EU European Union
+FIRST Forum of Incident Response and Security Teams
+FS-ISAC Financial Services ISAC
+GS Group Specification
+HTTP Hypertext Transfer Protocol
+IDS Identification Detection System
+IETF Internet Engineering Task Force
+INC INdiCators
+INCH INCident Handling
+IODEF Incident Object Description Exchange Format
+IP Internet Protocol
+ISAC Information Sharing and Analysis Center
+ISACA Information Systems Audit and Control Association
+ISG Industry Specification Group
+ISI Information Security Indicators
+IT Information Technology
+ITU-T International Telecommunication Union Telecommunication Standardization
+JSON JavaScript™ Object Notation
+KPSI Key Performance Security Indicators
+MAEC™ Malware attribute enumeration and characterization
+MILE Managed Incident Lightweight Exchange
+NIS Network and Information Security
+OASIS Organization for the Advancement of Structured Information Standards
+OMG Object Management Group
+OSSIM Open Source Security Information Management
+OTX Open Threat eXchange
+RID Real-time Inter-network Defense
+STIX™ Structured Threat Information Expression
+TAXII™ Trusted Automated Exchange of Indicator Information
+TTP Tactics, Techniques and Procedures
+US United States
+VERIS Vocabulary for Event Recording and Incident Sharing

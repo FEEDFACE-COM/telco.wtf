@@ -1,0 +1,20 @@
+;; ETSI TS 103 994-1 V1.1.1 (2024-03)
+;; Cyber Security (CYBER);
+;; Privileged Access Workstations; Part 1: Physical Device
+
+
+AV Anti-virus
+CA Certificate Authority
+CIS Center for Internet Security
+EDR Endpoint Detection and Response Software
+MFA Multi-Factor Authentication
+NAT Network Address Translation
+OEM Original Equipment Manufacturer
+OS Operating System
+PAW Privileged Access Workstation
+PIN Personal Identification Number
+SCF Security Critical Function
+SIEM Security Information and Event Management
+TPM Trusted Platform Module
+UEFI Unified Extensible Firmware Interface
+XSS Cross Site Scripting
