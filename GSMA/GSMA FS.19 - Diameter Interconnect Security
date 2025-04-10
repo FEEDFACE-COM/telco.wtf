@@ -1,0 +1,125 @@
+;; GSMA Official Document FS.19
+;; Diameter Interconnect Security
+;; Version 9.1 - 21 April 2023
+
+
+3GPP 3rd Generation Partnership Project
+HAF Home Application Function
+VAF Visited Application Function
+AIR Authentication Information Request
+AIA Authentication Information Answer
+APN Access Point Network
+AS Application Server
+AVP Attribute Value Pair
+CAMEL Customised Applications for Mobile network Enhanced Logic
+CC Command Code
+CdPA Called Party Address
+CEA Capability Exchange Answer
+CER Capability Exchange Request
+CGF Charging Gateway Function
+CgPA Calling Party Address
+CLR Cancel Location Request
+CLA Cancel Location Answer
+DEA Diameter Edge Agent
+DESS Diameter End-to-end Signalling Security
+DNS Domain Name System
+DRA Diameter Routing Agent
+DSR Delete Subscriber Data Request
+DSA Delete Subscriber Data Answer
+DTLS Datagram Transport Layer Security
+DPR Disconnect Peer Request
+DPA Disconnect Peer Answer
+DWR Device Watchdog Request
+DWA Device Watchdog Answer
+EMS Element Management System
+EPC Evolved Packet Core
+EPS Evolved Packet System
+GDPR General Data Protection Regulation
+GMLC Gateway Mobile Location Centre
+GRX GPRS Roaming Exchange
+GSMA GSM Association
+GSU Granted Service Unit
+GT Global Title
+HPMN Home-PMN
+HSS Home Subscriber Server
+IANA Internet Assigned Numbers Authority
+ID Identity
+IDR Insert Subscriber Data Request
+IDA Insert Subscriber Data Answer
+IETF Internet Engineering Task Force
+IMS Internet Multimedia Subsystem
+IMSI International Mobile Subscriber Identity
+IoT Internet of Things
+IP-CAN Internet Protocol Connectivity Access Network
+IPFIX Internet Protocol Flow Information Export
+IP-SM-GW IP Short Message Gateway
+IPX Internetwork Packet Exchange
+IWF Interworking Function
+LCS Location based Service
+LTE Long Term Evolution
+MAP Message Application Protocol
+MITM Man in the Middle
+MME Mobility Management Entity
+MMI Man Machine Interface
+MNO Mobile Network Operator
+MO Mobile Originated
+MRN Mobile Roaming Number
+MSC Mobile Switching Centre
+MSIN Mobile Station Identification Number
+MT Mobile Terminated
+NAI Network Access Identifier
+NAPTR Naming Authority Pointer
+NAS Non-Access Stratum protocol
+NDS Network Domain Security
+NOR Notify Request
+NOA Notify Answer
+OCS Online Charging Centre
+OFCS Offline Charging System
+OSS Operations Support Systems
+PCC Policy and Charging Control
+HPCRF Home Policy and Charging Rule Function
+VPCRF Visited Policy and Charging Rule Function
+P-GW Packet Data Network Gateway
+PLR Provide Location Request
+PMN Public Mobile Network
+POI Point of Interconnect
+PRD Permanent Reference Document
+PRD Permanent Reference Document
+ProSe Proximity Services
+PS Packet Switched
+PUR Purge UE Request
+PUA Purge UE Answer
+QoS Quality of Service
+RFC Request for Comments
+RIA LCS Routing Information Answer
+RIR LCS Routing Information Request
+RSR Reset Request
+RSA Reset Answer
+S1AP S1 Application Protocol
+SCA Service Centre Address
+SCCP Signalling Connection Control Part
+SCTP Stream Control Transmission Protocol
+SGSN Serving GPRS Support Node
+SM Short Message
+SMS-GMSC Short Message Service Gateway Mobile Switching Centre
+SMS-IWMSC Short Message Service Interworking Mobile Switching Centre
+S-NAPTR Straightforward-Naming Authority Pointer (S-NAPTR)
+SP Service Provider
+SRI Send Routing Information
+SRR Send Routing Information for SM Request
+SRA Send Routing Information for SM Answer
+SRV Service Record
+SS7 Signalling System No. 7
+TCP Transmission Control Protocol
+TS Technical Specification
+TTL Time to Live
+UDR User Data Request
+UE User Equipment
+ULR Update Location Request
+ULA Update Location Answer
+UPER Unaligned Packed Encoding Representation
+USSD Unstructured Supplementary Service Data
+VAS Value-Added Services
+VIP Very Important Person
+VLR Visitor Location Register
+VPMN Visited-PMN

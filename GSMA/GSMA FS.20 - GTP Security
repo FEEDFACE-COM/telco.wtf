@@ -1,0 +1,68 @@
+;; GSM Associatin Official Document FS.20
+;; GPRS Tunnelling Protocol (GTP) Security
+;; Version 3.0 - 18 February 2019
+
+
+3GPP 3rd Generation Partnership Project
+APN Access Point Name
+BSC Base Station Controller
+CGF Charging Gateway Function
+CHAP Challenge Handshake Authentication Protocol
+DoS Denial of Service
+DPI Deep Packet Inspection
+EPC Evolved Packet Core
+FIB Forwarding Information Base
+GGSN Gateway GPRS Support Node
+GPRS General Packet Radio Service
+GSMA GSM Association
+GRX GPRS Exchange
+GTP GPRS Tunnelling Protocol
+GTP-C GPRS Tunnelling Protocol Control Plane
+GTP-U GPRS Tunnelling Protocol User Plane
+GTP’ GTP Prime
+GUTI Globally Unique Temporary Identifier
+HPLMN Home Public Land Mobile Network
+HLR Home Location Register
+HSS Home Subscriber Server
+IANA Internet Assigned Numbers Authority
+IDS Intrusion Detection System
+IE Information Element
+IMSI International Mobile Subscriber Identity
+IPX Internet Protocol Exchange
+LAG Link Aggregation Group
+LTE Long Term Evolution
+MAC Media Access Control
+MCC Mobile Country Code
+MME Mobility Management Entity
+MNC Mobile Network Code
+MNO Mobile Network Operator
+MPLS Multiprotocol Layer Switching
+MS Mobile Station
+NE Network Element
+OSPF Open Shortest Path First
+PAP Password Authentication Protocol
+PGW Packet Data Network (PDN) Gateway
+PLMN Public Land Mobile Network
+PPP Point to Point Protocol
+PRD Permanent Reference Document
+RAEX Roaming Exchange
+RAN Radio Access Network
+RAT Radio Access Technology
+RNC Radio Network Controller
+SCTP Stream Control Transmission Protocol
+SGSN Serving GPRS Support Node
+SGW Serving Gateway
+SIGTRAN Signalling Transport
+SSH Secure Shell
+TEID GTP Tunnel Endpoint Identifier
+TCP Transport Control Protocol
+TLV Type-Length-Value
+TMSI Temporary Mobile Subscriber Identity
+UDP User Datagram Protocol
+UE User Equipment
+ULI User Location Information
+UMTS Universal Mobile Telecommunications System
+VLAN Virtual Local Area Network
+VPLMN Visited Public Land Mobile Network
+VPN Virtual Private Network
+VRF Virtual Routing and Forwarding

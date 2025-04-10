@@ -1,7 +1,7 @@
 
 
 
-SPECS    ?= $(shell find ETSI -type f | sort | sed -e 's/ /\\ /g')
+SPECS    ?= $(shell find ETSI GSMA -type f | sort | sed -e 's/ /\\ /g')
 SERIAL   ?= $(shell date +%s)
 VERSION  ?= $(shell git describe --tags)
 DATE     ?= $(shell date +%Y-%m)

@@ -1,0 +1,85 @@
+;; GSMA Official Document FS.11
+;; SS7 Interconnect Security Monitoring and Firewall Guidelines
+;; Version 7.1 - 21 April 2023
+
+
+AC Application Context
+CAMEL Customised Applications for Mobile networks Enhanced Logic
+CAP CAMEL Application Part
+CCBS Call Completion to Busy Subscriber
+CdPA SCCP Called Party Address
+CgPA SCCP Calling Party Address
+CUG Closed User Group
+DAUD Destination State Audit
+DAVA Destination Available
+DDOS Distributed Denial-Of-Service
+DoS Denial of Service
+DTID Destination Transaction ID
+DUNA Destination Unavailable
+E.164 ITU Recommendation: List of Assigned Country Codes
+E.214 ITU Recommendation: Mobile Network Codes for the International Identification Plan for Public Networks and subscriptions
+FSM ForwardShortMessage
+GGSN Gateway GPRS Support Node
+GPRS General Packet Radio Service
+gsmSCF GSM Service Control Function
+GT Global Title
+HLR Home Location Register
+HPLMN Home Public Land Mobile Network
+IDP Initial Detection Point
+IDS Intrusion Detection System
+IPS Intrusion Protection System
+IETF Internet Engineering Task Force
+IMSI International Mobile Subscriber Identity
+IPFIX IP Flow Information Export
+IPSM GW Internet Protocol Short Message Gateway
+IPX Internet Protocol Exchange
+KPI Key Performance Indicator
+LBS Location Based Services
+LCS Location Services
+LS Link Set
+M3UA MTP Level 3 User Adaptation
+MAP Mobile Application Part
+MGT Mobile Global Title
+MGW Media Gateway
+MNO Mobile Network Operator
+MSC Mobile Switching Centre
+MSISDN Mobile Subscriber
+MT Mobile Terminated
+MTP Message Transfer Part
+MVNO Mobile Virtual Network Operator
+NAI Nature of Address Identifier
+NPI Numbering Plan Indicator
+O&M Operations and Maintenance
+OA-MSISDN Originating Address MSISDN
+OPC Originating Point Code
+OpCode Operation Code
+OSI Open Systems Interconnection
+OTID Originating Transaction ID
+PDU Protocol Data Units
+PLMN Public Land Mobile Network
+PRD Permanent Reference Document
+SAI Send Authentication Information
+SCCP Signalling Connection Control Part
+SCF Service Control Function
+SCMG SCCP Management
+SCP Service Control Point
+SCTP Stream Control Transmission Protocol
+SIGTRAN Signalling Transport
+SGSN Serving GPRS Support Node
+SM-RP-OA Short Message Originator Address
+SMS Short Message Service
+SMSC Short Message Service Centre
+SMS-FW SMS Firewall
+SoR Steering of Roaming
+SPAN Services and Protocols for Advanced Networks
+SS7 Signalling System 7
+SSN SubSystem Number
+STP Signal Transfer Point
+TC Transaction Capabilities
+TCAP Transaction Capabilities Application Part
+TDM Time-Division Multiplexing
+TSN Transmission Sequence Number
+TT Translation Type
+UDTS UNITDATA Service
+VAS Value-Added Services
+VLR Visited Location Register
