@@ -1,0 +1,35 @@
+;; ETSI TS 103 221-2 V1.1.1 (2019-03)
+;; Lawful Interception (LI);
+;; Part 2: Internal Network Interface X2/X3 for Lawful Interception
+
+3GPP 3rd Generation Partnership Project
+CC Content of Communication
+CSP Communications Service Provider
+DHCP Dynamic Host Configuration Protocol
+DID Domain IDentifier
+GTP GPRS Tunnelling Protocol
+GTP-U GPRS Tunnelling Protocol - User
+GW GateWay
+IP Internet Protocol
+IPID Interception Point IDentifier
+IRI Intercept Related Information
+LI Lawful Interception
+MF Mediation Function
+NAT Network Address Translation
+NF Network Function
+NFID Network Function IDentifier
+OWASP Open Web Application Security Protocol
+PDU Protocol Data Unit
+POI Point Of Interception
+RADIUS Remote Access Dial In User Service
+RTP Realtime Transport Protocol
+SDO Standards Development Organization
+SIP Session Initiation Protocol
+TC Technical Committee
+TCP Transmission Control Protocol
+TLS Transport Layer Security
+TLV Tag - Length - Value
+UDP User Datagram Protocol
+UTC Coordinated Universal Time
+UUID Unique Universal IDentifier
+XID X-1 IDentifier

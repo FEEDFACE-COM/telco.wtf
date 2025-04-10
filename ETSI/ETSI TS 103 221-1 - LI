@@ -1,0 +1,64 @@
+;; ETSI TS 103 221-1 V1.12.1 (2022-08)
+;; Lawful Interception (LI);
+;; Internal Network Interfaces;
+;; Part 1: X1
+
+ADMF ADMinistration Function
+AVP Attribute-Value Pair
+CC Content of Communication
+CIDR Classless Inter Domain Routing
+CSP Communication Service Provider
+DID Destination IDentifier
+DSID Destination Set Identifier
+EUI Extended Unique Identifier
+FQDN Full Qualified Domain Name
+GTP-C GPRS Tunnel Protocol (Control plane)
+GTP-U GPRS Tunnel Protocol (User plane)
+HI Handover Interface
+HTTP HyperText Transfer Protocol
+HTTPS HTTP over TLS
+IMEI International Mobile Equipment Identity
+IMEISV International Mobile Equipment Identity Software Version
+IMPI IP Multimedia Private Identity
+IMPU IP Multimedia PUblic identity
+IMSI International Mobile Station Identity
+IP Internet Protocol
+IRI Intercept Related Information
+LEA Law Enforcement Agency
+LEMF Law Enforcement Monitoring Facility
+LI Lawful Interception
+LIID Lawful Interception IDentifier
+MAC Media Access Control
+MDF Mediation and Delivery Function
+MSISDN Mobile Station International Subscriber Directory Number
+NAI Network Access Identifier
+NAT Network Address Translation
+NF Network Function
+NFV Network Functions Virtualisation
+OID Object ID
+OWASP Open Web Application Security Project
+POI Point Of Interception
+QoS Quality of Service
+RADIUS Remote Authentication Dial In User Service
+RCS Rich Communication Suite
+RDN Relative Distinguished Name
+SGSN Serving GPRS Support Node
+SIP Session Initiation Protocol
+SIP-URI Session Initiation Protocol Uniform Resource Identifier
+SNMP Simple Network Management Protocol
+SUCI SUbscription Concealed Identifier
+TCP Transmission Control Protocol
+TEL-URI Telephony Uniform Resource Identifier
+TISPAN Telecommunication and Internet converged Services and Protocols for Advanced Networking
+TLS Transport Layer Security
+TPM Trusted Platform Module
+UDP User Datagram Protocol
+UID Unique IDentifier
+URI Uniform Resource Identifier
+UTF UCS Transformation Formats
+UUID Universally Unique Identifier
+xCC X3 Content of Communications
+XID X1 Identifier
+xIRI X2 Intercept Related Information
+XML eXtended Markup Language
+XSD XML Schema Definition
