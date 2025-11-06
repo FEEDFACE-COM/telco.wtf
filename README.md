@@ -8,20 +8,20 @@
 
 * HTTP Request
 
-		$ curl telco.wtf/mno
+		$ curl telco.wtf/gsm
 		# WTF, Telco?!
-		MNO - Mobile Network Operator
+		GSM - Global System for Mobile Communications
 
 * Command Line Tool
 
 		$ ./wtf mno
 		# WTF, Telco?!
-		MNO - Mobile Network Operator
+		GSM - Global System for Mobile Communications
 
 * DNS Zone query
 
 		$ dig +short txt mno.telco.wtf
-		"Mobile Network Operator"
+		"Global System for Mobile Communications"
 	    
 
 * Web Browser
@@ -32,7 +32,7 @@
   >  
   >  ---
   >
-  >  * **MNO** - Mobile Network Operator
+  >  * **GSM** - Global System for Mobile Communications
   >  
 
 
@@ -107,4 +107,3 @@
 ---
 
 \# WTF, Telco?! v1.2.0 FEEDFACE.COM 2025-04
-
