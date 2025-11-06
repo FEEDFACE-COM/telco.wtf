@@ -1,0 +1,97 @@
+;; ETSI TS 133 127 V16.4.0 (2020-11)
+;; LTE; 5G; GSM; UMTS;
+;; Lawful Interception (LI) architecture and functions
+
+
+5GC 5G Core Network
+5GS 5G System
+ADMF LI Administration Function
+AMF Access and Mobility Management Function
+AS Application Server
+AUSF Authentication Server Function
+BBIFF Bearer Binding Intercept and Forward Function
+BSS Business Support System
+CC Content of Communication
+CP Control Plane
+CSI Cell Supplemental Information
+CSP Communication Service Provider
+CUPS Control and User Plane Separation
+DN Data Network
+E-CSCF Emergency – Call Session Control Function
+GPSI Generic Public Subscription Identifier
+HMEE Hardware Mediated Execution Enclave
+HR Home Routed
+IBCF Interconnection Border Control Functions
+IMS-AGW IMS Access Gateway
+IM-MGW IM Media Gateway
+IP Interception Product
+IRI Intercept Related Information
+LALS Lawful Access Location Services
+LBO Local Break Out
+LEA Law Enforcement Agency
+LEMF Law Enforcement Monitoring Facility
+LI Lawful Interception
+LI CA Lawful Interception Certificate Authority
+LICF Lawful Interception Control Function
+LI_HI1 Lawful Interception Handover Interface 1
+LI_HI2 Lawful Interception Handover Interface 2
+LI_HI3 Lawful Interception Handover Interface 3
+LI_HI4 Lawful Interception Handover Interface 4
+LIID Lawful Interception Identifier
+LIPF Lawful Interception Provisioning Function
+LIR Location Immediate Request
+LI_SI Lawful Interception System Information Interface
+LI_T1 Lawful Interception Internal Triggering Interface 1
+LI_T2 Lawful Interception Internal Triggering Interface 2
+LI_T3 Lawful Interception Internal Triggering Interface 3
+LI_X0 Lawful Interception Internal Interface 0
+LI_X1 Lawful Interception Internal Interface 1
+LI_X2 Lawful Interception Internal Interface 2
+LI_X3 Lawful Interception Internal Interface 3
+LI_X3A Lawful Interception Internal Interface 3 Aggregator
+LMF Location Management Function
+LMISF LI Mirror IMS State Function
+LMISF-CC LMISF for the handling of CC
+LMISF-IRI LMISF for the handling of IRI
+LTF Location Triggering Function
+MANO Management and Orchestration
+MDF Mediation and Delivery Function
+MDF2 Mediation and Delivery Function 2
+MDF3 Mediation and Delivery Function 3
+MRFP Multimedia Resource Function Processor
+N9HR N9 Home Routed
+N3IWF Non 3GPP Inter Working Function
+NFV Network Function Virtualisation
+NFVI Network Function Virtualisation Infrastructure
+NFVO Network Function Virtualisation Orchestrator
+NPLI Network Provided Location Information
+NR New Radio
+NRF Network Repository Function
+NSSF Network Slice Selection Function
+OSS Operations Support System
+PAG POI Aggregator
+PCF Policy Control Function
+P-CSCF Proxy - Call Session Control Function
+PEI Permanent Equipment Identifier
+PGW PDN Gateway
+PGW-U PDN Gateway User Plane
+POI Point Of Interception
+PLMN Public Land Mobile Network
+PTC Push to Talk over Cellular
+S8HR S8 Home Routed
+SIRF System Information Retrieval Function
+S-CSCF Serving - Call Session Control Function
+SMF Session Management Function
+SMSF SMS-Function
+SUCI Subscriber Concealed Identifier
+SUPI Subscriber Permanent Identifier
+TF Triggering Function
+TrGW Transit Gateway
+UDM Unified Data Management
+UDR Unified Data Repository
+UDSF Unstructured Data Storage Function
+UPF User Plane Function
+VNF Virtual Network Function
+VNFC Virtual Network Function Component
+xCC LI_X3 Communications Content
+xIRI LI_X2 Intercept Related Information
