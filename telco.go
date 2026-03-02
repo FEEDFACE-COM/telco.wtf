@@ -1,5 +1,5 @@
 package main;
-var VERSION, DATE string = "1.2.0", "2025-04"
+var VERSION, DATE string = "1.2.1", "2026-03"
 var telco = []struct{k,v string} {
 
 // ETSI ES 203 178 V1.1.1 (2015-02)
@@ -2206,6 +2206,59 @@ var telco = []struct{k,v string} {
   {"WB",         "Wideband"},
 
 
+// ETSI ETSI TS 101 572-1 V1.1.1 (2013-10)
+// Core Network and Interoperability Testing (INT);
+// Conformance tests according to 3GPPTM 29.235 Release 10
+
+  {"ACR",        "Anonymous Call Rejection"},
+  {"APRI",       "Address Presentation Restriction Indicator"},
+  {"BICC",       "Bearer Independent Call Control"},
+  {"CB",         "Call Barring"},
+  {"CCBS",       "Call Completion on Busy Subscriber"},
+  {"CCNR",       "Call Completion No Reply supplementary service"},
+  {"CD",         "Call Diversion"},
+  {"CDIV",       "Call DIVersion"},
+  {"COLP",       "Called Line Identification Presentation"},
+  {"CONF",       "Conference (as in Conference; Add on or 3-Party) (Supplementary Service)"},
+  {"COT",        "Continuity message"},
+  {"CPG",        "Call Progress message (ISUP)"},
+  {"CUG",        "Closed User Group"},
+  {"CW",         "Call Waiting"},
+  {"ECT",        "Explicit Call Tranfer"},
+  {"GVNS",       "Global Virtual Network Service"},
+  {"ICS",        "Implementation Conformance Statement"},
+  {"IM-MGW",     "IP Multimedia - Media GateWay"},
+  {"IMS",        "IP Multimedia Subsystem"},
+  {"INF",        "Information"},
+  {"INR",        "Information Request"},
+  {"ISDN",       "Integrated Service Data Network"},
+  {"IUT",        "Implementation Under Test"},
+  {"MCID",       "Malicious Call Identification"},
+  {"MGCF",       "Media Gateway Control Function"},
+  {"MGW",        "Media Gateway"},
+  {"MLPP",       "Multi Level Precedence and Preemption"},
+  {"MTAS",       "Multimedia Telephony Application Server"},
+  {"MWI",        "Message Wait Indication"},
+  {"NNI",        "Network - Network - Interface"},
+  {"OIP",        "Originating Identification Presentation"},
+  {"OIR",        "Originating Identification Restriction"},
+  {"PDU",        "Protocol Data Unit"},
+  {"PICS",       "Protocol ICS"},
+  {"PSTN",       "Public Switch Telephone Network"},
+  {"REV",        "REVerse charging supplementary service"},
+  {"SCS",        "System Conformance Statement"},
+  {"SIP",        "Session Initiated Protocol"},
+  {"SIP-I",      "Session Initiation Protocol with encapsulated ISDN User Part"},
+  {"SUB",        "Subaddressing"},
+  {"SUT",        "System Under Test"},
+  {"TIP",        "Terminating Identification Presentation"},
+  {"TIR",        "Terminating Identification Restriction"},
+  {"TMR",        "Transmission Medium Requirement"},
+  {"URL",        "Unified Resource Locator"},
+  {"UUS",        "User to User Supplementary service"},
+  {"XML",        "eXtended Markup Language"},
+
+
 // ETSI TS 102 113-1 V1.1.2 (2002-09)
 // Network Integration Testing between GSM Phase 2+, ISDN and PSTN
 
@@ -3105,6 +3158,7 @@ var telco = []struct{k,v string} {
 
 // ETSI TS 123 256 V17.6.0 (2023-04)
 // 3GPP TS 23.256 version 17.6.0 Release 17
+// Support of Uncrewed Aerial Systems (UAS) connectivity, identification and tracking;
 
   {"BRID",       "Broadcast Remote Identification"},
   {"BVLOS",      "Beyond Visual Line of Sight"},
@@ -3718,6 +3772,120 @@ var telco = []struct{k,v string} {
   {"SMS-GMSC",   "Gateway MSC for SMS"},
   {"SMS-IWMSC",  "Interworking MSC for SMS"},
   {"SMSMI",      "SMS without MSISDN in IMS"},
+
+
+// ETSI TS 129 500 V18.6.1 (2024-08)
+// 3GPP TS 29.500 version 18.6.1 Release 18
+// Technical Realization of Service Based Architecture;
+
+  {"GZIP",       "GNU ZIP"},
+  {"LC-H",       "Load Control based on LCI Header"},
+  {"LCI",        "Load Control Information"},
+  {"MCX",        "Mission Critical Service"},
+  {"MPS",        "Multimedia Priority Service"},
+  {"OCI",        "Overload Control Information"},
+  {"OLC-H",      "Overload Control based on OCI Header"},
+  {"SCP",        "Service Communication Proxy"},
+  {"SEPP",       "Security and Edge Protection Proxy"},
+  {"SMP",        "SBI Message Priority"},
+
+
+// ETSI TS 133 127 V16.4.0 (2020-11)
+// LTE; 5G; GSM; UMTS;
+// Lawful Interception (LI) architecture and functions
+
+  {"5GC",        "5G Core Network"},
+  {"5GS",        "5G System"},
+  {"ADMF",       "LI Administration Function"},
+  {"AMF",        "Access and Mobility Management Function"},
+  {"AS",         "Application Server"},
+  {"AUSF",       "Authentication Server Function"},
+  {"BBIFF",      "Bearer Binding Intercept and Forward Function"},
+  {"BSS",        "Business Support System"},
+  {"CC",         "Content of Communication"},
+  {"CP",         "Control Plane"},
+  {"CSI",        "Cell Supplemental Information"},
+  {"CSP",        "Communication Service Provider"},
+  {"CUPS",       "Control and User Plane Separation"},
+  {"DN",         "Data Network"},
+  {"E-CSCF",     "Emergency – Call Session Control Function"},
+  {"GPSI",       "Generic Public Subscription Identifier"},
+  {"HMEE",       "Hardware Mediated Execution Enclave"},
+  {"HR",         "Home Routed"},
+  {"IBCF",       "Interconnection Border Control Functions"},
+  {"IMS-AGW",    "IMS Access Gateway"},
+  {"IM-MGW",     "IM Media Gateway"},
+  {"IP",         "Interception Product"},
+  {"IRI",        "Intercept Related Information"},
+  {"LALS",       "Lawful Access Location Services"},
+  {"LBO",        "Local Break Out"},
+  {"LEA",        "Law Enforcement Agency"},
+  {"LEMF",       "Law Enforcement Monitoring Facility"},
+  {"LI",         "Lawful Interception"},
+  {"LI",         "CA Lawful Interception Certificate Authority"},
+  {"LICF",       "Lawful Interception Control Function"},
+  {"LI_HI1",     "Lawful Interception Handover Interface 1"},
+  {"LI_HI2",     "Lawful Interception Handover Interface 2"},
+  {"LI_HI3",     "Lawful Interception Handover Interface 3"},
+  {"LI_HI4",     "Lawful Interception Handover Interface 4"},
+  {"LIID",       "Lawful Interception Identifier"},
+  {"LIPF",       "Lawful Interception Provisioning Function"},
+  {"LIR",        "Location Immediate Request"},
+  {"LI_SI",      "Lawful Interception System Information Interface"},
+  {"LI_T1",      "Lawful Interception Internal Triggering Interface 1"},
+  {"LI_T2",      "Lawful Interception Internal Triggering Interface 2"},
+  {"LI_T3",      "Lawful Interception Internal Triggering Interface 3"},
+  {"LI_X0",      "Lawful Interception Internal Interface 0"},
+  {"LI_X1",      "Lawful Interception Internal Interface 1"},
+  {"LI_X2",      "Lawful Interception Internal Interface 2"},
+  {"LI_X3",      "Lawful Interception Internal Interface 3"},
+  {"LI_X3A",     "Lawful Interception Internal Interface 3 Aggregator"},
+  {"LMF",        "Location Management Function"},
+  {"LMISF",      "LI Mirror IMS State Function"},
+  {"LMISF-CC",   "LMISF for the handling of CC"},
+  {"LMISF-IRI",  "LMISF for the handling of IRI"},
+  {"LTF",        "Location Triggering Function"},
+  {"MANO",       "Management and Orchestration"},
+  {"MDF",        "Mediation and Delivery Function"},
+  {"MDF2",       "Mediation and Delivery Function 2"},
+  {"MDF3",       "Mediation and Delivery Function 3"},
+  {"MRFP",       "Multimedia Resource Function Processor"},
+  {"N9HR",       "N9 Home Routed"},
+  {"N3IWF",      "Non 3GPP Inter Working Function"},
+  {"NFV",        "Network Function Virtualisation"},
+  {"NFVI",       "Network Function Virtualisation Infrastructure"},
+  {"NFVO",       "Network Function Virtualisation Orchestrator"},
+  {"NPLI",       "Network Provided Location Information"},
+  {"NR",         "New Radio"},
+  {"NRF",        "Network Repository Function"},
+  {"NSSF",       "Network Slice Selection Function"},
+  {"OSS",        "Operations Support System"},
+  {"PAG",        "POI Aggregator"},
+  {"PCF",        "Policy Control Function"},
+  {"P-CSCF",     "Proxy - Call Session Control Function"},
+  {"PEI",        "Permanent Equipment Identifier"},
+  {"PGW",        "PDN Gateway"},
+  {"PGW-U",      "PDN Gateway User Plane"},
+  {"POI",        "Point Of Interception"},
+  {"PLMN",       "Public Land Mobile Network"},
+  {"PTC",        "Push to Talk over Cellular"},
+  {"S8HR",       "S8 Home Routed"},
+  {"SIRF",       "System Information Retrieval Function"},
+  {"S-CSCF",     "Serving - Call Session Control Function"},
+  {"SMF",        "Session Management Function"},
+  {"SMSF",       "SMS-Function"},
+  {"SUCI",       "Subscriber Concealed Identifier"},
+  {"SUPI",       "Subscriber Permanent Identifier"},
+  {"TF",         "Triggering Function"},
+  {"TrGW",       "Transit Gateway"},
+  {"UDM",        "Unified Data Management"},
+  {"UDR",        "Unified Data Repository"},
+  {"UDSF",       "Unstructured Data Storage Function"},
+  {"UPF",        "User Plane Function"},
+  {"VNF",        "Virtual Network Function"},
+  {"VNFC",       "Virtual Network Function Component"},
+  {"xCC",        "LI_X3 Communications Content"},
+  {"xIRI",       "LI_X2 Intercept Related Information"},
 
 
 // ETSI TS 133 310 V16.10.0 (2022-07)

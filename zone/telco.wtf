@@ -1,6 +1,6 @@
 $TTL 3600
 telco.wtf. IN SOA ns0.feedface.com. hostmaster.feedface.com. (
-        1744263992      ;Serial
+        1772454276      ;Serial
         3600            ;Refresh
         300             ;Retry
         604800          ;Expire
@@ -17,7 +17,7 @@ telco.wtf. IN    A    85.199.138.233
 $ORIGIN telco.wtf.
 
 
-wtf              IN TXT "WTF, Telco?! v1.2.0 FEEDFACE.COM 2025-04"
+wtf              IN TXT "WTF, Telco?! v1.2.1 FEEDFACE.COM 2026-03"
 
 
 
@@ -2242,6 +2242,60 @@ WB               IN TXT "Wideband"
 
 
 
+;; ETSI ETSI TS 101 572-1 V1.1.1 (2013-10)
+;; Core Network and Interoperability Testing (INT);
+;; Conformance tests according to 3GPPTM 29.235 Release 10
+
+ACR              IN TXT "Anonymous Call Rejection"
+APRI             IN TXT "Address Presentation Restriction Indicator"
+BICC             IN TXT "Bearer Independent Call Control"
+CB               IN TXT "Call Barring"
+CCBS             IN TXT "Call Completion on Busy Subscriber"
+CCNR             IN TXT "Call Completion No Reply supplementary service"
+CD               IN TXT "Call Diversion"
+CDIV             IN TXT "Call DIVersion"
+COLP             IN TXT "Called Line Identification Presentation"
+CONF             IN TXT "Conference (as in Conference; Add on or 3-Party) (Supplementary Service)"
+COT              IN TXT "Continuity message"
+CPG              IN TXT "Call Progress message (ISUP)"
+CUG              IN TXT "Closed User Group"
+CW               IN TXT "Call Waiting"
+ECT              IN TXT "Explicit Call Tranfer"
+GVNS             IN TXT "Global Virtual Network Service"
+ICS              IN TXT "Implementation Conformance Statement"
+IM-MGW           IN TXT "IP Multimedia - Media GateWay"
+IMS              IN TXT "IP Multimedia Subsystem"
+INF              IN TXT "Information"
+INR              IN TXT "Information Request"
+ISDN             IN TXT "Integrated Service Data Network"
+IUT              IN TXT "Implementation Under Test"
+MCID             IN TXT "Malicious Call Identification"
+MGCF             IN TXT "Media Gateway Control Function"
+MGW              IN TXT "Media Gateway"
+MLPP             IN TXT "Multi Level Precedence and Preemption"
+MTAS             IN TXT "Multimedia Telephony Application Server"
+MWI              IN TXT "Message Wait Indication"
+NNI              IN TXT "Network - Network - Interface"
+OIP              IN TXT "Originating Identification Presentation"
+OIR              IN TXT "Originating Identification Restriction"
+PDU              IN TXT "Protocol Data Unit"
+PICS             IN TXT "Protocol ICS"
+PSTN             IN TXT "Public Switch Telephone Network"
+REV              IN TXT "REVerse charging supplementary service"
+SCS              IN TXT "System Conformance Statement"
+SIP              IN TXT "Session Initiated Protocol"
+SIP-I            IN TXT "Session Initiation Protocol with encapsulated ISDN User Part"
+SUB              IN TXT "Subaddressing"
+SUT              IN TXT "System Under Test"
+TIP              IN TXT "Terminating Identification Presentation"
+TIR              IN TXT "Terminating Identification Restriction"
+TMR              IN TXT "Transmission Medium Requirement"
+URL              IN TXT "Unified Resource Locator"
+UUS              IN TXT "User to User Supplementary service"
+XML              IN TXT "eXtended Markup Language"
+
+
+
 ;; ETSI TS 102 113-1 V1.1.2 (2002-09)
 ;; Network Integration Testing between GSM Phase 2+, ISDN and PSTN
 
@@ -3155,6 +3209,7 @@ VLR              IN TXT "Visitor Location Register"
 
 ;; ETSI TS 123 256 V17.6.0 (2023-04)
 ;; 3GPP TS 23.256 version 17.6.0 Release 17
+;; Support of Uncrewed Aerial Systems (UAS) connectivity, identification and tracking;
 
 BRID             IN TXT "Broadcast Remote Identification"
 BVLOS            IN TXT "Beyond Visual Line of Sight"
@@ -3781,6 +3836,122 @@ SM-RL            IN TXT "Short Message Relay Layer"
 SMS-GMSC         IN TXT "Gateway MSC for SMS"
 SMS-IWMSC        IN TXT "Interworking MSC for SMS"
 SMSMI            IN TXT "SMS without MSISDN in IMS"
+
+
+
+;; ETSI TS 129 500 V18.6.1 (2024-08)
+;; 3GPP TS 29.500 version 18.6.1 Release 18
+;; Technical Realization of Service Based Architecture;
+
+GZIP             IN TXT "GNU ZIP"
+LC-H             IN TXT "Load Control based on LCI Header"
+LCI              IN TXT "Load Control Information"
+MCX              IN TXT "Mission Critical Service"
+MPS              IN TXT "Multimedia Priority Service"
+OCI              IN TXT "Overload Control Information"
+OLC-H            IN TXT "Overload Control based on OCI Header"
+SCP              IN TXT "Service Communication Proxy"
+SEPP             IN TXT "Security and Edge Protection Proxy"
+SMP              IN TXT "SBI Message Priority"
+
+
+
+;; ETSI TS 133 127 V16.4.0 (2020-11)
+;; LTE; 5G; GSM; UMTS;
+;; Lawful Interception (LI) architecture and functions
+
+5GC              IN TXT "5G Core Network"
+5GS              IN TXT "5G System"
+ADMF             IN TXT "LI Administration Function"
+AMF              IN TXT "Access and Mobility Management Function"
+AS               IN TXT "Application Server"
+AUSF             IN TXT "Authentication Server Function"
+BBIFF            IN TXT "Bearer Binding Intercept and Forward Function"
+BSS              IN TXT "Business Support System"
+CC               IN TXT "Content of Communication"
+CP               IN TXT "Control Plane"
+CSI              IN TXT "Cell Supplemental Information"
+CSP              IN TXT "Communication Service Provider"
+CUPS             IN TXT "Control and User Plane Separation"
+DN               IN TXT "Data Network"
+E-CSCF           IN TXT "Emergency – Call Session Control Function"
+GPSI             IN TXT "Generic Public Subscription Identifier"
+HMEE             IN TXT "Hardware Mediated Execution Enclave"
+HR               IN TXT "Home Routed"
+IBCF             IN TXT "Interconnection Border Control Functions"
+IMS-AGW          IN TXT "IMS Access Gateway"
+IM-MGW           IN TXT "IM Media Gateway"
+IP               IN TXT "Interception Product"
+IRI              IN TXT "Intercept Related Information"
+LALS             IN TXT "Lawful Access Location Services"
+LBO              IN TXT "Local Break Out"
+LEA              IN TXT "Law Enforcement Agency"
+LEMF             IN TXT "Law Enforcement Monitoring Facility"
+LI               IN TXT "Lawful Interception"
+LI               IN TXT "CA Lawful Interception Certificate Authority"
+LICF             IN TXT "Lawful Interception Control Function"
+LI_HI1           IN TXT "Lawful Interception Handover Interface 1"
+LI_HI2           IN TXT "Lawful Interception Handover Interface 2"
+LI_HI3           IN TXT "Lawful Interception Handover Interface 3"
+LI_HI4           IN TXT "Lawful Interception Handover Interface 4"
+LIID             IN TXT "Lawful Interception Identifier"
+LIPF             IN TXT "Lawful Interception Provisioning Function"
+LIR              IN TXT "Location Immediate Request"
+LI_SI            IN TXT "Lawful Interception System Information Interface"
+LI_T1            IN TXT "Lawful Interception Internal Triggering Interface 1"
+LI_T2            IN TXT "Lawful Interception Internal Triggering Interface 2"
+LI_T3            IN TXT "Lawful Interception Internal Triggering Interface 3"
+LI_X0            IN TXT "Lawful Interception Internal Interface 0"
+LI_X1            IN TXT "Lawful Interception Internal Interface 1"
+LI_X2            IN TXT "Lawful Interception Internal Interface 2"
+LI_X3            IN TXT "Lawful Interception Internal Interface 3"
+LI_X3A           IN TXT "Lawful Interception Internal Interface 3 Aggregator"
+LMF              IN TXT "Location Management Function"
+LMISF            IN TXT "LI Mirror IMS State Function"
+LMISF-CC         IN TXT "LMISF for the handling of CC"
+LMISF-IRI        IN TXT "LMISF for the handling of IRI"
+LTF              IN TXT "Location Triggering Function"
+MANO             IN TXT "Management and Orchestration"
+MDF              IN TXT "Mediation and Delivery Function"
+MDF2             IN TXT "Mediation and Delivery Function 2"
+MDF3             IN TXT "Mediation and Delivery Function 3"
+MRFP             IN TXT "Multimedia Resource Function Processor"
+N9HR             IN TXT "N9 Home Routed"
+N3IWF            IN TXT "Non 3GPP Inter Working Function"
+NFV              IN TXT "Network Function Virtualisation"
+NFVI             IN TXT "Network Function Virtualisation Infrastructure"
+NFVO             IN TXT "Network Function Virtualisation Orchestrator"
+NPLI             IN TXT "Network Provided Location Information"
+NR               IN TXT "New Radio"
+NRF              IN TXT "Network Repository Function"
+NSSF             IN TXT "Network Slice Selection Function"
+OSS              IN TXT "Operations Support System"
+PAG              IN TXT "POI Aggregator"
+PCF              IN TXT "Policy Control Function"
+P-CSCF           IN TXT "Proxy - Call Session Control Function"
+PEI              IN TXT "Permanent Equipment Identifier"
+PGW              IN TXT "PDN Gateway"
+PGW-U            IN TXT "PDN Gateway User Plane"
+POI              IN TXT "Point Of Interception"
+PLMN             IN TXT "Public Land Mobile Network"
+PTC              IN TXT "Push to Talk over Cellular"
+S8HR             IN TXT "S8 Home Routed"
+SIRF             IN TXT "System Information Retrieval Function"
+S-CSCF           IN TXT "Serving - Call Session Control Function"
+SMF              IN TXT "Session Management Function"
+SMSF             IN TXT "SMS-Function"
+SUCI             IN TXT "Subscriber Concealed Identifier"
+SUPI             IN TXT "Subscriber Permanent Identifier"
+TF               IN TXT "Triggering Function"
+TrGW             IN TXT "Transit Gateway"
+UDM              IN TXT "Unified Data Management"
+UDR              IN TXT "Unified Data Repository"
+UDSF             IN TXT "Unstructured Data Storage Function"
+UPF              IN TXT "User Plane Function"
+VNF              IN TXT "Virtual Network Function"
+VNFC             IN TXT "Virtual Network Function Component"
+xCC              IN TXT "LI_X3 Communications Content"
+xIRI             IN TXT "LI_X2 Intercept Related Information"
 
 
 
