@@ -1,0 +1,15 @@
+;; ETSI TS 129 500 V18.6.1 (2024-08)
+;; 3GPP TS 29.500 version 18.6.1 Release 18
+;; Technical Realization of Service Based Architecture;
+
+
+GZIP GNU ZIP
+LC-H Load Control based on LCI Header
+LCI Load Control Information
+MCX Mission Critical Service
+MPS Multimedia Priority Service
+OCI Overload Control Information
+OLC-H Overload Control based on OCI Header
+SCP Service Communication Proxy
+SEPP Security and Edge Protection Proxy
+SMP SBI Message Priority

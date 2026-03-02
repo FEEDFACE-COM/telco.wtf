@@ -1,5 +1,6 @@
 ;; ETSI TS 123 256 V17.6.0 (2023-04)
 ;; 3GPP TS 23.256 version 17.6.0 Release 17
+;; Support of Uncrewed Aerial Systems (UAS) connectivity, identification and tracking;
 
 BRID Broadcast Remote Identification
 BVLOS Beyond Visual Line of Sight

@@ -1,0 +1,54 @@
+;; ETSI ETSI TS 101 572-1 V1.1.1 (2013-10)
+;; Core Network and Interoperability Testing (INT);
+;; Conformance tests according to 3GPPTM 29.235 Release 10
+;; Interworking between SIP-I based circuit-switched core network and other networks;
+;; Part 1: Protocol Implementation Conformance Statement (PICS)
+
+
+ACR Anonymous Call Rejection
+APRI Address Presentation Restriction Indicator
+BICC Bearer Independent Call Control
+CB Call Barring
+CCBS Call Completion on Busy Subscriber
+CCNR Call Completion No Reply supplementary service
+CD Call Diversion
+CDIV Call DIVersion
+COLP Called Line Identification Presentation
+CONF Conference (as in Conference; Add on or 3-Party) (Supplementary Service)
+COT Continuity message
+CPG Call Progress message (ISUP)
+CUG Closed User Group
+CW Call Waiting
+ECT Explicit Call Tranfer
+GVNS Global Virtual Network Service
+ICS Implementation Conformance Statement
+IM-MGW IP Multimedia - Media GateWay
+IMS IP Multimedia Subsystem
+INF Information
+INR Information Request
+ISDN Integrated Service Data Network
+IUT Implementation Under Test
+MCID Malicious Call Identification
+MGCF Media Gateway Control Function
+MGW Media Gateway
+MLPP Multi Level Precedence and Preemption
+MTAS Multimedia Telephony Application Server
+MWI Message Wait Indication
+NNI Network - Network - Interface
+OIP Originating Identification Presentation
+OIR Originating Identification Restriction
+PDU Protocol Data Unit
+PICS Protocol ICS
+PSTN Public Switch Telephone Network
+REV REVerse charging supplementary service
+SCS System Conformance Statement
+SIP Session Initiated Protocol
+SIP-I Session Initiation Protocol with encapsulated ISDN User Part
+SUB Subaddressing
+SUT System Under Test
+TIP Terminating Identification Presentation
+TIR Terminating Identification Restriction
+TMR Transmission Medium Requirement
+URL Unified Resource Locator
+UUS User to User Supplementary service
+XML eXtended Markup Language
